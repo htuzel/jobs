@@ -1291,8 +1291,9 @@
 <!-- ==============================
      HOME BUTTON (fixed top-left)
 ============================== -->
-<a id="home-btn" href="index.html">
-  <img src="flalingo-logo.png" alt="Flalingo" style="height: 28px; vertical-align: middle;">
+<a id="home-btn" href="index.html" style="display:flex;align-items:center;gap:8px;">
+  <img src="flalingo-logo.png" alt="Flalingo" style="height: 22px;">
+  <span style="font-size:0.7rem;color:var(--text-dim);line-height:1.2;">sponsorluğunda</span>
 </a>
 
 <!-- ==============================
@@ -2000,9 +2001,16 @@ function getShareText(meslek) {
 function setupShareButtons(meslek) {
   const sharePageUrl = buildURL({ m: meslek.meslek_kodu });
 
-  // LinkedIn -- only supports url param, no pre-filled text
+  // LinkedIn -- shareArticle supports title and summary
   const linkedinBtn = document.getElementById("share-linkedin");
-  linkedinBtn.href = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(sharePageUrl);
+  const liParams = new URLSearchParams({
+    mini: "true",
+    url: sharePageUrl,
+    title: meslek.meslek_adi + " — AI Riski " + meslek.ai_skor + "/10",
+    summary: meslek.bes_yil_tahmini || "",
+    source: "Flalingo AI Araştırma"
+  });
+  linkedinBtn.href = "https://www.linkedin.com/shareArticle?" + liParams.toString();
 
   // Twitter/X
   const twitterBtn = document.getElementById("share-twitter");
@@ -2044,7 +2052,7 @@ function renderCompShareButtons() {
   const container = document.getElementById("comp-share-buttons");
   if (!container) return;
   container.innerHTML = `
-    <a class="btn-share btn-share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}" target="_blank" rel="noopener">
+    <a class="btn-share btn-share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent('AI ve Robotik Risk Karşılaştırması')}&source=Flalingo" target="_blank" rel="noopener">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
       LinkedIn'de Paylaş
     </a>
@@ -2215,8 +2223,11 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight, maxLines) {
   ctx.fillText(line.trim(), x, y);
 }
 
+const PROD_BASE = "https://ai-maruz-kalma-tr.tiiny.site";
+
 function buildURL(params) {
-  const base = window.location.origin + window.location.pathname;
+  const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+  const base = isLocal ? PROD_BASE : (window.location.origin + window.location.pathname);
   const sp = new URLSearchParams();
   if (params.m) sp.set("m", params.m);
   if (params.k && Array.isArray(params.k)) {
