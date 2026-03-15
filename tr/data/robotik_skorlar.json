@@ -1,0 +1,5617 @@
+[
+  {
+    "meslek_kodu": "3258.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Acil sağlık hizmetleri öngörülemez ortamlarda hızlı karar verme gerektirir."
+  },
+  {
+    "meslek_kodu": "2269.16",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3411.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Hukuk alanı insan yargısı ve yasal süreç bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2113.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2529.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.32",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "7316.17",
+    "robotik_risk": 6,
+    "robotik_notu": "Ahşap boyama ve vernikleme robot boyama ile otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3435.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7115.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Seramik kaplama değişken ortam, robot uygulamaları henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "7522.02",
+    "robotik_risk": 4,
+    "robotik_notu": "Seramik kaplama değişken ortam, robot uygulamaları henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "3112.35",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2120.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "7421.3",
+    "robotik_risk": 4,
+    "robotik_notu": "Akilli bina sistemleri bakımı teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.25",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "7123.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Geleneksel el sanatlari yaratıcılık ve ince el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "7314.01",
+    "robotik_risk": 5,
+    "robotik_notu": "Kalipcilik CNC ile kısmi otomatik ama özel kaliplar el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "7212.41",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel kaynak işlemleri fabrika ortamında robotlarla giderek daha fazla yapılıyor."
+  },
+  {
+    "meslek_kodu": "2163.26",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3256.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Ameliyathane hizmetleri sterilitesi ve hasta güvenliği için insan kontrolu gerekli."
+  },
+  {
+    "meslek_kodu": "7222.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Çilingirlik değişken ortam ve problem çözme gerektirir."
+  },
+  {
+    "meslek_kodu": "3259.06",
+    "robotik_risk": 2,
+    "robotik_notu": "Anestezi uygulamasi hasta güvenliği için kritik insan kararları gerektirir."
+  },
+  {
+    "meslek_kodu": "3259.05",
+    "robotik_risk": 2,
+    "robotik_notu": "Anestezi uygulamasi hasta güvenliği için kritik insan kararları gerektirir."
+  },
+  {
+    "meslek_kodu": "2659.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Animasyon yaratıcı gorsel sanattir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3142.16",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.02",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.01",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "5419.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Arama kurtarma öngörülemez ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.65",
+    "robotik_risk": 6,
+    "robotik_notu": "Arac muayene işlemleri otomatik test sistemleriyle büyük ölçüde yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "7212.14",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel kaynak işlemleri fabrika ortamında robotlarla giderek daha fazla yapılıyor."
+  },
+  {
+    "meslek_kodu": "2632.05",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "3142.11",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2621.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Kütüphanecilik ve arşivcilik dijitalleşme ile değişiyor ama fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "7412.21",
+    "robotik_risk": 4,
+    "robotik_notu": "Asansör kurulum ve bakımı yapılandırılmış ama değişken ortam."
+  },
+  {
+    "meslek_kodu": "5161.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Astroloji danışmanlığı bireysel müşteri etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2111.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "5164.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Antrenörlük bireysel sporcuyla etkileşim ve motivasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "6121.01",
+    "robotik_risk": 2,
+    "robotik_notu": "At bakımı ve yetiştiriciliği hayvanla fiziksel temas gerektirir."
+  },
+  {
+    "meslek_kodu": "3132.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Cevre teknikerliği saha çalışması ve değerlendirme gerektirir."
+  },
+  {
+    "meslek_kodu": "2263.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknikerlik hem bilgi hem uygulama gerektirir, kısmi fiziksel otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "7315.29",
+    "robotik_risk": 2,
+    "robotik_notu": "Geleneksel el sanatlari yaratıcılık ve ince el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "2421.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2611.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Hukuki savunma ve müvekkillerle ilişkiler derin insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "7536.28",
+    "robotik_risk": 3,
+    "robotik_notu": "Modelistlik yaratıcı tasarım ve kalip geliştirme gerektirir."
+  },
+  {
+    "meslek_kodu": "3122.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7536.02",
+    "robotik_risk": 6,
+    "robotik_notu": "Ayakkabi imalatı fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3122.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3513.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "7522.17",
+    "robotik_risk": 2,
+    "robotik_notu": "Geleneksel el sanatlari yaratıcılık ve ince el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "2141.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3143.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3251.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "5120.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Aşçılık yaratıcılık ve değişken ortam gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "5120.22",
+    "robotik_risk": 5,
+    "robotik_notu": "Aşçı yardımcıligi tekrarlı hazirlik işleri robot ile kısmi otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "2511.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.55",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.15",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "6113.1",
+    "robotik_risk": 4,
+    "robotik_notu": "Bahçıvanlık açık alanda değişken işler, tarım robotlari gelişiyor ama tam otomasyon uzak."
+  },
+  {
+    "meslek_kodu": "2653.03",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal performans yaratıcılık ve insan ifadesi gerektirir, robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "3153.04",
+    "robotik_risk": 2,
+    "robotik_notu": "Balon pilotluğu hava koşullarına gore insan karari gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.26",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "6222.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Balıkçılık denizde değişken ortam, otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "2132.18",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "4211.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Bankacılık dijital dönüşüm ile değişiyor, fiziksel subelerden ATM/online'a geçiş."
+  },
+  {
+    "meslek_kodu": "2412.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "4211.12",
+    "robotik_risk": 3,
+    "robotik_notu": "Bankacılık dijital dönüşüm ile değişiyor, fiziksel subelerden ATM/online'a geçiş."
+  },
+  {
+    "meslek_kodu": "5132.01",
+    "robotik_risk": 5,
+    "robotik_notu": "Robot barmenler geliştiriliyor ve yaygınlaşıyor, yapılandırılmış ortamda otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3421.08",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.44",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "3119.18",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.24",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3435.18",
+    "robotik_risk": 5,
+    "robotik_notu": "Matbaa teknikerliği dijital baskı ile değişiyor, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3142.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2330.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3359.12",
+    "robotik_risk": 2,
+    "robotik_notu": "Yerel yönetim işlemleri insan etkileşimi ve karar verme gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.14",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.11",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7114.11",
+    "robotik_risk": 5,
+    "robotik_notu": "Beton kalipcilik kısmi otomasyon mümkün ama saha koşulları değişken."
+  },
+  {
+    "meslek_kodu": "3112.47",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7114.04",
+    "robotik_risk": 5,
+    "robotik_notu": "Betonarme demirciligi yapılandırılmış bir süreç ama saha koşulları değişken."
+  },
+  {
+    "meslek_kodu": "3112.34",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "5230.01",
+    "robotik_risk": 8,
+    "robotik_notu": "Bilet satişi otomat, kiosk ve online sistemlerle büyük ölçüde otomatikleşmiş."
+  },
+  {
+    "meslek_kodu": "2529.05",
+    "robotik_risk": 0,
+    "robotik_notu": "Dijital alanda çalışma, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2622.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Bilgi yönetimi dijitalleşme ile değişiyor ama fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "7422.04",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "2120.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3119.29",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3118.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2163.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2166.23",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2512.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3511.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3511.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2514.01",
+    "robotik_risk": 0,
+    "robotik_notu": "Yazilim geliştirme tamamen dijital is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3512.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Bilgisayar donanim bakımı fiziksel is ama değişken cihazlar nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "3511.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3115.41",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3139.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2633.08",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "3512.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2511.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2511.18",
+    "robotik_risk": 0,
+    "robotik_notu": "Dijital alanda çalışma, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2321.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3511.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3422.91",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.27",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "8131.82",
+    "robotik_risk": 8,
+    "robotik_notu": "Fabrika paketleme işlemleri yari yapılandırılmış ortamda robot ile büyük ölçüde otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3142.33",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.28",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3141.02",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2131.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2131.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2330.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2149.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2131.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2131.19",
+    "robotik_risk": 1,
+    "robotik_notu": "Biyoteknoloji laboratuvar çalışması ve araştırma gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.2",
+    "robotik_risk": 6,
+    "robotik_notu": "Bobinaj işlemleri otomatik bobinaj makineleriyle kısmi otomatik."
+  },
+  {
+    "meslek_kodu": "8212.04",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "3311.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3116.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7131.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Yapı boyaciligi değişken ortam, tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "6112.13",
+    "robotik_risk": 4,
+    "robotik_notu": "Budama agac yapişiyla değişken işler, otonom budama robotlari henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "8342.06",
+    "robotik_risk": 5,
+    "robotik_notu": "Agir is makinesi operatörlüğü açık alanda kısmi otomasyon mümkün ama tam degil."
+  },
+  {
+    "meslek_kodu": "3513.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "7421.15",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "7421.28",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "4110.08",
+    "robotik_risk": 2,
+    "robotik_notu": "Sekreterlik dijital asistanlarla değişiyor ama fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3343.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7315.21",
+    "robotik_risk": 5,
+    "robotik_notu": "Cam işlemleri ortama gore değişken otomasyon potansiyeli."
+  },
+  {
+    "meslek_kodu": "7315.22",
+    "robotik_risk": 5,
+    "robotik_notu": "Cam işlemleri ortama gore değişken otomasyon potansiyeli."
+  },
+  {
+    "meslek_kodu": "5419.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Arama kurtarma öngörülemez ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2240.06",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknikerlik hem bilgi hem uygulama gerektirir, kısmi fiziksel otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2146.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5142.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Güzellik bakımı bireysel müsteriye özel fiziksel işçilik gerektirir."
+  },
+  {
+    "meslek_kodu": "4132.13",
+    "robotik_risk": 1,
+    "robotik_notu": "CBS teknisyenliği teknik dijital is, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2330.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.02",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "4131.01",
+    "robotik_risk": 10,
+    "robotik_notu": "Daktilografi dijital teknoloji ile tamamen otomatikleşmiştir."
+  },
+  {
+    "meslek_kodu": "7541.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Dalgıçlık su altinda öngörülemez ortamda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.75",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.77",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.74",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.83",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.04",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknisyenlik uygulamali çalışma gerektirir ama karmaşık ortamlarda robot kullanimi sınırlı."
+  },
+  {
+    "meslek_kodu": "3432.1",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3324.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "3152.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "2149.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "4323.3",
+    "robotik_risk": 2,
+    "robotik_notu": "Buro hizmetleri genellikle dijital ortamda, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "1324.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "3435.17",
+    "robotik_risk": 4,
+    "robotik_notu": "Giyim teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3435.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3435.05",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2149.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3435.06",
+    "robotik_risk": 4,
+    "robotik_notu": "Giyim teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Giyim teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "7535.17",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "3256.05",
+    "robotik_risk": 5,
+    "robotik_notu": "Sterilizasyon işlemleri otomatik sterilizatorlerle kısmi otomatik."
+  },
+  {
+    "meslek_kodu": "3142.66",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.27",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2514.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2266.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Terapi süreçleri derin insan etkileşimi ve empati gerektirir, robotlar bunu sağlayamaz."
+  },
+  {
+    "meslek_kodu": "2643.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2330.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "1112.27",
+    "robotik_risk": 0,
+    "robotik_notu": "Hukuki ve diplomatik karar verme insan yargı ve takdiri gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Diyaliz hasta baglantişi ve izleme gerektirir, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2265.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Beslenme danışmanlığı bireysel hasta değerlendirmesi gerektirir."
+  },
+  {
+    "meslek_kodu": "7231.06",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7321.02",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "2261.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Tıp pratiği hasta muayenesi, tanı ve tedavi kararları için insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3214.03",
+    "robotik_risk": 5,
+    "robotik_notu": "Dis protez yapimi 3D yazici ve CNC ile giderek otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "3214.02",
+    "robotik_risk": 5,
+    "robotik_notu": "Dis protez yapimi 3D yazici ve CNC ile giderek otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "3214.01",
+    "robotik_risk": 5,
+    "robotik_notu": "Dis protez yapimi 3D yazici ve CNC ile giderek otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "3119.79",
+    "robotik_risk": 2,
+    "robotik_notu": "Tekstil tasarımi yaratıcılık gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.77",
+    "robotik_risk": 5,
+    "robotik_notu": "Tekstil üretim teknikerliği fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "8152.62",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "4411.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Dökümantasyon dijitalleşme ile değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.23",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7126.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Tesisat işi eski binalarda değişken ortamlarda çalışma gerektirir, tam otomasyon çok zor."
+  },
+  {
+    "meslek_kodu": "3115.26",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7115.06",
+    "robotik_risk": 5,
+    "robotik_notu": "Ahşap dograma CNC ile kısmi otomatik ama montaj hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "2641.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.06",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "7112.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Duvarcılık inşaat ortamında robotlar geliştiriliyor ama değişken ortam tam otomasyonu zorlaştırır."
+  },
+  {
+    "meslek_kodu": "3117.17",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.18",
+    "robotik_risk": 4,
+    "robotik_notu": "Metalurji/madencilik teknik bilgi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.17",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7211.1",
+    "robotik_risk": 7,
+    "robotik_notu": "Döküm işlemleri fabrika ortamında büyük ölçüde otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "6113.18",
+    "robotik_risk": 4,
+    "robotik_notu": "Tarımsal yetiştiriciliği açık alanda değişken işler, otomasyon gelişiyor."
+  },
+  {
+    "meslek_kodu": "4323.06",
+    "robotik_risk": 2,
+    "robotik_notu": "Dış ticaret buro işlemleri dijitalleşme ile değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3331.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3514.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2222.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Ebelik dogum süreçi yönetimi ve anne-bebek bakımı için derin insan tecrubesi gerektirir."
+  },
+  {
+    "meslek_kodu": "2222.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Ebelik dogum süreçi yönetimi ve anne-bebek bakımı için derin insan tecrubesi gerektirir."
+  },
+  {
+    "meslek_kodu": "2262.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3213.01",
+    "robotik_risk": 5,
+    "robotik_notu": "Eczane hizmetleri otomatik ilaç dağıtım sistemleriyle kısmi otomatik."
+  },
+  {
+    "meslek_kodu": "3213.02",
+    "robotik_risk": 5,
+    "robotik_notu": "Eczane hizmetleri otomatik ilaç dağıtım sistemleriyle kısmi otomatik."
+  },
+  {
+    "meslek_kodu": "2631.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2631.01",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "8342.07",
+    "robotik_risk": 5,
+    "robotik_notu": "Agir is makinesi operatörlüğü açık alanda kısmi otomasyon mümkün ama tam degil."
+  },
+  {
+    "meslek_kodu": "3119.48",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.22",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2320.19",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.18",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7533.1",
+    "robotik_risk": 5,
+    "robotik_notu": "Dikiş işleri kısmi otomasyon mümkün ama kumaş değişkenligi zorlastiriyor."
+  },
+  {
+    "meslek_kodu": "7533.29",
+    "robotik_risk": 6,
+    "robotik_notu": "Nakış işlemleri otomatik nakış makineleriyle büyük ölçüde yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "3113.26",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2151.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3113.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "8212.28",
+    "robotik_risk": 4,
+    "robotik_notu": "Elektrik tesisat montaji değişken ortamlarda çalışma gerektirir, tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "5223.21",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "2320.2",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2150.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.81",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.33",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.34",
+    "robotik_risk": 4,
+    "robotik_notu": "Elektrik/elektronik bakım onarımi değişken ortam ve arızalar nedeniyle kısmi otomasyon."
+  },
+  {
+    "meslek_kodu": "7412.17",
+    "robotik_risk": 4,
+    "robotik_notu": "Endüstriyel elektrik bakımı yapılandırılmış ortamda kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3115.16",
+    "robotik_risk": 4,
+    "robotik_notu": "Elektrik/elektronik bakım onarımi değişken ortam ve arızalar nedeniyle kısmi otomasyon."
+  },
+  {
+    "meslek_kodu": "3522.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Haberlesme teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2152.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3114.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.14",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3322.17",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "2153.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3522.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Haberlesme teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.21",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3256.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "8122.06",
+    "robotik_risk": 9,
+    "robotik_notu": "Elektrostatik boyama fabrika ortamında zaten büyük ölçüde otomatik."
+  },
+  {
+    "meslek_kodu": "3334.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Emlak danışmanlığı saha gezileri ve müsteri ilişkişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3334.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Emlak danışmanlığı saha gezileri ve müsteri ilişkişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3311.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2141.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2141.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.91",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.07",
+    "robotik_risk": 4,
+    "robotik_notu": "Elektrik/elektronik bakım onarımi değişken ortam ve arızalar nedeniyle kısmi otomasyon."
+  },
+  {
+    "meslek_kodu": "7411.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Endüstriyel elektrik bakımı yapılandırılmış ortamda kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3142.56",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7126.15",
+    "robotik_risk": 4,
+    "robotik_notu": "Boru montaji endüstriyel tesişlerde kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "7315.31",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel cam işleme fabrikada büyük ölçüde otomatik."
+  },
+  {
+    "meslek_kodu": "3119.45",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.31",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.59",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.87",
+    "robotik_risk": 5,
+    "robotik_notu": "Endüstriyel hammadde işleme fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3117.29",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.3",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7421.32",
+    "robotik_risk": 2,
+    "robotik_notu": "Müzik aleti yapimi ince el işçiliği ve akustik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "6112.1",
+    "robotik_risk": 5,
+    "robotik_notu": "Tarımsal yetiştiriciliği hasat robotlari gelişiyor ama Türkiye'de yaygınlaşması yavaş."
+  },
+  {
+    "meslek_kodu": "3115.69",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.16",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "7316.23",
+    "robotik_risk": 5,
+    "robotik_notu": "Tabela imalatı CNC ve dijital baskıyla kısmi otomatik."
+  },
+  {
+    "meslek_kodu": "3139.16",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Endüstriyel tasarım yaratıcılık ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.39",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.24",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "8152.7",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon potansiyeli yüksek."
+  },
+  {
+    "meslek_kodu": "3119.23",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.8",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2151.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3113.38",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "1321.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "2320.25",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2529.02",
+    "robotik_risk": 0,
+    "robotik_notu": "Dijital alanda çalışma, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "5329.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Engelli bakımı bireysel ihtiyaçlara uyum ve empati gerektirir."
+  },
+  {
+    "meslek_kodu": "5321.06",
+    "robotik_risk": 2,
+    "robotik_notu": "Engelli bakımı bireysel ihtiyaçlara uyum ve empati gerektirir."
+  },
+  {
+    "meslek_kodu": "3412.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Eğitim ve sosyal hizmetler insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2264.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Hastaya özel rehabilitasyon plani ve uygulamasi robot için çok karmaşık."
+  },
+  {
+    "meslek_kodu": "5141.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Kuaförlük bireysel müsteriye özel fiziksel işçilik ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "7531.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Terzilik bireysel ölçü alma ve dikiş gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "5312.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Çocuk bakımı ve gelişimi derin insan etkileşimi ve guven gerektirir."
+  },
+  {
+    "meslek_kodu": "5312.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Çocuk bakımı ve gelişimi derin insan etkileşimi ve guven gerektirir."
+  },
+  {
+    "meslek_kodu": "7511.15",
+    "robotik_risk": 6,
+    "robotik_notu": "Et işleme fabrikalarında robotlar giderek yaygınlaşıyor."
+  },
+  {
+    "meslek_kodu": "3142.12",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.09",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2631.09",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "3142.52",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3412.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Ev ve kurum hizmetleri temizlik ve bakım işlemleri kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "5321.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Hasta bakımı fiziksel temas ve empati gerektirir, robotlar yardımcı olabilir ama ikame edemez."
+  },
+  {
+    "meslek_kodu": "2131.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Farmakoloji araştırmasi bilimsel analiz gerektirir."
+  },
+  {
+    "meslek_kodu": "2330.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2633.04",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2330.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.19",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2641.18",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2641.17",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3521.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Kameramanlık ve film yapimi yaratıcı karar ve fiziksel hareket gerektirir."
+  },
+  {
+    "meslek_kodu": "2413.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3311.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2111.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3255.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2330.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.07",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2111.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3114.15",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "2264.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Fizik tedavi hasta ile fiziksel temas ve bireysel tedavi programi gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.55",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "1211.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "7536.03",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "8344.02",
+    "robotik_risk": 8,
+    "robotik_notu": "Depo ici forklift operasyonu otonom forkliftlerle hızla otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "3431.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Fotograf yaratıcı gorsel sanat ve insan gözlemi gerektirir."
+  },
+  {
+    "meslek_kodu": "2111.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "8132.05",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "3431.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Fotograf yaratıcı gorsel sanat ve insan gözlemi gerektirir."
+  },
+  {
+    "meslek_kodu": "3431.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Fotograf yaratıcı gorsel sanat ve insan gözlemi gerektirir."
+  },
+  {
+    "meslek_kodu": "3431.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Fotograf yaratıcı gorsel sanat ve insan gözlemi gerektirir."
+  },
+  {
+    "meslek_kodu": "3431.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Fotograf yaratıcı gorsel sanat ve insan gözlemi gerektirir."
+  },
+  {
+    "meslek_kodu": "7223.31",
+    "robotik_risk": 7,
+    "robotik_notu": "Torna/freze işlemleri CNC makineleri ve robotlarla büyük ölçüde otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "9629.12",
+    "robotik_risk": 3,
+    "robotik_notu": "Fuar organizasyonu insan koordinasyonu ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3421.05",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "7515.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Fındık eksperligi duyu organlarıyla değerlendirme gerektirir."
+  },
+  {
+    "meslek_kodu": "7512.04",
+    "robotik_risk": 5,
+    "robotik_notu": "Fırıncılık endüstriyel firinda otomatik ama esnaf firinda el işi."
+  },
+  {
+    "meslek_kodu": "3434.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Ikram hizmetleri insan etkileşimi ve değişken ortam gerektirir."
+  },
+  {
+    "meslek_kodu": "2412.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3315.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "7126.25",
+    "robotik_risk": 3,
+    "robotik_notu": "Gaz cihaz servişi değişken ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "7212.02",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel kaynak işlemleri fabrika ortamında robotlarla giderek daha fazla yapılıyor."
+  },
+  {
+    "meslek_kodu": "2642.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2642.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.27",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.36",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.82",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2651.3",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal üretim yaratıcılık ve insan ifadesi gerektirir."
+  },
+  {
+    "meslek_kodu": "5120.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Aşçılık yaratıcılık ve değişken ortam gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "3115.33",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "3151.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "3115.49",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "2144.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3118.15",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "8343.15",
+    "robotik_risk": 7,
+    "robotik_notu": "Vinç operasyonu yapılandırılmış ortamda otonom vinçlerle değişebilir."
+  },
+  {
+    "meslek_kodu": "2144.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2144.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2149.23",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "3115.36",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "2144.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2131.18",
+    "robotik_risk": 1,
+    "robotik_notu": "Biyoteknoloji laboratuvar çalışması ve araştırma gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.69",
+    "robotik_risk": 3,
+    "robotik_notu": "Geoteknik teknikerliği saha çalışması ve zemin analizi gerektirir."
+  },
+  {
+    "meslek_kodu": "2269.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Gerontoloji yasli bakım planlamasi ve insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2421.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.3",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.26",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "2320.29",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.92",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.32",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.1",
+    "robotik_risk": 0,
+    "robotik_notu": "Grafik tasarım dijital yaratıcı is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2166.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2166.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2166.07",
+    "robotik_risk": 0,
+    "robotik_notu": "Grafik tasarım dijital yaratıcı is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2513.08",
+    "robotik_risk": 0,
+    "robotik_notu": "Web geliştirme tamamen dijital is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2352.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3521.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Ses-goruntu sistemleri teknikerliği stüdyo ortamında çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3331.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3331.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3131.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "7421.08",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "3152.15",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "5142.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Güzellik bakımı bireysel müsteriye özel fiziksel işçilik gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.18",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya kalite kontrol laboratuvar otomasyonu gelişiyor."
+  },
+  {
+    "meslek_kodu": "3139.1",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya kalite kontrol laboratuvar otomasyonu gelişiyor."
+  },
+  {
+    "meslek_kodu": "2141.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3139.11",
+    "robotik_risk": 5,
+    "robotik_notu": "Gıda/kimya üretim süreçleri endüstriyel otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "3139.32",
+    "robotik_risk": 5,
+    "robotik_notu": "Gıda/kimya üretim süreçleri endüstriyel otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "3139.25",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3111.23",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "7422.11",
+    "robotik_risk": 4,
+    "robotik_notu": "Haberlesme cihaz bakımı teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7221.23",
+    "robotik_risk": 8,
+    "robotik_notu": "Haddeleme işlemleri ağır sanayide büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "2612.01",
+    "robotik_risk": 0,
+    "robotik_notu": "Hukuki ve diplomatik karar verme insan yargı ve takdiri gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2432.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2432.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.15",
+    "robotik_risk": 2,
+    "robotik_notu": "Tekstil tasarımi yaratıcılık gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "8152.25",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "9129.02",
+    "robotik_risk": 7,
+    "robotik_notu": "Temizlik işlemleri yapılandırılmış ortamlarda robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3119.14",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "7512.05",
+    "robotik_risk": 5,
+    "robotik_notu": "Hamur hazirlama endüstriyel ortamda otomatik makinelerle yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "3112.29",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.5",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.27",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.31",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2165.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3142.37",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "5321.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Hasta bakımı fiziksel temas ve empati gerektirir, robotlar yardımcı olabilir ama ikame edemez."
+  },
+  {
+    "meslek_kodu": "4229.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Hasta danışmanlığı bilgi kiosk ve robotlarla kısmi otomatik olabilir."
+  },
+  {
+    "meslek_kodu": "1342.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Ust duzey yönetim ve karar verme rolleri fiziksel robot otomasyonuna uygun degil."
+  },
+  {
+    "meslek_kodu": "3119.28",
+    "robotik_risk": 5,
+    "robotik_notu": "Hava gozlem istasyonlari otonom sensorlerle büyük ölçüde otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "4321.41",
+    "robotik_risk": 3,
+    "robotik_notu": "Lojistik buro işlemleri dijitalleşme ile değişiyor, depo işlerinde robot riski daha yüksek."
+  },
+  {
+    "meslek_kodu": "2149.21",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "1324.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "2144.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3240.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3142.62",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım alanı saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "1311.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "3119.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.08",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknikerlik hem bilgi hem uygulama gerektirir, kısmi fiziksel otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3211.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Diyaliz hasta baglantişi ve izleme gerektirir, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2221.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Hemşirelik hasta bakımı ve fiziksel müdahale gerektirir, robotlar yardımcı olabilir ama ikame edemez."
+  },
+  {
+    "meslek_kodu": "3221.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Hemşire yardımcıligi hasta bakımı ve fiziksel temas gerektirir, robot destekci olabilir."
+  },
+  {
+    "meslek_kodu": "2651.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.77",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.12",
+    "robotik_risk": 5,
+    "robotik_notu": "Enerji santral operasyonu uzaktan izleme ve otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "2114.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.19",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3255.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2230.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Alternatif tıp pratigi bireysel hasta değerlendirmesi gerektirir."
+  },
+  {
+    "meslek_kodu": "5111.05",
+    "robotik_risk": 2,
+    "robotik_notu": "Kabin memurlugu güvenlik ve yölçü hizmeti gerektirir, otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "3142.51",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım alanı saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3411.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Hukuk alanı insan yargısı ve yasal süreç bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3342.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Hukuk alanı insan yargısı ve yasal süreç bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "8172.01",
+    "robotik_risk": 7,
+    "robotik_notu": "Kereste biçme işlemleri CNC ve otomatik testerelerle yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "8121.55",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "2114.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2114.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2114.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2421.06",
+    "robotik_risk": 1,
+    "robotik_notu": "İnsan kaynaklari ve danışmanlık insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.3",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7532.28",
+    "robotik_risk": 3,
+    "robotik_notu": "Modelistlik yaratıcı tasarım ve kalip geliştirme gerektirir."
+  },
+  {
+    "meslek_kodu": "5141.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Kuaförlük bireysel müsteriye özel fiziksel işçilik ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "7531.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Terzilik bireysel ölçü alma ve dikiş gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "8182.07",
+    "robotik_risk": 8,
+    "robotik_notu": "Kalorifer ateşçilik otomatik ısıtma sistemleriyle büyük ölçüde otomatikleşmiş."
+  },
+  {
+    "meslek_kodu": "7126.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Kalorifer tesisat işi değişken ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.4",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.41",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7222.1",
+    "robotik_risk": 5,
+    "robotik_notu": "Kalipcilik CNC ile kısmi otomatik ama özel kaliplar el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3521.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Kameramanlık ve film yapimi yaratıcı karar ve fiziksel hareket gerektirir."
+  },
+  {
+    "meslek_kodu": "3339.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Kamuoyu araştırmaciligi analiz ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "5221.27",
+    "robotik_risk": 6,
+    "robotik_notu": "Kantin işletmeciligi otomat makineleri ve self-servis sistemleriyle büyük ölçüde otomatik."
+  },
+  {
+    "meslek_kodu": "7231.29",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7122.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Seramik kaplama değişken ortam, robot uygulamaları henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "7213.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Seramik kaplama değişken ortam, robot uygulamaları henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "5230.04",
+    "robotik_risk": 7,
+    "robotik_notu": "Kasiyerlik self-checkout ve otonom odeme sistemleriyle hızla otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "9112.08",
+    "robotik_risk": 5,
+    "robotik_notu": "Otel kat hizmetleri temizlik robotlari gelişiyor ama odaya özel işler hâlâ insan gerektirir."
+  },
+  {
+    "meslek_kodu": "1112.19",
+    "robotik_risk": 0,
+    "robotik_notu": "Kamu yönetimi ve siyasi karar verme tamamen insani."
+  },
+  {
+    "meslek_kodu": "2149.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Mühendislik tasarım ve denetim işi, fiziksel otomasyon riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Kaynak teknikerlik hem teknik bilgi hem uygulama gerektirir, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3119.61",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7212.07",
+    "robotik_risk": 7,
+    "robotik_notu": "Kaynak işleri yapılandırılmış ortamlarda robot otomasyonuna çok uygun."
+  },
+  {
+    "meslek_kodu": "3139.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "8171.18",
+    "robotik_risk": 8,
+    "robotik_notu": "Kağıt üretimi büyük ölçüde otomatik fabrikalarda yapılıyor."
+  },
+  {
+    "meslek_kodu": "8331.01",
+    "robotik_risk": 9,
+    "robotik_notu": "Metro ve tramvay sürücülüğü pek çok sehirde zaten tam otonom olarak çalışıyor."
+  },
+  {
+    "meslek_kodu": "8342.25",
+    "robotik_risk": 5,
+    "robotik_notu": "Agir is makinesi operatörlüğü açık alanda kısmi otomasyon mümkün ama tam degil."
+  },
+  {
+    "meslek_kodu": "3119.39",
+    "robotik_risk": 4,
+    "robotik_notu": "Giyim teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "7532.01",
+    "robotik_risk": 6,
+    "robotik_notu": "Kumaş kesim işlemleri otomatik kesim makineleriyle yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "6113.19",
+    "robotik_risk": 4,
+    "robotik_notu": "Bitki yetiştiriciliği değişken ortam, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3111.07",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "2145.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3133.08",
+    "robotik_risk": 5,
+    "robotik_notu": "Gıda/kimya üretim süreçleri endüstriyel otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "3111.13",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2145.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2330.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2145.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2113.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "8142.49",
+    "robotik_risk": 6,
+    "robotik_notu": "Kompozit imalat kısmi otomasyon mümkün ama karmaşık kaliplar insan gerektirir."
+  },
+  {
+    "meslek_kodu": "4224.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Konaklama hizmetleri kiosk ve robotlarla kısmi otomatik olabilir."
+  },
+  {
+    "meslek_kodu": "2320.42",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.2",
+    "robotik_risk": 3,
+    "robotik_notu": "Makine bakım onarımi değişken arızalar nedeniyle kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "5242.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Etkinlik hostesligi insan etkileşimi ve temsil gerektirir."
+  },
+  {
+    "meslek_kodu": "2141.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.47",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.43",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3412.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Eğitim ve sosyal hizmetler insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.11",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.44",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "8343.1",
+    "robotik_risk": 7,
+    "robotik_notu": "Vinç operasyonu yapılandırılmış ortamda otonom vinçlerle değişebilir."
+  },
+  {
+    "meslek_kodu": "3132.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2654.14",
+    "robotik_risk": 0,
+    "robotik_notu": "Film ve sahne yönetimi yaratıcı vizyon ve liderlik gerektirir."
+  },
+  {
+    "meslek_kodu": "8157.02",
+    "robotik_risk": 6,
+    "robotik_notu": "Kuru temizleme kismen otomatik ama giysiye özel islem hâlâ insan gerektirir."
+  },
+  {
+    "meslek_kodu": "5221.21",
+    "robotik_risk": 3,
+    "robotik_notu": "Hizmet sektoru genellikle insan etkileşimi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.32",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2149.24",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2651.29",
+    "robotik_risk": 1,
+    "robotik_notu": "Kültürel miras ve sanat tarihi insan bilgisi ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3433.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.46",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2622.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Kütüphanecilik ve arşivcilik dijitalleşme ile değişiyor ama fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5223.36",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3240.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3142.69",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3116.05",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.21",
+    "robotik_risk": 5,
+    "robotik_notu": "Gıda/kimya üretim süreçleri endüstriyel otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "8343.26",
+    "robotik_risk": 7,
+    "robotik_notu": "Liman pompa operasyonu yapılandırılmış ortamda otomasyona uygun."
+  },
+  {
+    "meslek_kodu": "4321.25",
+    "robotik_risk": 3,
+    "robotik_notu": "Lojistik buro işlemleri dijitalleşme ile değişiyor, depo işlerinde robot riski daha yüksek."
+  },
+  {
+    "meslek_kodu": "4321.23",
+    "robotik_risk": 3,
+    "robotik_notu": "Lojistik buro işlemleri dijitalleşme ile değişiyor, depo işlerinde robot riski daha yüksek."
+  },
+  {
+    "meslek_kodu": "4321.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Lojistik buro işlemleri dijitalleşme ile değişiyor, depo işlerinde robot riski daha yüksek."
+  },
+  {
+    "meslek_kodu": "2146.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3117.16",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Metalurji/madencilik teknik bilgi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7532.15",
+    "robotik_risk": 6,
+    "robotik_notu": "Kumaş kesim işlemleri otomatik makinelerle büyük ölçüde yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "2320.48",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.74",
+    "robotik_risk": 3,
+    "robotik_notu": "Makine bakım onarımi değişken arızalar nedeniyle kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2144.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3118.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.49",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.24",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3115.18",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "2144.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "8153.11",
+    "robotik_risk": 7,
+    "robotik_notu": "Tekstil makinesi operasyonu yapılandırılmış fabrika ortamında robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "5142.09",
+    "robotik_risk": 2,
+    "robotik_notu": "Güzellik bakımı bireysel müsteriye özel fiziksel işçilik gerektirir."
+  },
+  {
+    "meslek_kodu": "3313.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2146.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2146.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5142.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Manikür/pedikür robot uygulamaları geliştiriliyor ama hassas el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "5241.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Modellik fiziksel varlik ve insan estetigi gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7115.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Marangozluk CNC ile kısmi otomatik ama özel işler el becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3339.16",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "5142.14",
+    "robotik_risk": 2,
+    "robotik_notu": "Masaj terapisi bireysel fiziksel temas ve adaptasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.51",
+    "robotik_risk": 5,
+    "robotik_notu": "Matbaa teknikerliği dijital baskı ile değişiyor, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2320.5",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.07",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "3119.52",
+    "robotik_risk": 5,
+    "robotik_notu": "Matbaa teknikerliği dijital baskı ile değişiyor, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2120.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2120.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2330.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2120.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "1420.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "2651.27",
+    "robotik_risk": 1,
+    "robotik_notu": "Iletişim ve halkla ilişkiler insan etkileşimi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2432.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Iletişim ve halkla ilişkiler insan etkileşimi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2144.19",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.19",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.2",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.51",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3311.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3117.15",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Metalurji/madencilik teknik bilgi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "8114.38",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "3119.62",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7214.2",
+    "robotik_risk": 5,
+    "robotik_notu": "Metal/PVC dograma CNC ile kısmi otomatik ama montaj hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "7313.19",
+    "robotik_risk": 5,
+    "robotik_notu": "Metal levha işlemeciligi kısmi otomasyon mümkün ama değişken işler var."
+  },
+  {
+    "meslek_kodu": "8219.01",
+    "robotik_risk": 8,
+    "robotik_notu": "Fabrika montaj işlemleri endüstriyel robotlarla hızla otomatikleşiyor."
+  },
+  {
+    "meslek_kodu": "7132.04",
+    "robotik_risk": 7,
+    "robotik_notu": "Metal boyama endüstriyel ortamda robot boyama ile otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3119.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.52",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.22",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.21",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Metalurji/madencilik teknik bilgi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2146.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2112.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5223.42",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3142.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.21",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2161.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mimarlik yaratıcı tasarım ve mekansal düşünme gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.11",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3433.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3433.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3433.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3118.12",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknik ressamlik CAD ile yapılıyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3512.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Mobil teknolojiler dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "5223.43",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3435.19",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.05",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.56",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7522.15",
+    "robotik_risk": 6,
+    "robotik_notu": "Mobilya yuzey işleme robot boyama ve cilalama ile otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "5221.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Hizmet sektoru genellikle insan etkileşimi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7534.11",
+    "robotik_risk": 5,
+    "robotik_notu": "Mobilya imalatı fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3432.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Dekorasyon teknikerliği hem tasarım hem uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.16",
+    "robotik_risk": 2,
+    "robotik_notu": "Dekoratif tasarım yaratıcılık ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.35",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2320.57",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.25",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "8153.01",
+    "robotik_risk": 7,
+    "robotik_notu": "Tekstil makinesi operasyonu yapılandırılmış fabrika ortamında robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "2320.58",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7532.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Modelistlik yaratıcı tasarım ve kalip geliştirme gerektirir."
+  },
+  {
+    "meslek_kodu": "2131.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2320.59",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.21",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7231.23",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7231.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7231.05",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7114.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Mozaik işlemeciligi el becerişi ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "2411.19",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "4311.05",
+    "robotik_risk": 2,
+    "robotik_notu": "Muhasebe dijital otomasyon ile değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2320.6",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "4311.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Muhasebe dijital otomasyon ile değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2411.26",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2413.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "4311.1",
+    "robotik_risk": 2,
+    "robotik_notu": "Muhasebe dijital otomasyon ile değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.3",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "1112.44",
+    "robotik_risk": 1,
+    "robotik_notu": "Denetim süreçleri karmaşık ortam değerlendirmesi ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2636.02",
+    "robotik_risk": 0,
+    "robotik_notu": "Dini liderlik ve manevi rehberlik tamamen insani bir faaliyet."
+  },
+  {
+    "meslek_kodu": "2643.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2621.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "7312.09",
+    "robotik_risk": 2,
+    "robotik_notu": "Müzik aleti yapimi ince el işçiliği ve akustik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2330.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "4419.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Müşteri hizmetleri dijital otomasyon ile değişiyor ama fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "7312.18",
+    "robotik_risk": 2,
+    "robotik_notu": "Müzik aleti yapimi ince el işçiliği ve akustik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "7312.17",
+    "robotik_risk": 2,
+    "robotik_notu": "Müzik aleti yapimi ince el işçiliği ve akustik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "7312.19",
+    "robotik_risk": 2,
+    "robotik_notu": "Müzik aleti yapimi ince el işçiliği ve akustik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.61",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7221.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Nalbantlık at ile çalışma, değişken ortam ve hayvan davranişina uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2146.15",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2619.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Noterlik islemi yasal otorite ve insan dogrulamasi gerektirir."
+  },
+  {
+    "meslek_kodu": "4110.12",
+    "robotik_risk": 2,
+    "robotik_notu": "Nüfus işlemleri dijitalleşme ile değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2144.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3211.31",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.3",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "2266.01",
+    "robotik_risk": 1,
+    "robotik_notu": "İşitme değerlendirmesi hasta etkileşimi ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3259.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.01",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "2342.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2652.09",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal üretim yaratıcılık ve insan ifadesi gerektirir."
+  },
+  {
+    "meslek_kodu": "4221.05",
+    "robotik_risk": 2,
+    "robotik_notu": "Seyahat acenteciligi online platformlarla değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2149.22",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3254.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.32",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2132.34",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3332.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Organizasyon yönetimi insan koordinasyonu gerektirir."
+  },
+  {
+    "meslek_kodu": "2132.22",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.21",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3143.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3214.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3214.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Ortopedik protez hastaya özel ölçü ve uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7231.02",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "3115.61",
+    "robotik_risk": 4,
+    "robotik_notu": "Otomotiv teknikerliği değişken arac modelleriyle çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "7132.05",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7125.06",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7534.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "7412.19",
+    "robotik_risk": 4,
+    "robotik_notu": "Oto elektrikcilik değişken arac modellerinde çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "7231.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "5249.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Hizmet sektoru genellikle insan etkileşimi ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.52",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "8331.03",
+    "robotik_risk": 6,
+    "robotik_notu": "Sehirici otobüs sürücülüğü otonom araclarla değişebilir ama Türkiye'de yavaş ilerleyecek."
+  },
+  {
+    "meslek_kodu": "3139.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.8",
+    "robotik_risk": 4,
+    "robotik_notu": "Otomotiv teknikerliği değişken arac modelleriyle çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.45",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Otomotiv teknikerliği değişken arac modelleriyle çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "2144.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.14",
+    "robotik_risk": 4,
+    "robotik_notu": "Otomotiv teknikerliği değişken arac modelleriyle çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.63",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "8153.09",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "3142.49",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.48",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.18",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3258.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "7122.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Parke doseme değişken ortam, robot prototipler var ama yaygınlaşması yavaş."
+  },
+  {
+    "meslek_kodu": "7512.08",
+    "robotik_risk": 4,
+    "robotik_notu": "Pastacılık dekoratif el işçiliği gerektirir, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3142.7",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3212.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3322.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.62",
+    "robotik_risk": 5,
+    "robotik_notu": "Perakende satista self-checkout ve otonom magazalar yaygınlaşıyor."
+  },
+  {
+    "meslek_kodu": "3211.1",
+    "robotik_risk": 2,
+    "robotik_notu": "Perfuzyon teknikerliği ameliyat sirasinda kritik izleme gerektirir."
+  },
+  {
+    "meslek_kodu": "2269.14",
+    "robotik_risk": 2,
+    "robotik_notu": "Perfüzyon islemi ameliyat sirasinda kritik karar verme gerektirir."
+  },
+  {
+    "meslek_kodu": "3134.13",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3134.17",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.27",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2146.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2162.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mimarlik yaratıcı tasarım ve mekansal düşünme gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.2",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.25",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3153.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Pilotluk otonom uçuş gelişiyor ama tam otomasyona geçiş uzun süreçek."
+  },
+  {
+    "meslek_kodu": "8142.04",
+    "robotik_risk": 7,
+    "robotik_notu": "Plastik işleme ve kaliplama işlemleri fabrikada robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3116.25",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3435.07",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3116.1",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "8142.13",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "2269.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Podoloji bireysel hasta bakımı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "2145.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3116.02",
+    "robotik_risk": 5,
+    "robotik_notu": "Gıda/kimya üretim süreçleri endüstriyel otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "5412.05",
+    "robotik_risk": 2,
+    "robotik_notu": "Güvenlik ve kolluk kuvvetleri insan yargısı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "2631.08",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2413.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3119.67",
+    "robotik_risk": 5,
+    "robotik_notu": "Posta dağıtımi otonom araçlar ve robotlarla değişiyor."
+  },
+  {
+    "meslek_kodu": "2211.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Tıp pratiği hasta muayenesi, tanı ve tedavi kararları için insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2269.15",
+    "robotik_risk": 2,
+    "robotik_notu": "Protez-ortez uzmanligi hastaya özel ölçüm ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2634.01",
+    "robotik_risk": 0,
+    "robotik_notu": "İnsan psikolojişi ve terapötik ilişkiler robot tarafından taklit edilemez."
+  },
+  {
+    "meslek_kodu": "3521.16",
+    "robotik_risk": 3,
+    "robotik_notu": "Yayıncılık teknikerliği stüdyo ekipmani yönetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3521.25",
+    "robotik_risk": 3,
+    "robotik_notu": "Yayıncılık teknikerliği stüdyo ekipmani yönetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3521.26",
+    "robotik_risk": 3,
+    "robotik_notu": "Yayıncılık teknikerliği stüdyo ekipmani yönetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2642.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "7421.14",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "3521.27",
+    "robotik_risk": 3,
+    "robotik_notu": "Yayıncılık teknikerliği stüdyo ekipmani yönetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2654.2",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3521.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Yayıncılık teknikerliği stüdyo ekipmani yönetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Tıbbi goruntuleme hasta pozisyonlama ve teknik karar gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3134.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Gıda/kimya teknikerliği laboratuvar ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.82",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.19",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.4",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.37",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.73",
+    "robotik_risk": 7,
+    "robotik_notu": "Raylı sistem makinistliği otonom tren teknolojişiyle değişecek."
+  },
+  {
+    "meslek_kodu": "3115.44",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2144.25",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3112.46",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.19",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.24",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.52",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.43",
+    "robotik_risk": 3,
+    "robotik_notu": "Raylı sistem teknikerliği bakım ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2359.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2431.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Iletişim ve halkla ilişkiler insan etkileşimi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3423.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Açık hava aktiviteleri insan rehberliği ve doğada adaptasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "8153.19",
+    "robotik_risk": 7,
+    "robotik_notu": "Tekstil makinesi operasyonu yapılandırılmış fabrika ortamında robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "2433.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.09",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "2320.68",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2651.07",
+    "robotik_risk": 0,
+    "robotik_notu": "Gorsel sanat yaratıcılık ve insan ifadesi gerektirir."
+  },
+  {
+    "meslek_kodu": "3433.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "4224.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Operasyon ve rezervasyon işlemleri dijitalleşme ile değişiyor."
+  },
+  {
+    "meslek_kodu": "7212.44",
+    "robotik_risk": 9,
+    "robotik_notu": "Robot kaynakçılık fabrika ortamında zaten yaygın olarak kullaniliyor."
+  },
+  {
+    "meslek_kodu": "3423.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Açık hava aktiviteleri insan rehberliği ve doğada adaptasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "3131.33",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "7311.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Saat tamiri ince mekanik işçilik gerektirir, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "5223.6",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "7213.24",
+    "robotik_risk": 6,
+    "robotik_notu": "Sac işleme fabrika ortamında robotlarla kısmi otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "2163.03",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal üretim yaratıcılık ve insan ifadesi gerektirir."
+  },
+  {
+    "meslek_kodu": "3435.33",
+    "robotik_risk": 2,
+    "robotik_notu": "Sahne teknikligi canli performans ortamında adaptasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "2654.05",
+    "robotik_risk": 0,
+    "robotik_notu": "Film ve sahne yönetimi yaratıcı vizyon ve liderlik gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.26",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknikerlik hem bilgi hem uygulama gerektirir, kısmi fiziksel otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2320.7",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2633.03",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2621.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Kültürel miras ve sanat tarihi insan bilgisi ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "7132.06",
+    "robotik_risk": 7,
+    "robotik_notu": "Sanayi boyaciligi robot boyama ile otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "5223.61",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "8153.02",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel nakış makineleriyle büyük ölçüde otomatikleşmiş."
+  },
+  {
+    "meslek_kodu": "7536.29",
+    "robotik_risk": 3,
+    "robotik_notu": "Modelistlik yaratıcı tasarım ve kalip geliştirme gerektirir."
+  },
+  {
+    "meslek_kodu": "7536.26",
+    "robotik_risk": 5,
+    "robotik_notu": "Saraciye imalatı kısmi otomasyon mümkün ama ince işçilik gerektirir."
+  },
+  {
+    "meslek_kodu": "5242.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3322.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "2611.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.78",
+    "robotik_risk": 3,
+    "robotik_notu": "Savunma sistemleri teknikerliği yüksek güvenlik ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "5414.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Güvenlik ve kolluk kuvvetleri insan yargısı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "8156.08",
+    "robotik_risk": 8,
+    "robotik_notu": "Sayac okuma akilli sayaclar ve uzaktan okuma sistemleriyle büyük ölçüde otomatikleşmiş."
+  },
+  {
+    "meslek_kodu": "2166.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "5142.16",
+    "robotik_risk": 2,
+    "robotik_notu": "Güzellik bakımı bireysel müsteriye özel fiziksel işçilik gerektirir."
+  },
+  {
+    "meslek_kodu": "5321.08",
+    "robotik_risk": 2,
+    "robotik_notu": "Hasta bakımı fiziksel temas ve empati gerektirir, robotlar yardımcı olabilir ama ikame edemez."
+  },
+  {
+    "meslek_kodu": "3252.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3253.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Sağlık eğitimi insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "3259.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "1342.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Ust duzey yönetim ve karar verme rolleri fiziksel robot otomasyonuna uygun degil."
+  },
+  {
+    "meslek_kodu": "2221.32",
+    "robotik_risk": 2,
+    "robotik_notu": "Sağlık memurlugu saha çalışması ve hasta etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "1342.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Ust duzey yönetim ve karar verme rolleri fiziksel robot otomasyonuna uygun degil."
+  },
+  {
+    "meslek_kodu": "1342.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Yonetim kararları, liderlik ve stratejik düşünme robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "3142.21",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.5",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım alanı saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.71",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.4",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7122.14",
+    "robotik_risk": 4,
+    "robotik_notu": "Seramik kaplama değişken ortam, robot uygulamaları henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "2651.18",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal üretim yaratıcılık ve insan ifadesi gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.37",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.33",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.41",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.72",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2411.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2411.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3119.47",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.26",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "5131.02",
+    "robotik_risk": 5,
+    "robotik_notu": "Robot garsonlar Turkiye'de de yaygınlaşıyor, yapılandırılmış restoranlarda otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "7124.13",
+    "robotik_risk": 4,
+    "robotik_notu": "Yalitim işi değişken ortam ve fiziksel uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "4221.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Seyahat acenteciligi online platformlarla değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5111.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Seyahat servis elemanligi otonom araçlar ve dijital bilet ile değişecek."
+  },
+  {
+    "meslek_kodu": "2320.73",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "4221.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Seyahat acenteciligi online platformlarla değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "6121.17",
+    "robotik_risk": 2,
+    "robotik_notu": "At bakımı ve yetiştiriciliği hayvanla fiziksel temas gerektirir."
+  },
+  {
+    "meslek_kodu": "2529.12",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknisyenlik uygulamali çalışma gerektirir ama karmaşık ortamlarda robot kullanimi sınırlı."
+  },
+  {
+    "meslek_kodu": "2529.09",
+    "robotik_risk": 0,
+    "robotik_notu": "Dijital alanda çalışma, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3321.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3115.75",
+    "robotik_risk": 4,
+    "robotik_notu": "Silah sanayi teknikerliği hassas üretim ve kalite kontrol gerektirir."
+  },
+  {
+    "meslek_kodu": "8342.15",
+    "robotik_risk": 5,
+    "robotik_notu": "Agir is makinesi operatörlüğü açık alanda kısmi otomasyon mümkün ama tam degil."
+  },
+  {
+    "meslek_kodu": "2654.09",
+    "robotik_risk": 0,
+    "robotik_notu": "Film ve sahne yönetimi yaratıcı vizyon ve liderlik gerektirir."
+  },
+  {
+    "meslek_kodu": "2141.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3153.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Sivil havacilik işletmeciligi koordinasyon ve karar verme gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.32",
+    "robotik_risk": 2,
+    "robotik_notu": "İtfaiyecilik öngörülemez ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "2633.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3117.13",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.06",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2320.74",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3353.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Eğitim ve sosyal hizmetler insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2635.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Sosyal hizmet insan etkileşimi ve empati gerektirir."
+  },
+  {
+    "meslek_kodu": "2635.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Sosyal hizmet insan etkileşimi ve empati gerektirir."
+  },
+  {
+    "meslek_kodu": "2635.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Sosyal hizmet insan etkileşimi ve empati gerektirir."
+  },
+  {
+    "meslek_kodu": "2432.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Iletişim ve halkla ilişkiler insan etkileşimi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2632.04",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "7221.06",
+    "robotik_risk": 6,
+    "robotik_notu": "Soguk demircilik endüstriyel ortamda kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "5120.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Aşçılık yaratıcılık ve değişken ortam gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "3115.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.46",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7412.2",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "2656.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Yayıncılık ve habercilik insan iletişim becerileri gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.03",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.78",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.57",
+    "robotik_risk": 1,
+    "robotik_notu": "Spor yönetimi insan liderlik ve koordinasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.7",
+    "robotik_risk": 1,
+    "robotik_notu": "Spor yönetimi insan liderlik ve koordinasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "3422.92",
+    "robotik_risk": 1,
+    "robotik_notu": "Spor yönetimi insan liderlik ve koordinasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "3118.13",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknik ressamlik CAD ile yapılıyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.68",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "2132.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3142.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Sualti teknolojişi öngörülemez ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "6113.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Tarım ve ormancilik açık alanda değişken işler, robot otomasyon gelişiyor ama yavaş."
+  },
+  {
+    "meslek_kodu": "3142.42",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.63",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "7513.17",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "3142.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7223.21",
+    "robotik_risk": 5,
+    "robotik_notu": "Sicak demircilik el becerişi gerektiren ama robotlarla kısmi otomatik olabilecek is."
+  },
+  {
+    "meslek_kodu": "5120.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Aşçılık yaratıcılık ve değişken ortam gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "7126.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Tesisat işi eski binalarda değişken ortamlarda çalışma gerektirir, tam otomasyon çok zor."
+  },
+  {
+    "meslek_kodu": "2341.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3151.15",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "7123.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Sıvacılık değişken ortam, robot prototipleri var ama yaygınlaşması yavaş."
+  },
+  {
+    "meslek_kodu": "3117.26",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.31",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.21",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknisyenlik uygulamali çalışma gerektirir ama karmaşık ortamlarda robot kullanimi sınırlı."
+  },
+  {
+    "meslek_kodu": "2320.9",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.26",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.37",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2165.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2330.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2633.02",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "3142.54",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "6111.07",
+    "robotik_risk": 4,
+    "robotik_notu": "Tarımsal yetiştiriciliği açık alanda değişken işler, otomasyon gelişiyor."
+  },
+  {
+    "meslek_kodu": "7233.27",
+    "robotik_risk": 4,
+    "robotik_notu": "Tarım makine bakımı saha koşullarında çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.11",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2132.44",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.81",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3142.38",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "2132.4",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3142.57",
+    "robotik_risk": 1,
+    "robotik_notu": "Eğitim ve sosyal hizmetler insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.71",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım alanı saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2320.78",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.14",
+    "robotik_risk": 4,
+    "robotik_notu": "Metal/maden teknikerliği saha çalışması ve teknik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "7224.04",
+    "robotik_risk": 7,
+    "robotik_notu": "Taslama ve bileme işlemleri CNC ve robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "7113.09",
+    "robotik_risk": 5,
+    "robotik_notu": "Tas işlemeciligi CNC ile kısmi otomatik olabilir ama saha işi değişken."
+  },
+  {
+    "meslek_kodu": "7115.22",
+    "robotik_risk": 5,
+    "robotik_notu": "Ahşap işlemleri CNC ile kısmi otomatik ama montaj hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3119.12",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.76",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "8154.58",
+    "robotik_risk": 7,
+    "robotik_notu": "Tekstil bitim işlemleri fabrika ortamında otomasyon potansiyeli yüksek."
+  },
+  {
+    "meslek_kodu": "3116.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3122.39",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.82",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.07",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "2149.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.34",
+    "robotik_risk": 2,
+    "robotik_notu": "Tekstil tasarımi yaratıcılık gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2163.18",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.11",
+    "robotik_risk": 5,
+    "robotik_notu": "Tekstil üretim teknikerliği fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3119.24",
+    "robotik_risk": 5,
+    "robotik_notu": "Tekstil üretim teknikerliği fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2320.86",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.76",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.85",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2153.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "4131.06",
+    "robotik_risk": 10,
+    "robotik_notu": "Teleks operatörlüğü dijital haberlesme ile tamamen yerini birakmistir."
+  },
+  {
+    "meslek_kodu": "2656.06",
+    "robotik_risk": 0,
+    "robotik_notu": "Yazilim geliştirme tamamen dijital is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2642.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.1",
+    "robotik_risk": 5,
+    "robotik_notu": "Enerji santral operasyonu uzaktan izleme ve otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "3113.11",
+    "robotik_risk": 5,
+    "robotik_notu": "Enerji santral operasyonu uzaktan izleme ve otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "7531.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Terzilik bireysel ölçü alma ve dikiş gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "7531.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Terzilik bireysel ölçü alma ve dikiş gerektirir, robot otomasyon sınırlı."
+  },
+  {
+    "meslek_kodu": "3115.63",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.89",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7223.79",
+    "robotik_risk": 7,
+    "robotik_notu": "Torna/freze işlemleri CNC makineleri ve robotlarla büyük ölçüde otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "2651.13",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal üretim yaratıcılık ve insan ifadesi gerektirir."
+  },
+  {
+    "meslek_kodu": "4120.03",
+    "robotik_risk": 2,
+    "robotik_notu": "Sekreterlik dijital asistanlarla değişiyor ama fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3322.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Ticaret ve pazarlama insan etkileşimi ve iletişim gerektirir."
+  },
+  {
+    "meslek_kodu": "7322.08",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "7322.41",
+    "robotik_risk": 7,
+    "robotik_notu": "Matbaa ve baskı işlemleri büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "2641.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2655.05",
+    "robotik_risk": 0,
+    "robotik_notu": "Sanatsal performans yaratıcılık ve insan ifadesi gerektirir, robot tarafından yapılamaz."
+  },
+  {
+    "meslek_kodu": "3142.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7223.96",
+    "robotik_risk": 7,
+    "robotik_notu": "Torna/freze işlemleri CNC makineleri ve robotlarla büyük ölçüde otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3119.64",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7212.27",
+    "robotik_risk": 9,
+    "robotik_notu": "Robot kaynakçılık fabrika ortamında zaten yaygın olarak kullaniliyor."
+  },
+  {
+    "meslek_kodu": "8311.04",
+    "robotik_risk": 8,
+    "robotik_notu": "Raylı sistem sürücülüğü yapılandırılmış rota üzerinde otonom sürüşe çok uygun."
+  },
+  {
+    "meslek_kodu": "2320.91",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "8152.39",
+    "robotik_risk": 7,
+    "robotik_notu": "Tekstil makinesi operasyonu yapılandırılmış fabrika ortamında robotlarla otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "5113.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Turist rehberliği kultur bilgisi ve canli insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "5151.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Otelcilik robot uygulamaları gelişiyor ama tam otomasyon uzak."
+  },
+  {
+    "meslek_kodu": "2320.92",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "4221.04",
+    "robotik_risk": 2,
+    "robotik_notu": "Seyahat acenteciligi online platformlarla değişiyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5242.15",
+    "robotik_risk": 2,
+    "robotik_notu": "Tüketici hizmetleri insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2330.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2643.04",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2341.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.44",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7516.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Tütün eksperligi duyu organlarıyla değerlendirme gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.74",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "3211.32",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3344.02",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.28",
+    "robotik_risk": 3,
+    "robotik_notu": "Tıbbi goruntuleme hasta pozisyonlama ve teknik karar gerektirir."
+  },
+  {
+    "meslek_kodu": "3211.23",
+    "robotik_risk": 3,
+    "robotik_notu": "Tıbbi goruntuleme hasta pozisyonlama ve teknik karar gerektirir."
+  },
+  {
+    "meslek_kodu": "3212.02",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3212.01",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3212.05",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "3344.01",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.24",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "6112.11",
+    "robotik_risk": 4,
+    "robotik_notu": "Bitki yetiştiriciliği değişken ortam, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "3114.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2149.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3112.12",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2142.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2413.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "4321.24",
+    "robotik_risk": 3,
+    "robotik_notu": "Lojistik buro işlemleri dijitalleşme ile değişiyor, depo işlerinde robot riski daha yüksek."
+  },
+  {
+    "meslek_kodu": "2431.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "1221.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Ust duzey yönetim ve karar verme rolleri fiziksel robot otomasyonuna uygun degil."
+  },
+  {
+    "meslek_kodu": "2422.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.64",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.1",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3152.21",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "2144.24",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2149.15",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3114.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2144.21",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.54",
+    "robotik_risk": 3,
+    "robotik_notu": "Ucak bakımı yüksek güvenlik standartlari ve insan denetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.32",
+    "robotik_risk": 3,
+    "robotik_notu": "Ucak bakımı yüksek güvenlik standartlari ve insan denetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "2144.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3115.56",
+    "robotik_risk": 3,
+    "robotik_notu": "Ucak bakımı yüksek güvenlik standartlari ve insan denetimi gerektirir."
+  },
+  {
+    "meslek_kodu": "4323.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Havaalanı yer hizmetleri kısmi otomasyon mümkün ama insan koordinasyonu gerekli."
+  },
+  {
+    "meslek_kodu": "7223.89",
+    "robotik_risk": 7,
+    "robotik_notu": "Torna/freze işlemleri CNC makineleri ve robotlarla büyük ölçüde otomatikleştirilebilir."
+  },
+  {
+    "meslek_kodu": "3352.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Finans ve muhasebe dijital ortamda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3512.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2521.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2250.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Tıp pratiği hasta muayenesi, tanı ve tedavi kararları için insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3240.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2651.19",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.9",
+    "robotik_risk": 3,
+    "robotik_notu": "Vitrin kuyumculugu müşteri etkileşimi ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3421.06",
+    "robotik_risk": 0,
+    "robotik_notu": "Spor performansi tamamen insan fiziksel ve zihinsel becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "2513.02",
+    "robotik_risk": 0,
+    "robotik_notu": "Yazilim geliştirme tamamen dijital is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3514.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2131.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2330.15",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2512.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2512.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3435.08",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.2",
+    "robotik_risk": 3,
+    "robotik_notu": "Yapı denetimi saha çalışması ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.4",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.15",
+    "robotik_risk": 4,
+    "robotik_notu": "Tıbbi laboratuvar işleri otomatik analizorlerle kısmi otomatik ama numune hazirlama hâlâ el işi."
+  },
+  {
+    "meslek_kodu": "2320.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3118.09",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknik ressamlik CAD ile yapılıyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2320.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.36",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.42",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.14",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.18",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7124.06",
+    "robotik_risk": 4,
+    "robotik_notu": "Yalitim işi değişken ortam ve fiziksel uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.22",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "7122.06",
+    "robotik_risk": 4,
+    "robotik_notu": "Seramik kaplama değişken ortam, robot uygulamaları henüz erken aşamada."
+  },
+  {
+    "meslek_kodu": "2320.94",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.44",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.93",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3152.18",
+    "robotik_risk": 3,
+    "robotik_notu": "Denizcilik otonom gemiler gelişiyor ama açık deniz koşullarında insan kontrolu hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "3118.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "4323.31",
+    "robotik_risk": 2,
+    "robotik_notu": "Buro hizmetleri genellikle dijital ortamda, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "7312.2",
+    "robotik_risk": 2,
+    "robotik_notu": "Müzik aleti yapimi ince el işçiliği ve akustik bilgi gerektirir."
+  },
+  {
+    "meslek_kodu": "2642.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2512.05",
+    "robotik_risk": 0,
+    "robotik_notu": "Dijital alanda çalışma, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2512.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknisyenlik uygulamali çalışma gerektirir ama karmaşık ortamlarda robot kullanimi sınırlı."
+  },
+  {
+    "meslek_kodu": "2512.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3116.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3211.27",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "5321.05",
+    "robotik_risk": 2,
+    "robotik_notu": "Yasli bakımı fiziksel temas ve empati gerektirir, robotlar destekci olabilir."
+  },
+  {
+    "meslek_kodu": "5321.04",
+    "robotik_risk": 2,
+    "robotik_notu": "Yasli bakımı fiziksel temas ve empati gerektirir, robotlar destekci olabilir."
+  },
+  {
+    "meslek_kodu": "3142.65",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2411.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Finansal analiz ve danışmanlık insan yargısı gerektirir, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "2642.27",
+    "robotik_risk": 1,
+    "robotik_notu": "Gazetecilik ve yazarlık insan gözlemi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3131.38",
+    "robotik_risk": 3,
+    "robotik_notu": "Enerji sistemleri teknikerliği saha çalışması ve bakım gerektirir."
+  },
+  {
+    "meslek_kodu": "4323.72",
+    "robotik_risk": 3,
+    "robotik_notu": "Havaalanı yer hizmetleri kısmi otomasyon mümkün ama insan koordinasyonu gerekli."
+  },
+  {
+    "meslek_kodu": "4323.29",
+    "robotik_risk": 3,
+    "robotik_notu": "Havaalanı yer hizmetleri kısmi otomasyon mümkün ama insan koordinasyonu gerekli."
+  },
+  {
+    "meslek_kodu": "8111.05",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "3359.15",
+    "robotik_risk": 2,
+    "robotik_notu": "Yerel yönetim işlemleri insan etkileşimi ve karar verme gerektirir."
+  },
+  {
+    "meslek_kodu": "1412.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Ust duzey yönetim ve karar verme rolleri fiziksel robot otomasyonuna uygun degil."
+  },
+  {
+    "meslek_kodu": "3343.06",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2511.06",
+    "robotik_risk": 0,
+    "robotik_notu": "Dijital alanda çalışma, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3113.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3113.14",
+    "robotik_risk": 3,
+    "robotik_notu": "Elektrik-elektronik teknikerliği teknik bilgi ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3423.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Açık hava aktiviteleri insan rehberliği ve doğada adaptasyon gerektirir."
+  },
+  {
+    "meslek_kodu": "3411.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Hukuk alanı insan yargısı ve yasal süreç bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.35",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.36",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.34",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2352.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2132.19",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.25",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.26",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.15",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.17",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.41",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.27",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.28",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.24",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.29",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.16",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.23",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.3",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.43",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.32",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2132.31",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3142.31",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "2131.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2631.03",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "8156.03",
+    "robotik_risk": 6,
+    "robotik_notu": "Deri işlemeciligi kısmi otomasyon mümkün ama ince işçilik gerektirir."
+  },
+  {
+    "meslek_kodu": "5414.13",
+    "robotik_risk": 2,
+    "robotik_notu": "Güvenlik ve kolluk kuvvetleri insan yargısı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.48",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7515.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Çay eksperligi duyu organlarıyla değerlendirme gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.67",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "8161.64",
+    "robotik_risk": 6,
+    "robotik_notu": "Makine operatörlüğü genel olarak otomasyon ve robot teknolojileri için uygun."
+  },
+  {
+    "meslek_kodu": "4222.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Çağrı merkezi fiziksel degil, dijital otomasyon riski var ama robot riski düşük."
+  },
+  {
+    "meslek_kodu": "7212.38",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel kaynak işlemleri fabrika ortamında robotlarla giderek daha fazla yapılıyor."
+  },
+  {
+    "meslek_kodu": "7213.32",
+    "robotik_risk": 5,
+    "robotik_notu": "Celik konstrüksiyon imalatı fabrikada kısmi otomatik ama saha montaji el işi."
+  },
+  {
+    "meslek_kodu": "3118.14",
+    "robotik_risk": 2,
+    "robotik_notu": "Teknik ressamlik CAD ile yapılıyor, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3257.12",
+    "robotik_risk": 3,
+    "robotik_notu": "Cevre teknikerliği saha çalışması ve değerlendirme gerektirir."
+  },
+  {
+    "meslek_kodu": "2143.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3257.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3257.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3257.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Cevre teknikerliği saha çalışması ve değerlendirme gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.6",
+    "robotik_risk": 3,
+    "robotik_notu": "Tarım teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.35",
+    "robotik_risk": 2,
+    "robotik_notu": "Sanat ve geleneksel zanaat yaratıcılık ve el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "7316.18",
+    "robotik_risk": 2,
+    "robotik_notu": "Geleneksel el sanatlari yaratıcılık ve ince el işçiliği gerektirir."
+  },
+  {
+    "meslek_kodu": "7225.06",
+    "robotik_risk": 8,
+    "robotik_notu": "Civata/vida imalatı büyük ölçüde otomatik makinelerle yapılıyor."
+  },
+  {
+    "meslek_kodu": "2166.17",
+    "robotik_risk": 0,
+    "robotik_notu": "Animasyon dijital yaratıcı is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "5223.13",
+    "robotik_risk": 3,
+    "robotik_notu": "Çiçekçilik estetik yargı ve el becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "5221.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Çiçekçilik estetik yargı ve el becerişi gerektirir."
+  },
+  {
+    "meslek_kodu": "2659.1",
+    "robotik_risk": 1,
+    "robotik_notu": "Çocuk animatörlüğü canli etkileşim ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2342.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "5312.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Çocuk bakımı ve gelişimi derin insan etkileşimi ve guven gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.13",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "7532.3",
+    "robotik_risk": 3,
+    "robotik_notu": "Modelistlik yaratıcı tasarım ve kalip geliştirme gerektirir."
+  },
+  {
+    "meslek_kodu": "2163.11",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "5311.04",
+    "robotik_risk": 2,
+    "robotik_notu": "Güvenlik ve kolluk kuvvetleri insan yargısı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.25",
+    "robotik_risk": 0,
+    "robotik_notu": "Animasyon dijital yaratıcı is, fiziksel robot riski yok."
+  },
+  {
+    "meslek_kodu": "3119.6",
+    "robotik_risk": 2,
+    "robotik_notu": "Tekstil tasarımi yaratıcılık gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3119.15",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "4224.03",
+    "robotik_risk": 4,
+    "robotik_notu": "Otel resepsiyonu kiosk ve robot uygulamaları gelişiyor ama insan etkileşimi hâlâ önemli."
+  },
+  {
+    "meslek_kodu": "7231.04",
+    "robotik_risk": 4,
+    "robotik_notu": "Arac bakım onarım değişken arac modelleri ve hasar turleri nedeniyle tam otomasyon zor."
+  },
+  {
+    "meslek_kodu": "3119.1",
+    "robotik_risk": 4,
+    "robotik_notu": "Tekstil teknikerliği hem tasarım hem üretim bilgisi gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.9",
+    "robotik_risk": 5,
+    "robotik_notu": "Tekstil üretim teknikerliği fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2352.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "5312.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Eğitim yardımcıligi çocuklarla etkileşim ve empati gerektirir."
+  },
+  {
+    "meslek_kodu": "8219.13",
+    "robotik_risk": 5,
+    "robotik_notu": "Ozel gun sekerleri hazirlama dekoratif işçilik gerektirir, kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "5414.12",
+    "robotik_risk": 2,
+    "robotik_notu": "Güvenlik ve kolluk kuvvetleri insan yargısı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.64",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2352.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "8157.03",
+    "robotik_risk": 7,
+    "robotik_notu": "Endüstriyel utu islemi otomatik utu makineleriyle büyük ölçüde yapılabiliyor."
+  },
+  {
+    "meslek_kodu": "3115.53",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.12",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.33",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2636.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2166.14",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2166.22",
+    "robotik_risk": 1,
+    "robotik_notu": "Tasarim işleri yaratıcılık ve estetik karar gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2432.07",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2341.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2141.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2320.38",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "5413.01",
+    "robotik_risk": 2,
+    "robotik_notu": "Güvenlik ve kolluk kuvvetleri insan yargısı ve fiziksel müdahale gerektirir."
+  },
+  {
+    "meslek_kodu": "2423.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "4416.02",
+    "robotik_risk": 2,
+    "robotik_notu": "Buro hizmetleri genellikle dijital ortamda, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "2632.12",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3153.08",
+    "robotik_risk": 4,
+    "robotik_notu": "IHA pilotluğu otonom uçuş sistemleriyle değişecek ama operatörlük hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "3153.1",
+    "robotik_risk": 4,
+    "robotik_notu": "IHA operatörlüğü otonom sistemlerle kısmi değişecek ama insan gözetimi hâlâ gerekli."
+  },
+  {
+    "meslek_kodu": "2642.2",
+    "robotik_risk": 1,
+    "robotik_notu": "Iletişim ve halkla ilişkiler insan etkileşimi ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3513.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "3112.08",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "5223.33",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "2142.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3112.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.09",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.52",
+    "robotik_risk": 3,
+    "robotik_notu": "Insaat teknikerliği saha çalışması ve değişken ortamlar gerektirir."
+  },
+  {
+    "meslek_kodu": "3142.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3119.05",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7119.02",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "2631.06",
+    "robotik_risk": 0,
+    "robotik_notu": "Sosyal bilimler araştırmasi insan analizi ve yorumu gerektirir, fiziksel is yok."
+  },
+  {
+    "meslek_kodu": "2120.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilimsel araştırma ve analiz yaratıcı düşünme gerektirir, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2120.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3112.38",
+    "robotik_risk": 2,
+    "robotik_notu": "İtfaiyecilik öngörülemez ortamlarda çalışma gerektirir."
+  },
+  {
+    "meslek_kodu": "3331.03",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3117.27",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7532.26",
+    "robotik_risk": 3,
+    "robotik_notu": "Modelistlik yaratıcı tasarım ve kalip geliştirme gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.07",
+    "robotik_risk": 2,
+    "robotik_notu": "Dekoratif tasarım yaratıcılık ve estetik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.14",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.18",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "3432.17",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "7115.4",
+    "robotik_risk": 5,
+    "robotik_notu": "Mobilya işlemleri fabrika ortamında kısmi otomasyon mümkün."
+  },
+  {
+    "meslek_kodu": "2161.02",
+    "robotik_risk": 1,
+    "robotik_notu": "Mimarlik yaratıcı tasarım ve mekansal düşünme gerektirir."
+  },
+  {
+    "meslek_kodu": "2423.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.39",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2263.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "7233.18",
+    "robotik_risk": 5,
+    "robotik_notu": "Sanatkar meslekleri yapılandırılmış ortamlarda kısmi robot otomasyonuna uygun."
+  },
+  {
+    "meslek_kodu": "3115.15",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3115.25",
+    "robotik_risk": 3,
+    "robotik_notu": "Mekanik/otomasyon teknikerliği teknik bilgi ve uygulama gerektirir."
+  },
+  {
+    "meslek_kodu": "3257.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Bilişim teknolojileri dijital alanda çalışma, fiziksel robot riski çok düşük."
+  },
+  {
+    "meslek_kodu": "2521.08",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2423.16",
+    "robotik_risk": 1,
+    "robotik_notu": "İnsan kaynaklari ve danışmanlık insan etkileşimi gerektirir."
+  },
+  {
+    "meslek_kodu": "3255.04",
+    "robotik_risk": 3,
+    "robotik_notu": "Sağlık teknikerliği hasta temas ve klinik yargı gerektirir."
+  },
+  {
+    "meslek_kodu": "2352.09",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2352.04",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2529.06",
+    "robotik_risk": 1,
+    "robotik_notu": "Uzmanlık alanlari genellikle analitik düşünme ve insan yargısı gerektirir."
+  },
+  {
+    "meslek_kodu": "2141.03",
+    "robotik_risk": 1,
+    "robotik_notu": "Mühendislik tasarım, analiz ve problem çözme gerektirir, fiziksel robot riski düşük."
+  },
+  {
+    "meslek_kodu": "3339.07",
+    "robotik_risk": 3,
+    "robotik_notu": "Teknisyenlik genel olarak teknik bilgi, uygulama ve saha çalışması gerektirir."
+  },
+  {
+    "meslek_kodu": "2320.4",
+    "robotik_risk": 1,
+    "robotik_notu": "Öğretmenlik insan etkileşimi, empati ve pedagojik uyum gerektirir."
+  },
+  {
+    "meslek_kodu": "2631.05",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  },
+  {
+    "meslek_kodu": "3139.19",
+    "robotik_risk": 5,
+    "robotik_notu": "Gıda/kimya üretim süreçleri endüstriyel otomasyon ile değişiyor."
+  },
+  {
+    "meslek_kodu": "5223.71",
+    "robotik_risk": 4,
+    "robotik_notu": "Perakende satista self-servis ve otonom magazalar gelişiyor ama Türkiye'de yavaş."
+  },
+  {
+    "meslek_kodu": "2164.01",
+    "robotik_risk": 1,
+    "robotik_notu": "Profesyonel meslekler genellikle bilgi, yargı ve yaratıcılık gerektirir."
+  }
+]
