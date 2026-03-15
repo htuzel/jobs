@@ -228,7 +228,39 @@ Amac: Kisinin "benim meslegim ne olacak?" merakiyla baslamasi - en guclu viral k
 - Animasyon yok - performans onceligi
 - Karanlik tema
 
-### 5d. Ozel Bolumler
+### 5d. Meslek Karsilastirma Ekrani (Viralite Motoru)
+
+Kullanici akisindaki en guclu paylasim kancasi. "Arkadasinla meslegini karsilastir" konsepti.
+
+**Akis:**
+1. Sonuc kartinda "Bir arkadasinla karsilastir" butonu
+2. Ikinci meslek secimi (arama kutusu)
+3. Yan yana karsilastirma karti:
+
+```
+┌──────────────────┬──────────────────┐
+│   MUHASEBECI     │    KUAFOR        │
+│     8/10         │     1/10         │
+│ ████████████░░░  │ ██░░░░░░░░░░░░  │
+│                  │                  │
+│ "Her 3'ten 1'i   │ "AI senin isini  │
+│  gereksiz        │  alamaz ama      │
+│  kalacak"        │  Instagram'siz   │
+│                  │  musteri yok"    │
+│                  │                  │
+│ ₺28,500/ay       │ ₺18,000/ay       │
+│ Lisans           │ Meslek lisesi    │
+│ Kayit disi: %15  │ Kayit disi: %45  │
+└──────────────────┴──────────────────┘
+      [Karsilastirmayi paylas]
+```
+
+**Viralite mekanigi:**
+- Paylasim butonu iki meslegin yan yana gorselini olusturur
+- URL'de iki meslek kodu tutulur (`?k=2411&k=5141`) - link atan kisi arkadasina direk karsilastirmayi gosterir
+- "Sen de dene" CTA'si ile zincir paylasim tetiklenir
+
+### 5e. Ozel Bolumler
 - **Ozet istatistikler**: "X milyon is risk altinda", "En guvenli sektor: Y"
 - **Turkiye'nin AI Haritasi**: Basit bar chart - sektorlere gore ortalama risk
 - **Paylasim butonu**: Meslek kartini gorsel olarak LinkedIn/Twitter'a paylas
