@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Türkiye'de Mesleğinin AI Riski</title>
-  <meta name="description" content="Türkiye'de 300+ meslek için yapay zeka maruz kalma analizi. Mesleğin ne kadar risk altında?">
+  <title>Türkiye'de Mesleğinin AI ve Robotik Riski</title>
+  <meta name="description" content="Türkiye'de 300+ meslek için yapay zeka ve robotik otomasyon maruz kalma analizi. Mesleğin ne kadar risk altında?">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="website">
@@ -32,6 +32,9 @@
       --risk-red:  #e74c3c;
       --risk-org:  #f39c12;
       --risk-grn:  #2ecc71;
+      --robo-lo:   #3498db;
+      --robo-mid:  #9b59b6;
+      --robo-hi:   #8e44ad;
       --radius:    12px;
       --shadow:    0 4px 24px rgba(0,0,0,0.5);
     }
@@ -797,6 +800,226 @@
     .empty-state p { font-size: 1rem; }
 
     /* ==============================
+       MODE TOGGLE
+    ============================== */
+    #mode-toggle-wrap {
+      text-align: center;
+      padding: 1.25rem 1rem 0.5rem;
+    }
+    .mode-toggle {
+      display: inline-flex;
+      background: var(--bg3);
+      border-radius: 999px;
+      padding: 4px;
+      gap: 4px;
+      border: 1px solid var(--border);
+    }
+    .mode-btn {
+      background: transparent;
+      color: var(--text-dim);
+      font-weight: 600;
+      padding: 0.5rem 1.2rem;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+    .mode-btn.active {
+      background: var(--accent);
+      color: #fff;
+    }
+    .mode-btn:not(.active):hover {
+      background: var(--bg2);
+      color: var(--text);
+    }
+
+    /* ==============================
+       ROBOTIK INFO COLLAPSIBLE
+    ============================== */
+    #robotik-info {
+      max-width: 700px;
+      margin: 0.75rem auto 0;
+      text-align: center;
+    }
+    .robotik-info-toggle {
+      background: transparent;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.3rem 0.8rem;
+      text-decoration: underline;
+      cursor: pointer;
+      border: none;
+    }
+    .robotik-info-panel {
+      display: none;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      margin-top: 0.5rem;
+      text-align: left;
+    }
+    .robotik-info-panel.open { display: block; }
+    .robotik-info-panel ul {
+      list-style: none;
+      padding: 0;
+    }
+    .robotik-info-panel li {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      line-height: 1.5;
+    }
+    .robotik-info-panel li:last-child { border-bottom: none; }
+    .robotik-info-panel li strong { color: var(--text); }
+
+    /* ==============================
+       DUAL SCORE BARS (result card)
+    ============================== */
+    .dual-scores {
+      margin-bottom: 1.25rem;
+    }
+    .dual-score-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.5rem;
+    }
+    .dual-score-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      width: 70px;
+      flex-shrink: 0;
+    }
+    .dual-score-bar-track {
+      flex: 1;
+      background: var(--bg3);
+      border-radius: 999px;
+      height: 10px;
+      overflow: hidden;
+    }
+    .dual-score-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      transition: width 0.4s ease;
+    }
+    .dual-score-val {
+      font-size: 0.85rem;
+      font-weight: 900;
+      width: 40px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* ==============================
+       DIKKAT SECTION
+    ============================== */
+    #dikkat-section {
+      background: linear-gradient(135deg, rgba(142,68,173,0.08), rgba(52,152,219,0.08));
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 1rem;
+      margin: 0;
+    }
+    .dikkat-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .dikkat-header h2 {
+      font-size: clamp(1.2rem, 3vw, 1.6rem);
+      font-weight: 800;
+      margin-bottom: 0.4rem;
+    }
+    .dikkat-header h2 .robo-warn { color: var(--robo-hi); }
+    .dikkat-header p {
+      color: var(--text-dim);
+      font-size: 0.92rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .dikkat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .dikkat-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    .dikkat-card:hover {
+      border-color: var(--robo-hi);
+    }
+    .dikkat-card .dk-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+    }
+    .dikkat-card .dk-scores {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .dk-score-pill {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      color: #fff;
+    }
+    .dikkat-card .dk-note {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+
+    /* Comparison dual scores */
+    .comp-dual-scores {
+      margin-bottom: 0.85rem;
+    }
+    .comp-dual-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.35rem;
+    }
+    .comp-dual-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      width: 55px;
+      flex-shrink: 0;
+      color: var(--text-dim);
+    }
+    .comp-dual-bar-track {
+      flex: 1;
+      background: var(--bg3);
+      border-radius: 999px;
+      height: 8px;
+      overflow: hidden;
+    }
+    .comp-dual-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+    }
+    .comp-dual-val {
+      font-size: 0.78rem;
+      font-weight: 900;
+      width: 35px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* ==============================
        RESPONSIVE
     ============================== */
     @media (max-width: 600px) {
@@ -806,6 +1029,9 @@
       .stats-numbers { grid-template-columns: 1fr 1fr; }
       .bar-label { width: 90px; }
       #card-grid { grid-template-columns: 1fr; }
+      .mode-btn { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
+      .dikkat-grid { grid-template-columns: 1fr; }
+      .dual-score-label { width: 55px; font-size: 0.7rem; }
     }
   </style>
 </head>
@@ -816,8 +1042,8 @@
 ============================== -->
 <section id="hero">
   <div class="eyebrow">Türkiye AI Maruz Kalma Analizi — 2026</div>
-  <h1>Mesleğini yaz,<br>AI riskini öğren</h1>
-  <p class="subtitle">Türkiye'de 300'den fazla meslek için yapay zeka maruz kalma analizi. 5 yıl içinde ne olacak?</p>
+  <h1>Mesleğini yaz,<br>AI ve Robotik riskini öğren</h1>
+  <p class="subtitle">Türkiye'de 300'den fazla meslek için yapay zeka ve robotik otomasyon maruz kalma analizi. 5 yıl içinde ne olacak?</p>
 
   <div id="search-wrap">
     <input
@@ -834,6 +1060,27 @@
     <div id="suggestions-list" style="display:none"></div>
   </div>
 </section>
+
+<!-- ==============================
+     MODE TOGGLE
+============================== -->
+<div id="mode-toggle-wrap">
+  <div class="mode-toggle">
+    <button class="mode-btn active" data-mode="ai">AI Riski</button>
+    <button class="mode-btn" data-mode="robotik">Robotik Riski</button>
+    <button class="mode-btn" data-mode="toplam">Toplam Risk</button>
+  </div>
+  <div id="robotik-info">
+    <button class="robotik-info-toggle" id="robotik-info-toggle">Robotik veriler hakkinda</button>
+    <div class="robotik-info-panel" id="robotik-info-panel">
+      <ul>
+        <li><strong>ABD robotik yatirimlari</strong> 2025'te $10.3 milyar'a ulasti</li>
+        <li><strong>Tesla Optimus:</strong> 1,000+ robot fabrikada aktif, birim maliyet $20K</li>
+        <li><strong>Amazon</strong> depolarda Agility Digit robotlari calisiyor</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <!-- ==============================
      RESULT CARD
@@ -891,6 +1138,21 @@
 
     <div id="sector-chart">
       <div class="chart-title">Sektöre Göre Ortalama AI Riski</div>
+      <!-- injected by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ==============================
+     DIKKAT SECTION
+============================== -->
+<section id="dikkat-section">
+  <div class="container">
+    <div class="dikkat-header">
+      <h2>AI seni kovamaz ama <span class="robo-warn">robot kovabilir</span></h2>
+      <p>Bu meslekler AI'dan guvende gorunuyor ama robotik otomasyon kapida</p>
+    </div>
+    <div class="dikkat-grid" id="dikkat-grid">
       <!-- injected by JS -->
     </div>
   </div>
@@ -956,8 +1218,8 @@
 ============================== -->
 <footer>
   <div class="container">
-    <p>Veriler TÜİK, İŞKUR ve Gemini 2.5 Flash analizi ile oluşturulmuştur.</p>
-    <p>Tahminler bilgilendirme amaçlıdır — "AI trendleri devam ederse" ön koşuluyla sunulmaktadır.</p>
+    <p>Veriler TÜİK, İŞKUR ve Gemini 2.5 Flash analizi ile oluşturulmuştur. Robotik risk skorları ayrıca değerlendirilmiştir.</p>
+    <p>Tahminler bilgilendirme amaçlıdır — "AI ve robotik trendleri devam ederse" ön koşuluyla sunulmaktadır.</p>
     <p style="margin-top:0.5rem">
       <a href="https://github.com/flalingo" target="_blank" rel="noopener">GitHub</a>
       &nbsp;·&nbsp;
@@ -985,22 +1247,59 @@ let renderOffset = 0;   // how many cards rendered so far
 let activePreset = "all";
 let compMeslek1 = null;
 let compMeslek2 = null;
+let currentMode = "ai"; // "ai" | "robotik" | "toplam"
+
+// ============================================================
+// MODE HELPERS — get active score for an occupation
+// ============================================================
+function getActiveScore(d) {
+  if (currentMode === "robotik") return d.robotik_risk || 0;
+  if (currentMode === "toplam")  return d.toplam_risk || Math.max(d.ai_skor || 0, d.robotik_risk || 0);
+  return d.ai_skor || 0;
+}
+
+function getActiveLabel() {
+  if (currentMode === "robotik") return "Robotik Riski";
+  if (currentMode === "toplam")  return "Toplam Risk";
+  return "AI Riski";
+}
+
+function getActiveShortLabel() {
+  if (currentMode === "robotik") return "Robotik";
+  if (currentMode === "toplam")  return "Toplam";
+  return "AI";
+}
 
 // ============================================================
 // RISK COLOR  (references US exposureColor gradient pattern)
-// Returns hex color for a score 0–10
+// Returns hex color for a score 0-10
 // ============================================================
 function riskColor(score) {
   if (score == null) return "#888899";
   const s = Math.max(0, Math.min(10, score));
-  if (s >= 8) return "#e74c3c";   // Red   — Çok Yüksek
-  if (s >= 5) return "#f39c12";   // Orange — Yüksek
-  return "#2ecc71";               // Green  — Düşük/Orta
+  if (s >= 8) return "#e74c3c";   // Red
+  if (s >= 5) return "#f39c12";   // Orange
+  return "#2ecc71";               // Green
 }
 
-// Smooth gradient for bars (green→orange→red, mirrors US exposureColor)
+// Robotik-specific color: blue-purple gradient
+function robotikColor(score) {
+  if (score == null) return "#888899";
+  const s = Math.max(0, Math.min(10, score));
+  if (s >= 7) return "#8e44ad";   // Deep purple
+  if (s >= 4) return "#9b59b6";   // Purple
+  return "#3498db";               // Light blue
+}
+
+// Returns the right color for the current mode
+function modeColor(score) {
+  if (currentMode === "robotik") return robotikColor(score);
+  return riskColor(score);
+}
+
+// Smooth gradient for bars (green->orange->red, mirrors US exposureColor)
 function riskColorGradient(score) {
-  if (score == null) return [136, 136, 153];
+  if (score == null) return "rgb(136,136,153)";
   const t = Math.max(0, Math.min(10, score)) / 10;
   let r, g, b;
   if (t < 0.5) {
@@ -1017,11 +1316,36 @@ function riskColorGradient(score) {
   return `rgb(${r},${g},${b})`;
 }
 
+// Robotik gradient: light blue -> purple -> deep purple
+function robotikColorGradient(score) {
+  if (score == null) return "rgb(136,136,153)";
+  const t = Math.max(0, Math.min(10, score)) / 10;
+  let r, g, b;
+  if (t < 0.5) {
+    const s = t / 0.5;
+    r = Math.round(52 + s * 103);
+    g = Math.round(152 - s * 63);
+    b = Math.round(219 - s * 37);
+  } else {
+    const s = (t - 0.5) / 0.5;
+    r = Math.round(155 - s * 13);
+    g = Math.round(89 - s * 21);
+    b = Math.round(182 - s * 9);
+  }
+  return `rgb(${r},${g},${b})`;
+}
+
+// Returns the right gradient for current mode
+function modeColorGradient(score) {
+  if (currentMode === "robotik") return robotikColorGradient(score);
+  return riskColorGradient(score);
+}
+
 function riskLabel(score) {
-  if (score >= 8) return "Çok Yüksek Risk";
-  if (score >= 6) return "Yüksek Risk";
+  if (score >= 8) return "Cok Yuksek Risk";
+  if (score >= 6) return "Yuksek Risk";
   if (score >= 4) return "Orta Risk";
-  if (score >= 2) return "Düşük Risk";
+  if (score >= 2) return "Dusuk Risk";
   return "Minimal Risk";
 }
 
@@ -1029,37 +1353,35 @@ function riskLabel(score) {
 // FORMAT HELPERS
 // ============================================================
 function formatMaas(val) {
-  if (!val) return "—";
-  return "₺" + val.toLocaleString("tr-TR") + "/ay";
+  if (!val) return "\u2014";
+  return "\u20BA" + val.toLocaleString("tr-TR") + "/ay";
 }
 
 function formatIstihdam(val) {
-  if (!val) return "—";
-  if (val >= 1000000) return (val / 1000000).toLocaleString("tr-TR", { maximumFractionDigits: 1 }) + " milyon kişi";
-  if (val >= 1000)    return (val / 1000).toLocaleString("tr-TR", { maximumFractionDigits: 0 }) + " bin kişi";
-  return val.toLocaleString("tr-TR") + " kişi";
+  if (!val) return "\u2014";
+  if (val >= 1000000) return (val / 1000000).toLocaleString("tr-TR", { maximumFractionDigits: 1 }) + " milyon kisi";
+  if (val >= 1000)    return (val / 1000).toLocaleString("tr-TR", { maximumFractionDigits: 0 }) + " bin kisi";
+  return val.toLocaleString("tr-TR") + " kisi";
 }
 
 function formatKayitDisi(val) {
-  if (val == null) return "—";
+  if (val == null) return "\u2014";
   return "%" + val;
 }
 
 function formatBuyume(val) {
-  if (val == null) return "—";
+  if (val == null) return "\u2014";
   return (val > 0 ? "+" : "") + val + "%";
 }
 
 // ============================================================
-// FUZZY SEARCH — Turkish locale-aware
+// FUZZY SEARCH -- Turkish locale-aware
 // ============================================================
 function fuzzyMatch(query, text) {
   const q = query.toLocaleLowerCase("tr-TR").trim();
   const t = text.toLocaleLowerCase("tr-TR");
   if (!q) return true;
-  // Exact contains check first
   if (t.includes(q)) return true;
-  // Token-based: all query words must appear in text
   return q.split(/\s+/).every(token => t.includes(token));
 }
 
@@ -1072,12 +1394,11 @@ function getSuggestions(query, max = 6) {
   return DATA
     .filter(d => fuzzyMatch(q, d.meslek_adi))
     .sort((a, b) => {
-      // Prioritize names that start with the query
       const aStart = a.meslek_adi.toLocaleLowerCase("tr-TR").startsWith(q);
       const bStart = b.meslek_adi.toLocaleLowerCase("tr-TR").startsWith(q);
       if (aStart && !bStart) return -1;
       if (!aStart && bStart) return 1;
-      return b.ai_skor - a.ai_skor;
+      return getActiveScore(b) - getActiveScore(a);
     })
     .slice(0, max);
 }
@@ -1086,12 +1407,13 @@ function renderSuggestions(listEl, suggestions, onSelect) {
   listEl.innerHTML = "";
   if (!suggestions.length) { listEl.style.display = "none"; return; }
   suggestions.forEach(d => {
+    const score = getActiveScore(d);
     const el = document.createElement("div");
     el.className = "suggestion-item";
     const scoreEl = document.createElement("span");
     scoreEl.className = "sug-score";
-    scoreEl.style.background = riskColor(d.ai_skor);
-    scoreEl.textContent = d.ai_skor + "/10";
+    scoreEl.style.background = modeColor(score);
+    scoreEl.textContent = score + "/10";
     el.innerHTML = `<span>${escHtml(d.meslek_adi)}</span>`;
     el.appendChild(scoreEl);
     el.addEventListener("click", () => {
@@ -1104,74 +1426,98 @@ function renderSuggestions(listEl, suggestions, onSelect) {
 }
 
 // ============================================================
-// RESULT CARD RENDERER
+// RESULT CARD RENDERER -- shows BOTH scores always
 // ============================================================
 function renderResultCard(meslek) {
-  const col = riskColor(meslek.ai_skor);
-  const grad = riskColorGradient(meslek.ai_skor);
-  const pct = (meslek.ai_skor / 10 * 100).toFixed(0);
+  const aiScore = meslek.ai_skor || 0;
+  const roboScore = meslek.robotik_risk || 0;
+  const activeScore = getActiveScore(meslek);
+  const col = modeColor(activeScore);
+  const aiCol = riskColor(aiScore);
+  const aiGrad = riskColorGradient(aiScore);
+  const roboCol = robotikColor(roboScore);
+  const roboGrad = robotikColorGradient(roboScore);
+  const aiPct = (aiScore / 10 * 100).toFixed(0);
+  const roboPct = (roboScore / 10 * 100).toFixed(0);
 
   const card = document.getElementById("result-card");
   card.innerHTML = `
     <div class="card-header">
       <div>
         <div class="card-title">${escHtml(meslek.meslek_adi)}</div>
-        <div class="risk-label" style="color:${col}">${riskLabel(meslek.ai_skor)}</div>
+        <div class="risk-label" style="color:${col}">${riskLabel(activeScore)} (${getActiveLabel()})</div>
       </div>
-      <div class="score-badge" style="--risk-col:${col}">${meslek.ai_skor}/10</div>
+      <div class="score-badge" style="--risk-col:${col}">${activeScore}/10</div>
     </div>
 
-    <div class="risk-bar-track">
-      <div class="risk-bar-fill" style="width:${pct}%; background:${grad}"></div>
+    <div class="dual-scores">
+      <div class="dual-score-row">
+        <span class="dual-score-label" style="color:${aiCol}">AI Riski</span>
+        <div class="dual-score-bar-track">
+          <div class="dual-score-bar-fill" style="width:${aiPct}%; background:${aiGrad}"></div>
+        </div>
+        <span class="dual-score-val" style="color:${aiCol}">${aiScore}/10</span>
+      </div>
+      <div class="dual-score-row">
+        <span class="dual-score-label" style="color:${roboCol}">Robotik</span>
+        <div class="dual-score-bar-track">
+          <div class="dual-score-bar-fill" style="width:${roboPct}%; background:${roboGrad}"></div>
+        </div>
+        <span class="dual-score-val" style="color:${roboCol}">${roboScore}/10</span>
+      </div>
     </div>
 
     <div class="prediction-block">
-      <div class="pred-label">5 Yılda Ne Olacak?</div>
+      <div class="pred-label">5 Yilda Ne Olacak? (AI)</div>
       <div class="pred-text">${escHtml(meslek.bes_yil_tahmini)}</div>
     </div>
 
+    ${meslek.robotik_notu ? `
+    <div class="prediction-block" style="border-left-color:var(--robo-hi)">
+      <div class="pred-label">Robotik Degerlendirme</div>
+      <div class="pred-text">${escHtml(meslek.robotik_notu)}</div>
+    </div>` : ""}
+
     <div class="stats-grid">
       <div class="stat-item">
-        <div class="stat-label">Ortalama Maaş</div>
+        <div class="stat-label">Ortalama Maas</div>
         <div class="stat-value">${formatMaas(meslek.maas)}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-label">İstihdam</div>
+        <div class="stat-label">Istihdam</div>
         <div class="stat-value">${formatIstihdam(meslek.istihdam)}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-label">Eğitim</div>
-        <div class="stat-value">${escHtml(meslek.egitim || "—")}</div>
+        <div class="stat-label">Egitim</div>
+        <div class="stat-value">${escHtml(meslek.egitim || "\u2014")}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-label">Kayıt Dışı Oran</div>
+        <div class="stat-label">Kayit Disi Oran</div>
         <div class="stat-value">${formatKayitDisi(meslek.kayit_disi)}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-label">Sektör</div>
-        <div class="stat-value">${escHtml(meslek.sektor || "—")}</div>
+        <div class="stat-label">Sektor</div>
+        <div class="stat-value">${escHtml(meslek.sektor || "\u2014")}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-label">Büyüme Trendi</div>
+        <div class="stat-label">Buyume Trendi</div>
         <div class="stat-value" style="color:${(meslek.buyume||0) >= 0 ? '#2ecc71' : '#e74c3c'}">${formatBuyume(meslek.buyume)}</div>
       </div>
     </div>
 
     ${meslek.kayit_disi_notu ? `
     <div class="kayit-disi-note">
-      <strong>Kayıt Dışı Notu:</strong> ${escHtml(meslek.kayit_disi_notu)}
+      <strong>Kayit Disi Notu:</strong> ${escHtml(meslek.kayit_disi_notu)}
     </div>` : ""}
 
     <div class="card-actions">
-      <button class="btn-share" id="share-btn">Paylaş</button>
-      <button class="btn-compare" id="compare-btn">Arkadaşınla Karşılaştır</button>
-      <button class="btn-list" id="see-all-btn">Tüm mesleklere bak ↓</button>
+      <button class="btn-share" id="share-btn">Paylas</button>
+      <button class="btn-compare" id="compare-btn">Arkadasinla Karsilastir</button>
+      <button class="btn-list" id="see-all-btn">Tum mesleklere bak \u2193</button>
     </div>
   `;
 
   document.getElementById("result-section").style.display = "block";
-
-  // Scroll to result card
   document.getElementById("result-section").scrollIntoView({ behavior: "smooth", block: "nearest" });
 
   // Share
@@ -1193,7 +1539,7 @@ function renderResultCard(meslek) {
 }
 
 // ============================================================
-// COMPARISON FEATURE
+// COMPARISON FEATURE -- shows BOTH scores for each occupation
 // ============================================================
 function showComparisonSection() {
   const sec = document.getElementById("comparison-section");
@@ -1210,42 +1556,59 @@ function renderComparisonGrid() {
 }
 
 function renderCompCard(m) {
-  const col = riskColor(m.ai_skor);
-  const grad = riskColorGradient(m.ai_skor);
-  const pct = (m.ai_skor / 10 * 100).toFixed(0);
+  const aiScore = m.ai_skor || 0;
+  const roboScore = m.robotik_risk || 0;
+  const activeScore = getActiveScore(m);
+  const col = modeColor(activeScore);
+  const aiCol = riskColor(aiScore);
+  const aiGrad = riskColorGradient(aiScore);
+  const roboCol = robotikColor(roboScore);
+  const roboGrad = robotikColorGradient(roboScore);
+  const aiPct = (aiScore / 10 * 100).toFixed(0);
+  const roboPct = (roboScore / 10 * 100).toFixed(0);
+
   return `
     <div class="comparison-card">
       <div class="comp-title">${escHtml(m.meslek_adi)}</div>
-      <div class="comp-score-row">
-        <span class="comp-score-num" style="color:${col}">${m.ai_skor}</span>
-        <div>
-          <div style="font-size:0.7rem; color:var(--text-dim)">/ 10</div>
-          <div class="comp-risk-label" style="color:${col}">${riskLabel(m.ai_skor)}</div>
+
+      <div class="comp-dual-scores">
+        <div class="comp-dual-row">
+          <span class="comp-dual-label" style="color:${aiCol}">AI</span>
+          <div class="comp-dual-bar-track">
+            <div class="comp-dual-bar-fill" style="width:${aiPct}%; background:${aiGrad}"></div>
+          </div>
+          <span class="comp-dual-val" style="color:${aiCol}">${aiScore}/10</span>
+        </div>
+        <div class="comp-dual-row">
+          <span class="comp-dual-label" style="color:${roboCol}">Robotik</span>
+          <div class="comp-dual-bar-track">
+            <div class="comp-dual-bar-fill" style="width:${roboPct}%; background:${roboGrad}"></div>
+          </div>
+          <span class="comp-dual-val" style="color:${roboCol}">${roboScore}/10</span>
         </div>
       </div>
-      <div class="comp-bar-track">
-        <div class="comp-bar-fill" style="width:${pct}%; background:${grad}"></div>
-      </div>
+
       <div class="comp-prediction">"${escHtml(m.bes_yil_tahmini)}"</div>
+      ${m.robotik_notu ? `<div class="comp-prediction" style="border-left:2px solid var(--robo-hi); padding-left:0.6rem">"${escHtml(m.robotik_notu)}"</div>` : ""}
       <div class="comp-stat-row">
-        <span class="comp-stat-key">Maaş</span>
+        <span class="comp-stat-key">Maas</span>
         <span>${formatMaas(m.maas)}</span>
       </div>
       <div class="comp-stat-row">
-        <span class="comp-stat-key">İstihdam</span>
+        <span class="comp-stat-key">Istihdam</span>
         <span>${formatIstihdam(m.istihdam)}</span>
       </div>
       <div class="comp-stat-row">
-        <span class="comp-stat-key">Eğitim</span>
-        <span>${escHtml(m.egitim || "—")}</span>
+        <span class="comp-stat-key">Egitim</span>
+        <span>${escHtml(m.egitim || "\u2014")}</span>
       </div>
       <div class="comp-stat-row">
-        <span class="comp-stat-key">Kayıt Dışı</span>
+        <span class="comp-stat-key">Kayit Disi</span>
         <span>${formatKayitDisi(m.kayit_disi)}</span>
       </div>
       <div class="comp-stat-row">
-        <span class="comp-stat-key">Sektör</span>
-        <span>${escHtml(m.sektor || "—")}</span>
+        <span class="comp-stat-key">Sektor</span>
+        <span>${escHtml(m.sektor || "\u2014")}</span>
       </div>
     </div>
   `;
@@ -1281,11 +1644,25 @@ function checkOccupationURL() {
   }
 }
 
+// Parse ?mode= URL param
+function checkModeURL() {
+  const params = new URLSearchParams(window.location.search);
+  const mode = params.get("mode");
+  if (mode && ["ai", "robotik", "toplam"].includes(mode)) {
+    currentMode = mode;
+    document.querySelectorAll(".mode-btn").forEach(b => {
+      b.classList.toggle("active", b.dataset.mode === currentMode);
+    });
+  }
+}
+
 // ============================================================
 // SHARE
 // ============================================================
 function shareOccupation(meslek) {
-  const text = `${meslek.meslek_adi}: AI Riski ${meslek.ai_skor}/10\n"${meslek.bes_yil_tahmini}"\n\nSenin mesleğin ne kadar risk altında?`;
+  const aiS = meslek.ai_skor || 0;
+  const roboS = meslek.robotik_risk || 0;
+  const text = `${meslek.meslek_adi}: AI Riski ${aiS}/10, Robotik Risk ${roboS}/10\n"${meslek.bes_yil_tahmini}"\n\nSenin meslegin ne kadar risk altinda?`;
   const url = buildURL({ m: meslek.meslek_kodu });
 
   doShare(meslek.meslek_adi, text, url);
@@ -1293,10 +1670,10 @@ function shareOccupation(meslek) {
 
 function shareComparison() {
   if (!compMeslek1 || !compMeslek2) return;
-  const text = `${compMeslek1.meslek_adi} (${compMeslek1.ai_skor}/10) vs ${compMeslek2.meslek_adi} (${compMeslek2.ai_skor}/10)\nSen de kendi mesleğini dene!`;
+  const text = `${compMeslek1.meslek_adi} (AI:${compMeslek1.ai_skor}/10, Robot:${compMeslek1.robotik_risk||0}/10) vs ${compMeslek2.meslek_adi} (AI:${compMeslek2.ai_skor}/10, Robot:${compMeslek2.robotik_risk||0}/10)\nSen de kendi meslegini dene!`;
   const url = buildURL({ k: [compMeslek1.meslek_kodu, compMeslek2.meslek_kodu] });
 
-  doShare("Meslek Karşılaştırması", text, url);
+  doShare("Meslek Karsilastirmasi", text, url);
 }
 
 function doShare(title, text, url) {
@@ -1305,9 +1682,8 @@ function doShare(title, text, url) {
     navigator.share({ title, text, url }).catch(() => {});
   } else {
     navigator.clipboard.writeText(fullText).then(() => {
-      showToast("Kopyalandı!");
+      showToast("Kopyalandi!");
     }).catch(() => {
-      // Fallback: select a temp textarea
       const ta = document.createElement("textarea");
       ta.value = fullText;
       ta.style.cssText = "position:fixed;opacity:0";
@@ -1315,7 +1691,7 @@ function doShare(title, text, url) {
       ta.select();
       document.execCommand("copy");
       document.body.removeChild(ta);
-      showToast("Kopyalandı!");
+      showToast("Kopyalandi!");
     });
   }
 }
@@ -1327,6 +1703,7 @@ function buildURL(params) {
   if (params.k && Array.isArray(params.k)) {
     params.k.forEach(v => sp.append("k", v));
   }
+  if (currentMode !== "ai") sp.set("mode", currentMode);
   return base + "?" + sp.toString();
 }
 
@@ -1341,34 +1718,33 @@ function showToast(msg) {
 }
 
 // ============================================================
-// STATS SECTION
+// STATS SECTION -- mode-aware
 // ============================================================
 function renderStats() {
   if (!DATA.length) return;
 
-  // Weighted average AI score (by istihdam)
+  const scoreKey = getActiveLabel();
   let totalJobs = 0;
   let weightedScore = 0;
   let highRiskJobs = 0;
 
   DATA.forEach(d => {
     const jobs = d.istihdam || 0;
+    const score = getActiveScore(d);
     totalJobs += jobs;
-    weightedScore += (d.ai_skor || 0) * jobs;
-    if ((d.ai_skor || 0) >= 8) highRiskJobs += jobs;
+    weightedScore += score * jobs;
+    if (score >= 8) highRiskJobs += jobs;
   });
 
   const avgScore = totalJobs > 0 ? (weightedScore / totalJobs) : 0;
   const highRiskMilyon = (highRiskJobs / 1000000).toFixed(1);
 
-  // Headline
   const headline = document.getElementById("stats-headline");
-  headline.innerHTML = `<span>${highRiskMilyon} milyon</span> iş yüksek risk altında`;
+  headline.innerHTML = `<span>${highRiskMilyon} milyon</span> is yuksek ${getActiveShortLabel().toLocaleLowerCase("tr-TR")} riski altinda`;
 
   document.getElementById("stats-subline").textContent =
-    `${DATA.length} meslek analiz edildi — ağırlıklı ortalama AI riski: ${avgScore.toFixed(1)}/10`;
+    `${DATA.length} meslek analiz edildi \u2014 agirlikli ortalama ${scoreKey.toLocaleLowerCase("tr-TR")}: ${avgScore.toFixed(1)}/10`;
 
-  // Stat boxes
   const numbersEl = document.getElementById("stats-numbers");
   numbersEl.innerHTML = `
     <div class="stat-box">
@@ -1377,24 +1753,24 @@ function renderStats() {
     </div>
     <div class="stat-box">
       <div class="num">${(totalJobs/1000000).toFixed(1)}M</div>
-      <div class="lbl">Toplam İstihdam</div>
+      <div class="lbl">Toplam Istihdam</div>
     </div>
     <div class="stat-box">
-      <div class="num" style="color:${riskColorGradient(avgScore)}">${avgScore.toFixed(1)}</div>
-      <div class="lbl">Ağırlıklı Ort. Risk</div>
+      <div class="num" style="color:${modeColorGradient(avgScore)}">${avgScore.toFixed(1)}</div>
+      <div class="lbl">Agirlikli Ort. ${getActiveShortLabel()}</div>
     </div>
     <div class="stat-box">
       <div class="num" style="color:var(--risk-red)">${highRiskMilyon}M</div>
-      <div class="lbl">Yüksek Riskli İş</div>
+      <div class="lbl">Yuksek Riskli Is</div>
     </div>
   `;
 
-  // Sector chart
+  // Sector chart -- mode-aware
   const sectorMap = {};
   DATA.forEach(d => {
     if (!d.sektor) return;
     if (!sectorMap[d.sektor]) sectorMap[d.sektor] = { total: 0, count: 0 };
-    sectorMap[d.sektor].total += d.ai_skor || 0;
+    sectorMap[d.sektor].total += getActiveScore(d);
     sectorMap[d.sektor].count++;
   });
 
@@ -1403,12 +1779,11 @@ function renderStats() {
     .sort((a, b) => b.avg - a.avg);
 
   const chartEl = document.getElementById("sector-chart");
-  // Keep title, replace bars
-  chartEl.innerHTML = `<div class="chart-title">Sektöre Göre Ortalama AI Riski</div>`;
+  chartEl.innerHTML = `<div class="chart-title">Sektore Gore Ortalama ${getActiveLabel()}</div>`;
 
   sectors.forEach(s => {
     const pct = (s.avg / 10 * 100).toFixed(0);
-    const col = riskColorGradient(s.avg);
+    const col = modeColorGradient(s.avg);
     const row = document.createElement("div");
     row.className = "bar-row";
     row.innerHTML = `
@@ -1422,7 +1797,52 @@ function renderStats() {
 }
 
 // ============================================================
-// CARD LIST — filter, sort, lazy render
+// DIKKAT SECTION -- low AI but high Robotik
+// ============================================================
+function renderDikkat() {
+  const dikkatData = DATA
+    .filter(d => (d.ai_skor || 0) <= 3 && (d.robotik_risk || 0) >= 6)
+    .sort((a, b) => (b.robotik_risk || 0) - (a.robotik_risk || 0))
+    .slice(0, 5);
+
+  const grid = document.getElementById("dikkat-grid");
+
+  if (!dikkatData.length) {
+    document.getElementById("dikkat-section").style.display = "none";
+    return;
+  }
+
+  grid.innerHTML = dikkatData.map(d => {
+    const aiCol = riskColor(d.ai_skor || 0);
+    const roboCol = robotikColor(d.robotik_risk || 0);
+    return `
+      <div class="dikkat-card" data-kodu="${d.meslek_kodu}">
+        <div class="dk-title">${escHtml(d.meslek_adi)}</div>
+        <div class="dk-scores">
+          <span class="dk-score-pill" style="background:${aiCol}">AI: ${d.ai_skor || 0}/10</span>
+          <span class="dk-score-pill" style="background:${roboCol}">Robotik: ${d.robotik_risk || 0}/10</span>
+        </div>
+        <div class="dk-note">${escHtml(d.robotik_notu || "")}</div>
+      </div>
+    `;
+  }).join("");
+
+  // Click handler for dikkat cards
+  grid.querySelectorAll(".dikkat-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const kodu = card.dataset.kodu;
+      const meslek = DATA.find(d => d.meslek_kodu === kodu);
+      if (meslek) {
+        document.getElementById("search-input").value = meslek.meslek_adi;
+        renderResultCard(meslek);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    });
+  });
+}
+
+// ============================================================
+// CARD LIST -- filter, sort, lazy render (mode-aware)
 // ============================================================
 function applyFilters() {
   const listQuery = document.getElementById("list-search").value;
@@ -1434,7 +1854,7 @@ function applyFilters() {
 
   // Preset overrides search/filter
   if (activePreset === "en-riskli-10") {
-    result = [...DATA].sort((a, b) => b.ai_skor - a.ai_skor).slice(0, 10);
+    result = [...DATA].sort((a, b) => getActiveScore(b) - getActiveScore(a)).slice(0, 10);
     FILTERED = result;
     renderOffset = 0;
     renderCards(true);
@@ -1442,7 +1862,7 @@ function applyFilters() {
     return;
   }
   if (activePreset === "en-guvenli-10") {
-    result = [...DATA].sort((a, b) => a.ai_skor - b.ai_skor).slice(0, 10);
+    result = [...DATA].sort((a, b) => getActiveScore(a) - getActiveScore(b)).slice(0, 10);
     FILTERED = result;
     renderOffset = 0;
     renderCards(true);
@@ -1463,26 +1883,26 @@ function applyFilters() {
     result = result.filter(d => fuzzyMatch(listQuery, d.meslek_adi));
   }
 
-  // Risk filter
-  if (riskVal === "high") result = result.filter(d => d.ai_skor >= 8);
-  else if (riskVal === "mid") result = result.filter(d => d.ai_skor >= 5 && d.ai_skor < 8);
-  else if (riskVal === "low") result = result.filter(d => d.ai_skor < 5);
+  // Risk filter -- uses active score
+  if (riskVal === "high") result = result.filter(d => getActiveScore(d) >= 8);
+  else if (riskVal === "mid") result = result.filter(d => getActiveScore(d) >= 5 && getActiveScore(d) < 8);
+  else if (riskVal === "low") result = result.filter(d => getActiveScore(d) < 5);
 
   // Education filter
   if (eduVal !== "all") {
     result = result.filter(d => {
       const edu = (d.egitim || "").toLocaleLowerCase("tr-TR");
       if (eduVal === "lise") return edu.includes("lise") || edu.includes("ilkokul") || edu.includes("ortaokul");
-      if (eduVal === "onlisans") return edu.includes("ön lisans") || edu.includes("on lisans");
-      if (eduVal === "lisans") return edu.includes("lisans") && !edu.includes("ön");
+      if (eduVal === "onlisans") return edu.includes("on lisans") || edu.includes("on lisans");
+      if (eduVal === "lisans") return edu.includes("lisans") && !edu.includes("on");
       return true;
     });
   }
 
-  // Sort
+  // Sort -- uses active score for risk sorts
   result.sort((a, b) => {
-    if (sortVal === "risk-desc") return b.ai_skor - a.ai_skor;
-    if (sortVal === "risk-asc")  return a.ai_skor - b.ai_skor;
+    if (sortVal === "risk-desc") return getActiveScore(b) - getActiveScore(a);
+    if (sortVal === "risk-asc")  return getActiveScore(a) - getActiveScore(b);
     if (sortVal === "salary-desc") return (b.maas || 0) - (a.maas || 0);
     if (sortVal === "salary-asc")  return (a.maas || 0) - (b.maas || 0);
     if (sortVal === "name-asc")  return a.meslek_adi.localeCompare(b.meslek_adi, "tr-TR");
@@ -1509,33 +1929,34 @@ function renderCards(replace = false) {
   if (!batch.length && replace) {
     grid.innerHTML = `
       <div class="empty-state" style="grid-column:1/-1">
-        <div class="es-icon">🔍</div>
-        <p>Arama kriterlerine uyan meslek bulunamadı.</p>
+        <div class="es-icon">&#128269;</div>
+        <p>Arama kriterlerine uyan meslek bulunamadi.</p>
       </div>`;
     document.getElementById("load-more-btn").style.display = "none";
     return;
   }
 
   batch.forEach(d => {
-    const col = riskColor(d.ai_skor);
-    const grad = riskColorGradient(d.ai_skor);
-    const pct = (d.ai_skor / 10 * 100).toFixed(0);
+    const score = getActiveScore(d);
+    const col = modeColor(score);
+    const grad = modeColorGradient(score);
+    const pct = (score / 10 * 100).toFixed(0);
     const card = document.createElement("div");
     card.className = "job-card";
     card.dataset.kodu = d.meslek_kodu;
     card.innerHTML = `
       <div class="jc-top">
         <div class="jc-title">${escHtml(d.meslek_adi)}</div>
-        <span class="jc-score" style="background:${col}">${d.ai_skor}/10</span>
+        <span class="jc-score" style="background:${col}">${score}/10</span>
       </div>
       <div class="jc-bar-track">
         <div class="jc-bar-fill" style="width:${pct}%; background:${grad}"></div>
       </div>
       <div class="jc-meta">
-        <span class="jc-tag">${escHtml(d.sektor || "—")}</span>
+        <span class="jc-tag">${escHtml(d.sektor || "\u2014")}</span>
         <span class="jc-tag">${formatMaas(d.maas)}</span>
-        <span class="jc-tag">${escHtml(d.egitim || "—")}</span>
-        ${(d.kayit_disi || 0) >= 30 ? `<span class="jc-tag" style="color:#f39c12">%${d.kayit_disi} kayıt dışı</span>` : ""}
+        <span class="jc-tag">${escHtml(d.egitim || "\u2014")}</span>
+        ${(d.kayit_disi || 0) >= 30 ? `<span class="jc-tag" style="color:#f39c12">%${d.kayit_disi} kayit disi</span>` : ""}
       </div>
     `;
     card.addEventListener("click", () => {
@@ -1552,7 +1973,7 @@ function renderCards(replace = false) {
   const loadBtn = document.getElementById("load-more-btn");
   loadBtn.style.display = hasMore ? "block" : "none";
   if (hasMore) {
-    loadBtn.textContent = `Daha Fazla Göster (${FILTERED.length - renderOffset} kaldı)`;
+    loadBtn.textContent = `Daha Fazla Goster (${FILTERED.length - renderOffset} kaldi)`;
   }
 }
 
@@ -1579,7 +2000,6 @@ function setupSearch() {
   function doSearch(query) {
     const q = query.trim();
     if (!q) return;
-    // Exact match first
     const exact = DATA.find(d =>
       d.meslek_adi.toLocaleLowerCase("tr-TR") === q.toLocaleLowerCase("tr-TR")
     );
@@ -1588,7 +2008,6 @@ function setupSearch() {
       renderResultCard(exact);
       return;
     }
-    // Best fuzzy match
     const matches = getSuggestions(q, 1);
     if (matches.length) {
       list.style.display = "none";
@@ -1611,7 +2030,6 @@ function setupSearch() {
 
   btn.addEventListener("click", () => doSearch(input.value));
 
-  // Hide suggestions on outside click
   document.addEventListener("click", (e) => {
     if (!e.target.closest("#search-wrap") && !e.target.closest("#search-suggestions")) {
       list.style.display = "none";
@@ -1632,7 +2050,6 @@ function setupSecondSearch() {
     list.style.display = "none";
     compMeslek2 = d;
     renderComparisonGrid();
-    // Update URL
     if (compMeslek1 && compMeslek2) {
       const url = buildURL({ k: [compMeslek1.meslek_kodu, compMeslek2.meslek_kodu] });
       history.replaceState(null, "", url);
@@ -1705,21 +2122,85 @@ function setupShareComparison() {
 }
 
 // ============================================================
+// MODE TOGGLE SETUP
+// ============================================================
+function setupModeToggle() {
+  document.querySelectorAll(".mode-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newMode = btn.dataset.mode;
+      if (newMode === currentMode) return;
+
+      currentMode = newMode;
+      document.querySelectorAll(".mode-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      // Update URL param
+      const url = new URL(window.location);
+      if (currentMode === "ai") {
+        url.searchParams.delete("mode");
+      } else {
+        url.searchParams.set("mode", currentMode);
+      }
+      history.replaceState(null, "", url);
+
+      // Re-render everything
+      renderStats();
+      applyFilters();
+      renderDikkat();
+
+      // Re-render result card if visible
+      const resultSec = document.getElementById("result-section");
+      if (resultSec.style.display !== "none") {
+        const inputVal = document.getElementById("search-input").value;
+        if (inputVal) {
+          const meslek = DATA.find(d =>
+            d.meslek_adi.toLocaleLowerCase("tr-TR") === inputVal.toLocaleLowerCase("tr-TR")
+          );
+          if (meslek) renderResultCard(meslek);
+        }
+      }
+
+      // Re-render comparison if visible
+      if (compMeslek1 && compMeslek2) {
+        renderComparisonGrid();
+      }
+    });
+  });
+}
+
+// ============================================================
+// ROBOTIK INFO TOGGLE
+// ============================================================
+function setupRobotikInfo() {
+  const toggleBtn = document.getElementById("robotik-info-toggle");
+  const panel = document.getElementById("robotik-info-panel");
+  toggleBtn.addEventListener("click", () => {
+    panel.classList.toggle("open");
+    toggleBtn.textContent = panel.classList.contains("open")
+      ? "Robotik veriler hakkinda \u25B2"
+      : "Robotik veriler hakkinda \u25BC";
+  });
+}
+
+// ============================================================
 // INIT
 // ============================================================
 async function init() {
   try {
     const res = await fetch("data.json");
-    if (!res.ok) throw new Error("data.json yüklenemedi: " + res.status);
+    if (!res.ok) throw new Error("data.json yuklenemedi: " + res.status);
     DATA = await res.json();
   } catch (err) {
-    console.error("Veri yükleme hatası:", err);
-    document.getElementById("stats-headline").textContent = "Veri yüklenemedi.";
+    console.error("Veri yukleme hatasi:", err);
+    document.getElementById("stats-headline").textContent = "Veri yuklenemedi.";
     return;
   }
 
-  // Sort default: risk desc
-  DATA.sort((a, b) => b.ai_skor - a.ai_skor);
+  // Check mode URL first (before rendering)
+  checkModeURL();
+
+  // Sort default: risk desc (using active mode)
+  DATA.sort((a, b) => getActiveScore(b) - getActiveScore(a));
 
   // Setup all interactions
   setupSearch();
@@ -1728,9 +2209,14 @@ async function init() {
   setupFilters();
   setupLoadMore();
   setupShareComparison();
+  setupModeToggle();
+  setupRobotikInfo();
 
   // Render stats
   renderStats();
+
+  // Render dikkat section
+  renderDikkat();
 
   // Render card list
   FILTERED = [...DATA];
