@@ -1,108 +1,146 @@
 """
 Tests for scrape_iskur.py - İŞKUR meslek sozlugu scraper.
 
-Tests use sample HTML that mimics the expected structure (spec says selectors
-are placeholders until real site is inspected).  We test both the nominal
-selector path and the URL-fallback code path.
+Tests use sample HTML that matches the real İŞKUR table structure:
+  Meslek Kodu | Meslek | Eğitim Seviyesi | Kategori | Dosya
 """
 import sys
 import os
 
-# Allow importing from parent tr/ directory when running pytest from tr/
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-def test_parse_iskur_index_html():
-    """Test that we can extract occupation entries from İŞKUR index page HTML."""
-    from scrape_iskur import parse_iskur_index
-
-    # Sample HTML mimicking İŞKUR meslek sozlugu structure
-    sample_html = """
-    <html><body>
-    <div class="meslek-listesi">
-        <div class="meslek-item">
-            <a href="/meslek/2411">Muhasebeci</a>
-            <span class="isco">2411</span>
-        </div>
-        <div class="meslek-item">
-            <a href="/meslek/5141">Kuafor</a>
-            <span class="isco">5141</span>
-        </div>
-    </div>
-    </body></html>
-    """
-
-    result = parse_iskur_index(sample_html)
-    assert len(result) == 2
-    assert result[0]["meslek_adi"] == "Muhasebeci"
-    assert result[0]["meslek_kodu"] == "2411"
-    assert result[1]["meslek_adi"] == "Kuafor"
-    assert result[1]["meslek_kodu"] == "5141"
-
-
-def test_parse_iskur_index_url_fallback():
-    """Test ISCO code extraction from URL when .isco span is absent."""
-    from scrape_iskur import parse_iskur_index
-
-    sample_html = """
-    <html><body>
-    <div class="meslek-item">
-        <a href="/is-arayan/meslek-sozlugu/3141">Elektrik Teknisyeni</a>
-    </div>
-    </body></html>
-    """
-
-    result = parse_iskur_index(sample_html)
-    assert len(result) == 1
-    assert result[0]["meslek_adi"] == "Elektrik Teknisyeni"
-    assert result[0]["meslek_kodu"] == "3141"
+SAMPLE_TABLE_HTML = """
+<html><body>
+<table cellspacing="0" cellpadding="0">
+<tr>
+  <td>Meslek Kodu</td><td>Meslek</td><td>Eğitim Seviyesi</td><td>Kategori</td><td>Dosya</td>
+</tr>
+<tr>
+  <td>3258.02</td>
+  <td>Acil Tıp Teknisyeni</td>
+  <td>Lise Meslekleri</td>
+  <td>Sağlık Meslekleri Tanıyalım</td>
+  <td><a href="javascript:MeslekDetayPopUp('3258.02')">Detay</a></td>
+</tr>
+<tr>
+  <td>2411.01</td>
+  <td>Muhasebeci</td>
+  <td>Fakülte Meslekleri</td>
+  <td>Ekonomi/Finans Mesleklerini Tanıyalım</td>
+  <td><a href="javascript:MeslekDetayPopUp('2411.01')">Detay</a></td>
+</tr>
+<tr>
+  <td>5141.03</td>
+  <td>Kuaför</td>
+  <td>Kurs Meslekleri</td>
+  <td>Sanat Mesleklerini Tanıyalım</td>
+  <td></td>
+</tr>
+</table>
+</body></html>
+"""
 
 
-def test_parse_iskur_index_absolute_url():
-    """Test that absolute URLs are kept as-is while relative ones get base prepended."""
-    from scrape_iskur import parse_iskur_index
+def test_parse_table_basic():
+    """Test parsing the real İŞKUR table structure."""
+    from scrape_iskur import parse_iskur_table
 
-    sample_html = """
-    <html><body>
-    <div class="meslek-item">
-        <a href="https://iskur.gov.tr/meslek/1234">Mutfak Sefi</a>
-        <span class="isco">1234</span>
-    </div>
-    </body></html>
-    """
+    result = parse_iskur_table(SAMPLE_TABLE_HTML)
+    assert len(result) == 3
 
-    result = parse_iskur_index(sample_html)
-    assert result[0]["url"].startswith("https://")
-    assert "1234" in result[0]["url"]
+    assert result[0]["meslek_adi"] == "Acil Tıp Teknisyeni"
+    assert result[0]["meslek_kodu"] == "3258.02"
+    assert result[0]["egitim_seviyesi"] == "Lise"
+
+    assert result[1]["meslek_adi"] == "Muhasebeci"
+    assert result[1]["meslek_kodu"] == "2411.01"
+    assert result[1]["egitim_seviyesi"] == "Lisans"
 
 
-def test_parse_iskur_index_empty_page():
-    """Test graceful handling of an empty / unrecognised page structure."""
-    from scrape_iskur import parse_iskur_index
+def test_parse_table_kategori_cleaned():
+    """Test that category names are cleaned (suffix removed)."""
+    from scrape_iskur import parse_iskur_table
 
-    result = parse_iskur_index("<html><body><p>Sayfa bulunamadi</p></body></html>")
+    result = parse_iskur_table(SAMPLE_TABLE_HTML)
+    assert result[0]["kategori"] == "Sağlık"
+    assert result[1]["kategori"] == "Ekonomi/Finans"
+    assert result[2]["kategori"] == "Sanat"
+
+
+def test_parse_table_popup_link():
+    """Test meslek_kodu extraction from MeslekDetayPopUp() link."""
+    from scrape_iskur import parse_iskur_table
+
+    result = parse_iskur_table(SAMPLE_TABLE_HTML)
+    # Rows with popup links should use the code from the link
+    assert result[0]["meslek_kodu"] == "3258.02"
+    assert "3258.02" in result[0]["url"]
+
+
+def test_parse_table_detail_url():
+    """Test that detail URLs point to ViewMeslekDetayPopUp."""
+    from scrape_iskur import parse_iskur_table
+
+    result = parse_iskur_table(SAMPLE_TABLE_HTML)
+    assert "ViewMeslekDetayPopUp.aspx" in result[0]["url"]
+    assert result[0]["url"].endswith("3258.02")
+
+
+def test_parse_table_empty():
+    """Test graceful handling of empty / unrecognised page."""
+    from scrape_iskur import parse_iskur_table
+
+    result = parse_iskur_table("<html><body><p>404</p></body></html>")
     assert result == []
 
 
-def test_parse_iskur_index_skips_items_without_link():
-    """Items that have no <a> tag must be silently skipped."""
+def test_parse_table_skips_header():
+    """Test that header row is skipped."""
+    from scrape_iskur import parse_iskur_table
+
+    html = """
+    <table cellspacing="0">
+    <tr><td>Meslek Kodu</td><td>Meslek</td><td>Eğitim</td><td>Kategori</td></tr>
+    <tr><td>1234.01</td><td>Test Meslek</td><td>Lise</td><td>Test</td></tr>
+    </table>
+    """
+    result = parse_iskur_table(html)
+    assert len(result) == 1
+    assert result[0]["meslek_adi"] == "Test Meslek"
+
+
+def test_parse_table_skips_invalid_code():
+    """Test that rows without valid ISCO codes are skipped."""
+    from scrape_iskur import parse_iskur_table
+
+    html = """
+    <table cellspacing="0">
+    <tr><td>ABC</td><td>Invalid</td><td>Lise</td></tr>
+    <tr><td>2411.01</td><td>Valid</td><td>Lisans</td></tr>
+    </table>
+    """
+    result = parse_iskur_table(html)
+    assert len(result) == 1
+    assert result[0]["meslek_adi"] == "Valid"
+
+
+def test_parse_table_slug():
+    """Test slug generation for parsed occupations."""
+    from scrape_iskur import parse_iskur_table
+
+    result = parse_iskur_table(SAMPLE_TABLE_HTML)
+    assert result[0]["slug"] == "acil-tip-teknisyeni"
+    assert result[1]["slug"] == "muhasebeci"
+    assert result[2]["slug"] == "kuafor"
+
+
+def test_backward_compat_parse_iskur_index():
+    """Test that parse_iskur_index is an alias for parse_iskur_table."""
     from scrape_iskur import parse_iskur_index
 
-    sample_html = """
-    <html><body>
-    <div class="meslek-item">
-        <span class="isco">9999</span>
-    </div>
-    <div class="meslek-item">
-        <a href="/meslek/7777">Seramikci</a>
-        <span class="isco">7777</span>
-    </div>
-    </body></html>
-    """
-
-    result = parse_iskur_index(sample_html)
-    assert len(result) == 1
-    assert result[0]["meslek_kodu"] == "7777"
+    result = parse_iskur_index(SAMPLE_TABLE_HTML)
+    assert len(result) == 3
 
 
 def test_slugify_basic():
@@ -131,20 +169,3 @@ def test_slugify_strips_special_chars():
     assert slugify("  Aşçı  ") == "asci"
     assert slugify("A/B Testi") == "a-b-testi"
     assert slugify("---Doktor---") == "doktor"
-
-
-def test_parse_iskur_index_slug_field():
-    """Verify that the slug field is populated in the result."""
-    from scrape_iskur import parse_iskur_index
-
-    sample_html = """
-    <html><body>
-    <div class="meslek-item">
-        <a href="/meslek/2411">Muhasebeci</a>
-        <span class="isco">2411</span>
-    </div>
-    </body></html>
-    """
-
-    result = parse_iskur_index(sample_html)
-    assert result[0]["slug"] == "muhasebeci"
