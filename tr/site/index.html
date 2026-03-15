@@ -840,27 +840,33 @@
     .empty-state p { font-size: 1rem; }
 
     /* ==============================
-       MODE TOGGLE
+       MODE TOGGLE (fixed top-right)
     ============================== */
     #mode-toggle-wrap {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 1000;
       text-align: center;
-      padding: 1.25rem 1rem 0.5rem;
     }
     .mode-toggle {
       display: inline-flex;
-      background: var(--bg3);
+      background: rgba(26,26,38,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       border-radius: 999px;
-      padding: 4px;
-      gap: 4px;
+      padding: 3px;
+      gap: 3px;
       border: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
     }
     .mode-btn {
       background: transparent;
       color: var(--text-dim);
       font-weight: 600;
-      padding: 0.5rem 1.2rem;
+      padding: 0.35rem 0.8rem;
       border-radius: 999px;
-      font-size: 0.88rem;
+      font-size: 0.78rem;
       transition: background 0.2s, color 0.2s;
       white-space: nowrap;
     }
@@ -1069,7 +1075,7 @@
       .stats-numbers { grid-template-columns: 1fr 1fr; }
       .bar-label { width: 90px; }
       #card-grid { grid-template-columns: 1fr; }
-      .mode-btn { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
+      .mode-btn { padding: 0.3rem 0.55rem; font-size: 0.7rem; }
       .dikkat-grid { grid-template-columns: 1fr; }
       .dual-score-label { width: 55px; font-size: 0.7rem; }
       .card-actions { flex-direction: column; }
@@ -1084,6 +1090,17 @@
   </style>
 </head>
 <body>
+
+<!-- ==============================
+     MODE TOGGLE (fixed top-right)
+============================== -->
+<div id="mode-toggle-wrap">
+  <div class="mode-toggle">
+    <button class="mode-btn active" data-mode="ai">AI Riski</button>
+    <button class="mode-btn" data-mode="robotik">Robotik Riski</button>
+    <button class="mode-btn" data-mode="toplam">Toplam Risk</button>
+  </div>
+</div>
 
 <!-- ==============================
      HERO
@@ -1109,24 +1126,15 @@
   </div>
 </section>
 
-<!-- ==============================
-     MODE TOGGLE
-============================== -->
-<div id="mode-toggle-wrap">
-  <div class="mode-toggle">
-    <button class="mode-btn active" data-mode="ai">AI Riski</button>
-    <button class="mode-btn" data-mode="robotik">Robotik Riski</button>
-    <button class="mode-btn" data-mode="toplam">Toplam Risk</button>
-  </div>
-  <div id="robotik-info">
-    <button class="robotik-info-toggle" id="robotik-info-toggle">Robotik veriler hakkinda</button>
-    <div class="robotik-info-panel" id="robotik-info-panel">
-      <ul>
-        <li><strong>ABD robotik yatirimlari</strong> 2025'te $10.3 milyar'a ulasti</li>
-        <li><strong>Tesla Optimus:</strong> 1,000+ robot fabrikada aktif, birim maliyet $20K</li>
-        <li><strong>Amazon</strong> depolarda Agility Digit robotlari calisiyor</li>
-      </ul>
-    </div>
+<!-- Robotik info (below hero, in page flow) -->
+<div id="robotik-info" style="max-width:700px; margin:0.75rem auto 0; text-align:center;">
+  <button class="robotik-info-toggle" id="robotik-info-toggle">Robotik veriler hakkinda</button>
+  <div class="robotik-info-panel" id="robotik-info-panel">
+    <ul>
+      <li><strong>ABD robotik yatirimlari</strong> 2025'te $10.3 milyar'a ulasti</li>
+      <li><strong>Tesla Optimus:</strong> 1,000+ robot fabrikada aktif, birim maliyet $20K</li>
+      <li><strong>Amazon</strong> depolarda Agility Digit robotlari calisiyor</li>
+    </ul>
   </div>
 </div>
 
@@ -1266,7 +1274,7 @@
 ============================== -->
 <footer>
   <div class="container">
-    <p>Veriler TÜİK, İŞKUR ve Gemini 2.5 Flash analizi ile oluşturulmuştur. Robotik risk skorları ayrıca değerlendirilmiştir.</p>
+    <p>Veriler TÜİK, İŞKUR ve Opus 4.6 analizi ile oluşturulmuştur. Robotik risk skorları ayrıca değerlendirilmiştir.</p>
     <p>Tahminler bilgilendirme amaçlıdır — "AI ve robotik trendleri devam ederse" ön koşuluyla sunulmaktadır.</p>
     <p style="margin-top:0.5rem">
       <a href="https://github.com/flalingo" target="_blank" rel="noopener">GitHub</a>
@@ -1400,6 +1408,12 @@ function riskLabel(score) {
 // ============================================================
 // FORMAT HELPERS
 // ============================================================
+function formatTR(n) {
+  if (n >= 1000000) return (n / 1000000).toFixed(1).replace('.', ',') + ' milyon';
+  if (n >= 1000) return Math.round(n / 1000).toLocaleString('tr-TR') + ' bin';
+  return n.toLocaleString('tr-TR');
+}
+
 function formatMaas(val) {
   if (!val) return "\u2014";
   return "\u20BA" + val.toLocaleString("tr-TR") + "/ay";
@@ -1407,8 +1421,8 @@ function formatMaas(val) {
 
 function formatIstihdam(val) {
   if (!val) return "\u2014";
-  if (val >= 1000000) return (val / 1000000).toLocaleString("tr-TR", { maximumFractionDigits: 1 }) + " milyon kisi";
-  if (val >= 1000)    return (val / 1000).toLocaleString("tr-TR", { maximumFractionDigits: 0 }) + " bin kisi";
+  if (val >= 1000000) return (val / 1000000).toFixed(1).replace('.', ',') + " milyon kisi";
+  if (val >= 1000)    return Math.round(val / 1000).toLocaleString("tr-TR") + " bin kisi";
   return val.toLocaleString("tr-TR") + " kisi";
 }
 
@@ -1961,42 +1975,45 @@ function renderStats() {
   const scoreKey = getActiveLabel();
   let totalJobs = 0;
   let weightedScore = 0;
-  let highRiskJobs = 0;
+  let highRiskJobs = 0;       // sum of istihdam for occupations with score >= 7
+  let highRiskCount = 0;      // count of occupations with score >= 7
 
   DATA.forEach(d => {
     const jobs = d.istihdam || 0;
     const score = getActiveScore(d);
     totalJobs += jobs;
     weightedScore += score * jobs;
-    if (score >= 8) highRiskJobs += jobs;
+    if (score >= 7) {
+      highRiskJobs += jobs;
+      highRiskCount++;
+    }
   });
 
   const avgScore = totalJobs > 0 ? (weightedScore / totalJobs) : 0;
-  const highRiskMilyon = (highRiskJobs / 1000000).toFixed(1);
 
   const headline = document.getElementById("stats-headline");
-  headline.innerHTML = `<span>${highRiskMilyon} milyon</span> is yuksek ${getActiveShortLabel().toLocaleLowerCase("tr-TR")} riski altinda`;
+  headline.innerHTML = `<span>${formatTR(highRiskJobs)}</span> is yuksek ${getActiveShortLabel().toLocaleLowerCase("tr-TR")} riski altinda`;
 
   document.getElementById("stats-subline").textContent =
-    `${DATA.length} meslek analiz edildi \u2014 agirlikli ortalama ${scoreKey.toLocaleLowerCase("tr-TR")}: ${avgScore.toFixed(1)}/10`;
+    `${DATA.length.toLocaleString('tr-TR')} meslek analiz edildi \u2014 agirlikli ortalama ${scoreKey.toLocaleLowerCase("tr-TR")}: ${avgScore.toFixed(1)}/10`;
 
   const numbersEl = document.getElementById("stats-numbers");
   numbersEl.innerHTML = `
     <div class="stat-box">
-      <div class="num">${DATA.length}</div>
+      <div class="num">${DATA.length.toLocaleString('tr-TR')}</div>
       <div class="lbl">Meslek Analiz Edildi</div>
     </div>
     <div class="stat-box">
-      <div class="num">${(totalJobs/1000000).toFixed(1)}M</div>
-      <div class="lbl">Toplam Istihdam</div>
+      <div class="num">~${formatTR(totalJobs)}</div>
+      <div class="lbl">Kapsamda Calisan</div>
     </div>
     <div class="stat-box">
-      <div class="num" style="color:${modeColorGradient(avgScore)}">${avgScore.toFixed(1)}</div>
-      <div class="lbl">Agirlikli Ort. ${getActiveShortLabel()}</div>
+      <div class="num" style="color:${modeColorGradient(avgScore)}">${avgScore.toFixed(1)} / 10</div>
+      <div class="lbl">Ortalama ${getActiveShortLabel()} Riski</div>
     </div>
     <div class="stat-box">
-      <div class="num" style="color:var(--risk-red)">${highRiskMilyon}M</div>
-      <div class="lbl">Yuksek Riskli Is</div>
+      <div class="num" style="color:var(--risk-red)">${highRiskCount}</div>
+      <div class="lbl">Yuksek Riskli Meslek</div>
     </div>
   `;
 
