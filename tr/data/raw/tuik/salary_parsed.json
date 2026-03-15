@@ -1,0 +1,87 @@
+{
+  "B": {
+    "sektor_adi": "Madencilik ve taş ocakcılığı ",
+    "aylik_brut_ucret": 30658,
+    "aylik_brut_kazanc": 32689
+  },
+  "C": {
+    "sektor_adi": "İmalat ",
+    "aylik_brut_ucret": 23334,
+    "aylik_brut_kazanc": 25599
+  },
+  "D": {
+    "sektor_adi": "Elektrik, gaz, buhar ve iklimlendirme üretimi ve dağıtımı ",
+    "aylik_brut_ucret": 33301,
+    "aylik_brut_kazanc": 39510
+  },
+  "E": {
+    "sektor_adi": "Su temini; kanalizasyon, atık yönetimi ve iyileştirme faaliyetleri ",
+    "aylik_brut_ucret": 28266,
+    "aylik_brut_kazanc": 32074
+  },
+  "F": {
+    "sektor_adi": "İnşaat ",
+    "aylik_brut_ucret": 18259,
+    "aylik_brut_kazanc": 18910
+  },
+  "G": {
+    "sektor_adi": "Toptan ve perakende ticaret; motorlu kara taşıtlarının ve motosikletlerin onarımı ",
+    "aylik_brut_ucret": 19216,
+    "aylik_brut_kazanc": 21024
+  },
+  "H": {
+    "sektor_adi": "Ulaştırma ve depolama ",
+    "aylik_brut_ucret": 24394,
+    "aylik_brut_kazanc": 25863
+  },
+  "I": {
+    "sektor_adi": "Konaklama ve yiyecek hizmeti faaliyetleri ",
+    "aylik_brut_ucret": 17799,
+    "aylik_brut_kazanc": 18680
+  },
+  "J": {
+    "sektor_adi": "Bilgi ve iletişim ",
+    "aylik_brut_ucret": 50436,
+    "aylik_brut_kazanc": 54090
+  },
+  "K": {
+    "sektor_adi": "Finans ve sigorta faaliyetleri ",
+    "aylik_brut_ucret": 44512,
+    "aylik_brut_kazanc": 53805
+  },
+  "L": {
+    "sektor_adi": "Gayrimenkul faaliyetleri ",
+    "aylik_brut_ucret": 18427,
+    "aylik_brut_kazanc": 19766
+  },
+  "M": {
+    "sektor_adi": "Mesleki, bilimsel ve teknik faaliyetler ",
+    "aylik_brut_ucret": 23758,
+    "aylik_brut_kazanc": 25119
+  },
+  "N": {
+    "sektor_adi": "İdari ve destek hizmet faaliyetleri ",
+    "aylik_brut_ucret": 19651,
+    "aylik_brut_kazanc": 22377
+  },
+  "P": {
+    "sektor_adi": "Eğitim ",
+    "aylik_brut_ucret": 30340,
+    "aylik_brut_kazanc": 35250
+  },
+  "Q": {
+    "sektor_adi": "İnsan sağlığı ve sosyal hizmet faaliyetleri ",
+    "aylik_brut_ucret": 32750,
+    "aylik_brut_kazanc": 39569
+  },
+  "R": {
+    "sektor_adi": "Kültür, sanat, eğlence, dinlence ve spor ",
+    "aylik_brut_ucret": 35121,
+    "aylik_brut_kazanc": 39082
+  },
+  "S": {
+    "sektor_adi": "Diğer hizmet faaliyetleri ",
+    "aylik_brut_ucret": 19099,
+    "aylik_brut_kazanc": 19953
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "kaynak": "TÜİK Ücretli Çalışan İstatistikleri",
+    "donem": "2024-03",
+    "tur": "Arındırılmamış (Unadjusted)"
+  },
+  "B-N": {
+    "sektor_adi": "Sanayi, inşaat, ticaret ve hizmetler",
+    "istihdam": 15225128,
+    "yillik_degisim": 2.6
+  },
+  "B-E": {
+    "sektor_adi": "Sanayi",
+    "istihdam": 5022710,
+    "yillik_degisim": -1.0
+  },
+  "B": {
+    "sektor_adi": "Madencilik ve taş ocakçılığı",
+    "istihdam": 140756,
+    "yillik_degisim": -1.3
+  },
+  "C": {
+    "sektor_adi": "İmalat",
+    "istihdam": 4677941,
+    "yillik_degisim": -1.0
+  },
+  "D": {
+    "sektor_adi": "Elektrik, gaz, buhar ve iklimlendirme üretimi ve dağıtımı",
+    "istihdam": 137186,
+    "yillik_degisim": -0.4
+  },
+  "E": {
+    "sektor_adi": "Su temini; kanalizasyon, atık yönetimi ve iyileştirme faaliyetleri",
+    "istihdam": 66827,
+    "yillik_degisim": -1.7
+  },
+  "F": {
+    "sektor_adi": "İnşaat",
+    "istihdam": 1740411,
+    "yillik_degisim": 9.3
+  },
+  "G-N": {
+    "sektor_adi": "Ticaret ve hizmetler",
+    "istihdam": 8462007,
+    "yillik_degisim": 3.5
+  },
+  "G": {
+    "sektor_adi": "Ticaret",
+    "istihdam": 3291646,
+    "yillik_degisim": 1.5
+  },
+  "H": {
+    "sektor_adi": "Ulaştırma ve depolama",
+    "istihdam": 1204571,
+    "yillik_degisim": 4.7
+  },
+  "I": {
+    "sektor_adi": "Konaklama ve yiyecek hizmeti",
+    "istihdam": 1132944,
+    "yillik_degisim": 6.1
+  },
+  "J": {
+    "sektor_adi": "Bilgi ve iletişim",
+    "istihdam": 290991,
+    "yillik_degisim": 2.0
+  },
+  "K": {
+    "sektor_adi": "Finans ve sigorta faaliyetleri",
+    "istihdam": 338569,
+    "yillik_degisim": 1.8
+  },
+  "L": {
+    "sektor_adi": "Gayrimenkul faaliyetleri",
+    "istihdam": 120375,
+    "yillik_degisim": 2.2
+  },
+  "M": {
+    "sektor_adi": "Mesleki, bilimsel ve teknik faaliyetler",
+    "istihdam": 648971,
+    "yillik_degisim": 2.0
+  },
+  "N": {
+    "sektor_adi": "İdari ve destek hizmet faaliyetleri",
+    "istihdam": 1433940,
+    "yillik_degisim": 7.0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "1": {
+    "meslek_grubu": "Yöneticiler",
+    "yillik_brut_kazanc": 538530,
+    "aylik_brut_kazanc": 44878
+  },
+  "2": {
+    "meslek_grubu": "Profesyonel meslek mensupları",
+    "yillik_brut_kazanc": 409767,
+    "aylik_brut_kazanc": 34147
+  },
+  "3": {
+    "meslek_grubu": "Teknisyenler, teknikerler ve yardımcı profesyonel meslek mensupları",
+    "yillik_brut_kazanc": 334705,
+    "aylik_brut_kazanc": 27892
+  },
+  "4": {
+    "meslek_grubu": "Büro hizmetlerinde çalışan elemanlar",
+    "yillik_brut_kazanc": 307553,
+    "aylik_brut_kazanc": 25629
+  },
+  "5": {
+    "meslek_grubu": "Hizmet ve satış elemanları",
+    "yillik_brut_kazanc": 218744,
+    "aylik_brut_kazanc": 18229
+  },
+  "6": {
+    "meslek_grubu": "Nitelikli tarım, ormancılık ve su ürünleri çalışanları",
+    "yillik_brut_kazanc": 202809,
+    "aylik_brut_kazanc": 16901
+  },
+  "7": {
+    "meslek_grubu": "Sanatkarlar ve ilgili işlerde çalışanlar",
+    "yillik_brut_kazanc": 235206,
+    "aylik_brut_kazanc": 19600
+  },
+  "8": {
+    "meslek_grubu": "Tesis ve makine operatörleri ve montajcılar",
+    "yillik_brut_kazanc": 242412,
+    "aylik_brut_kazanc": 20201
+  },
+  "9": {
+    "meslek_grubu": "Nitelik gerektirmeyen meslekler",
+    "yillik_brut_kazanc": 207471,
+    "aylik_brut_kazanc": 17289
+  }
+}
