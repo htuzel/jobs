@@ -1,0 +1,42 @@
+{
+  "1": {
+    "oran": 8,
+    "not": "Yöneticiler genelde kayitli, ancak kucuk isletmelerde dusuk maas bildirimi yaygin"
+  },
+  "2": {
+    "oran": 10,
+    "not": "Profesyoneller cogunlukla kayitli, serbest calisan avukat/muhendis/doktor kisminda dusuk beyan var"
+  },
+  "3": {
+    "oran": 15,
+    "not": "Teknisyenler karma - buyuk firmalarda kayitli, kucuk atolyelerde kayit disi olabilir"
+  },
+  "4": {
+    "oran": 12,
+    "not": "Buro calisanlari genelde kayitli, part-time ve stajyerlerde kayit disi yaygin"
+  },
+  "5": {
+    "oran": 35,
+    "not": "Hizmet ve satis sektoru kayit disinin en yogun oldugu alan - esnaf, garson, kuafor"
+  },
+  "6": {
+    "oran": 82,
+    "not": "Tarim Turkiyede kayit disinin sampiyonu - ucretsiz aile iscisi ve mevsimlik isci cok"
+  },
+  "7": {
+    "oran": 40,
+    "not": "Sanatkarlar ve zanaat - mobilyaci, tesisatci, boyaci gibi islerde kayit disi cok yaygin"
+  },
+  "8": {
+    "oran": 25,
+    "not": "Makine operatorleri ve soforler - buyuk firmalarda kayitli, kucuk nakliyecilerde kayit disi"
+  },
+  "9": {
+    "oran": 55,
+    "not": "Nitelik gerektirmeyen isler - temizlik, tas kesme, hamaliye gibi islerde buyuk cogunluk kayit disi"
+  },
+  "0": {
+    "oran": 2,
+    "not": "Silahli kuvvetler tamamen kayitli"
+  }
+}

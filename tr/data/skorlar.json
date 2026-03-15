@@ -1,0 +1,82 @@
+[
+  {
+    "meslek": "Acil Tıp Teknisyeni",
+    "ai_skor": 3,
+    "rationale": "Acil Tıp Teknisyenliği, yüksek düzeyde fiziksel müdahale, öngörülemeyen saha koşulları ve kritik insan etkileşimi gerektiren bir meslektir. AI, tanıya yardımcı olabilir, rota optimizasyonu sağlayabilir veya idari yükü azaltabilir; ancak hastayı taşımak, fiziksel müdahalede bulunmak ve kriz anında empati kurmak gibi temel görevleri otomatikleştiremez. Türkiye'deki dijitalleşme seviyesi ve bölgesel farklılıklar, bu meslekte AI entegrasyonunu yavaşlatacaktır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, acil tıp teknisyenleri daha akıllı karar destek sistemleri ve giyilebilir teknolojilerle donanacak, ancak kriz anındaki insan dokunuşu ve fiziksel müdahale her zaman kritik kalacak.",
+    "kayit_disi_notu": "Acil Tıp Teknisyenleri genellikle kayıtlı sağlık sektöründe çalıştığından, AI'ın etkisi doğrudan işveren kararları ve sektördeki verimlilik baskısı üzerinden hissedilecektir.",
+    "meslek_kodu": "3258.02"
+  },
+  {
+    "meslek": "Acil Yardım ve Afet Yöneticisi",
+    "ai_skor": 6,
+    "rationale": "Mesleğin saha operasyonları, insan yönetimi ve kriz anında fiziksel varlık gerektiren yönleri AI tarafından doğrudan otomatikleştirilemez. Ancak, risk analizi, kaynak planlaması, lojistik optimizasyonu ve durum farkındalığı gibi bilgi yoğun görevlerde AI, yöneticilerin karar alma süreçlerini hızlandırarak ve verimliliği artırarak önemli bir destek sağlayacaktır. Türkiye'deki dijitalleşme hızı, özellikle büyük şehirlerde, bu entegrasyonu hızlandıracaktır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, afet yöneticileri artık sadece insanları değil, AI destekli sistemleri de yönetmek zorunda kalacak. Veri analizi ve optimizasyon AI'a emanet, liderlik ve empati insana.",
+    "kayit_disi_notu": "Bu profesyonel meslekte kayıtdışı istihdam oranı düşük olsa da, AI'ın getireceği verimlilik artışı, resmi istihdamda yeni alımları yavaşlatma potansiyeli taşır.",
+    "meslek_kodu": "2269.16"
+  },
+  {
+    "meslek": "Adalet Meslek Elemanı",
+    "ai_skor": 8,
+    "rationale": "Adalet meslek elemanlarının görevleri büyük ölçüde hukuki belge hazırlama, dava dosyası takibi, araştırma ve idari süreçlerden oluşur. AI, bu görevlerin (dilekçe taslağı oluşturma, emsal karar bulma, yasal metin analizi, veri girişi) önemli bir kısmını yüksek doğruluk ve hızla otomatikleştirebilir veya destekleyebilir. Bu, bilgi yoğun bir meslek olduğu için AI'a yüksek maruz kalma riski taşır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, adalet meslek elemanları için rutin evrak işleri ve araştırmalar AI'a devredilecek. AI'ı etkin kullananlar, hukuki süreçlerin mimarı olacak.",
+    "kayit_disi_notu": "Kayıt dışı çalışan adalet meslek elemanları, AI'ın getirdiği verimlilik artışı nedeniyle piyasada daha az talep görebilir ve rekabet avantajını kaybedebilir.",
+    "meslek_kodu": "3411.03"
+  },
+  {
+    "meslek": "Adli Bilimci",
+    "ai_skor": 6,
+    "rationale": "Adli bilimcilik, fiziksel delil toplama ve laboratuvar çalışmalarını içerse de, DNA, parmak izi, balistik ve özellikle dijital veriler gibi alanlardaki analiz ve raporlama süreçleri AI tarafından büyük ölçüde hızlandırılabilir ve otomatikleştirilebilir. AI, karmaşık veri setlerinde desenleri tanıma ve sonuçları özetleme konusunda çok yeteneklidir. Ancak, delil toplama, etik değerlendirme ve mahkemede tanıklık gibi insan muhakemesi gerektiren kısımlar AI'ın doğrudan etkisi dışındadır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, adli bilimciler için delil analizi AI ile saniyeler sürecek; ancak AI'ın sunduğu veriyi doğru yorumlamak ve mahkemede savunmak, kariyerlerinin anahtarı olacak.",
+    "kayit_disi_notu": "Adli bilimcilik, büyük ölçüde kayıtlı ve kurumsal bir meslek olduğundan, kayıt dışı ekonomi AI maruziyetini doğrudan etkilemez; etki, kurumların dijitalleşme hızıyla belirlenir.",
+    "meslek_kodu": "2113.09"
+  },
+  {
+    "meslek": "Adli Bilişim Mühendisi",
+    "ai_skor": 8,
+    "rationale": "Adli bilişim, büyük ölçüde dijital veri analizi, kod incelemesi, siber olaylara müdahale ve raporlama üzerine kurulu bir meslektir. AI, log analizi, zararlı yazılım tersine mühendisliği, veri kurtarma ve hatta hukuki metin analizi gibi görevlerin çoğunu otomatikleştirebilir veya insanüstü hızda gerçekleştirebilir. Mevcut AI'lar, karmaşık kod analizi ve problem çözme yetenekleriyle bu alandaki rutin ve hatta bazı karmaşık görevleri üstlenebilir. İnsan faktörü, stratejik karar alma, etik değerlendirme ve mahkemede uzman tanıklığı için kritik kalacaktır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, adli bilişim mühendisleri artık dijital delil avcısı değil, AI'ın ürettiği bulguları yorumlayan ve strateji geliştiren birer 'siber dedektif'e dönüşecek.",
+    "kayit_disi_notu": "Bu meslek, genellikle kurumsal ve resmi yapılar içinde icra edildiğinden kayıtdışı ekonomiden doğrudan etkilenmez; ancak AI'ın getireceği verimlilik artışı, sektördeki işgücü talebini ve beklentilerini dolaylı yoldan şekillendirecektir.",
+    "meslek_kodu": "2529.08"
+  },
+  {
+    "meslek": "Adli Tıp Teknikeri/Otopsi Yardımcılığı Sağlık Teknikeri",
+    "ai_skor": 3,
+    "rationale": "Mesleğin büyük bir kısmı, otopsi süreçlerinde fiziksel müdahale, örnek toplama ve biyolojik materyallerle doğrudan çalışma gibi tahmin edilemez ve hassas el becerileri gerektiren görevlerden oluşur. AI, raporlama, görüntü analizi ve veri toplama gibi destekleyici süreçlerde yardımcı olsa da, otopsinin çekirdek fiziksel ve yargısal yönlerini otomatikleştirmesi yakın gelecekte mümkün görünmemektedir. Türkiye'deki dijitalleşme seviyesi ve bu alandaki özel regülasyonlar da tam otomasyonu yavaşlatacaktır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, adli tıp teknikerleri otopsi salonunda AI destekli analiz araçlarıyla daha hızlı ve detaylı raporlar hazırlayacak, ancak fiziksel müdahale yetkinlikleri vazgeçilmez kalacak.",
+    "kayit_disi_notu": "Bu meslek, devlet veya özel kurumlar bünyesinde yüksek düzeyde regüle edilmiş ve kayıtlı bir alanda icra edildiğinden, kayıt dışı ekonomi AI maruziyetini doğrudan etkilemeyecektir.",
+    "meslek_kodu": "3119.32"
+  },
+  {
+    "meslek": "Ahşap Boyama ve Vernikleme Elemanı",
+    "ai_skor": 2,
+    "rationale": "Bu meslek, büyük ölçüde fiziksel el becerisi, ince motor kontrolü ve ahşabın doğal yapısına uyum gerektiren bir zanaattır. AI, endüstriyel boyama robotlarına yön verebilse de, ahşabın benzersiz dokusu, kusurları ve özel tasarım gerektiren işlerdeki insan yargısı ve adaptasyonu henüz AI tarafından tam olarak taklit edilemez. Bu nedenle, doğrudan otomasyon riski düşüktür.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, AI fırçayı eline alamaz; ancak AI destekli seri üretim, el işçiliğine olan talebi dönüştürerek rekabeti artırabilir.",
+    "kayit_disi_notu": "Kayıt dışı çalışan ahşap boyama ve vernikleme elemanları, AI'ın doğrudan işten çıkarma riskinden ziyade, AI destekli endüstriyel üretimin artan rekabetiyle müşteri bulmakta zorlanabilir.",
+    "meslek_kodu": "7316.17"
+  },
+  {
+    "meslek": "Ahşap Doğrama Teknolojisi Teknisyeni",
+    "ai_skor": 4,
+    "rationale": "Bu meslek, ahşap işleme makinelerinin kullanımı, montaj ve yerinde uygulama gibi yoğun fiziksel beceriler gerektirir. AI, tasarım optimizasyonu, malzeme verimliliği ve CNC makinelerinin programlanmasında yardımcı olabilirken, karmaşık montaj, yerinde uyarlama ve el işçiliği gerektiren detaylar hala insan uzmanlığına ihtiyaç duyar. Türkiye'deki küçük atölyelerin dijitalleşme hızı ve bölgesel farklılıklar, AI'ın doğrudan etkisini yavaşlatacaktır.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, ahşap doğrama teknisyenleri için tasarım ve üretim süreçleri hızlanacak. El becerisi ve yaratıcılık önemini korurken, AI destekli tasarım ve CNC programlama araçlarını kullananlar rekabette öne geçecek.",
+    "kayit_disi_notu": "Kayıt dışı çalışan ahşap doğrama teknisyenleri, AI'ın doğrudan işlerini almasından ziyade, dijitalleşen ve AI kullanan rakiplerin artan verimliliği nedeniyle pazar payı ve müşteri bulma zorluğu yaşayabilir.",
+    "meslek_kodu": "3435.01"
+  },
+  {
+    "meslek": "Ahşap Doğrama ve Kaplamacısı / Ahşap Yapı Sistemcisi",
+    "ai_skor": 2,
+    "rationale": "Meslek, büyük ölçüde fiziksel el becerisi, mekansal zeka ve tahmin edilemez ortamlarda (şantiye, atölye) problem çözme gerektirir. AI, tasarım ve malzeme optimizasyonunda yardımcı olsa da, ahşabın işlenmesi ve montajı gibi temel görevler yüksek düzeyde insan müdahalesi ve adaptasyon yeteneği ister.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, AI senin el becerini alamaz ama AI destekli tasarım ve üretim araçlarını kullanmayan ahşap ustaları, rekabette zorlanacak.",
+    "kayit_disi_notu": "Kayıt dışı çalışan ahşap ustaları, AI'ın doğrudan işlerini almasından çok, dijitalleşen piyasada müşteri bulmakta ve rekabet avantajı sağlamakta zorlanma riskiyle karşı karşıya kalacak.",
+    "meslek_kodu": "7115.01"
+  },
+  {
+    "meslek": "Ahşap Karoserci",
+    "ai_skor": 1,
+    "rationale": "Ahşap karoserci mesleği, büyük ölçüde fiziksel el becerisi, malzeme bilgisi ve özel tasarım/üretim gerektiren bir zanaattır. AI, tasarım veya malzeme optimizasyonunda yardımcı olsa da, ahşabı kesme, şekillendirme ve birleştirme gibi temel fiziksel görevleri doğrudan otomatikleştiremez. Her projenin benzersizliği ve öngörülemeyen fiziksel ortam, AI'ın doğrudan müdahalesini sınırlar.",
+    "bes_yil_tahmini": "AI trendleri devam ederse, ahşap karosercilik gibi el zanaatları daha da değerlenecek. AI senin el becerini alamaz ama tasarımlarını dijitalleştirip yeni müşterilere ulaşmanı kolaylaştırabilir.",
+    "kayit_disi_notu": "Kayıt dışı çalışan ahşap karoserciler, AI'ın doğrudan işten çıkarma riskinden ziyade, dijitalleşen piyasada müşteri bulma ve rekabet avantajı sağlama konusunda zorlanabilir.",
+    "meslek_kodu": "7522.02"
+  }
+]
