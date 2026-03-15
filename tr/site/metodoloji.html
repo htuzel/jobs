@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metodoloji — Turkiye AI Maruz Kalma Analizi 2026</title>
+  <meta name="description" content="Turkiye AI Maruz Kalma Analizi metodolojisi: veri kaynaklari, skorlama yontemi, sinirliliklar ve acik kaynak bilgileri.">
+  <link rel="canonical" href="https://jobs.hayredd.in/metodoloji.html">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="hayredd.in">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F916;</text></svg>">
+
+  <style>
+    /* ==============================
+       CSS VARIABLES & RESET
+    ============================== */
+    :root {
+      --bg:        #0a0a0f;
+      --bg2:       #12121a;
+      --bg3:       #1a1a26;
+      --border:    #2a2a3a;
+      --text:      #e0e0e8;
+      --text-dim:  #888899;
+      --accent:    #7c6af7;
+      --accent2:   #5e50d4;
+      --risk-red:  #e74c3c;
+      --risk-org:  #f39c12;
+      --risk-grn:  #2ecc71;
+      --radius:    12px;
+      --shadow:    0 4px 24px rgba(0,0,0,0.5);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ==============================
+       LAYOUT
+    ============================== */
+    .article-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ==============================
+       NAVIGATION
+    ============================== */
+    .top-nav {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg2);
+    }
+
+    .top-nav a {
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .top-nav a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* ==============================
+       HERO
+    ============================== */
+    .page-hero {
+      padding: 4rem 0 2rem;
+      text-align: center;
+      background: radial-gradient(ellipse at 50% 0%, rgba(124,106,247,0.08) 0%, transparent 60%);
+    }
+
+    .page-hero .eyebrow {
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+
+    .page-hero h1 .highlight {
+      background: linear-gradient(135deg, var(--accent), #e74c3c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .page-hero .subtitle {
+      color: var(--text-dim);
+      font-size: 1rem;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    /* ==============================
+       ARTICLE CONTENT
+    ============================== */
+    .article-content {
+      padding: 2rem 0 4rem;
+    }
+
+    .article-content h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      color: var(--text);
+    }
+
+    .article-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .article-content h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 1.75rem 0 0.6rem;
+      color: var(--accent);
+    }
+
+    .article-content p {
+      margin-bottom: 1rem;
+      color: var(--text);
+      font-size: 0.98rem;
+    }
+
+    .article-content ul, .article-content ol {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+    }
+
+    .article-content li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .article-content strong {
+      color: #fff;
+    }
+
+    /* Callout box */
+    .callout {
+      background: var(--bg2);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      font-size: 0.95rem;
+    }
+
+    .callout.callout-warn {
+      border-left-color: var(--risk-org);
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 1.25rem 0;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    thead {
+      background: var(--bg3);
+    }
+
+    th {
+      text-align: left;
+      padding: 0.7rem 0.9rem;
+      font-weight: 700;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      border-bottom: 2px solid var(--border);
+    }
+
+    td {
+      padding: 0.55rem 0.9rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background: rgba(124,106,247,0.04);
+    }
+
+    .score-cell {
+      font-weight: 700;
+      text-align: center;
+    }
+
+    /* Table of Contents */
+    .toc {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .toc-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+      margin-bottom: 0.75rem;
+    }
+
+    .toc ol {
+      padding-left: 1.25rem;
+      margin-bottom: 0;
+    }
+
+    .toc li {
+      margin-bottom: 0.35rem;
+      font-size: 0.92rem;
+    }
+
+    .toc a {
+      color: var(--text);
+      transition: color 0.2s;
+    }
+
+    .toc a:hover {
+      color: var(--accent);
+    }
+
+    /* ==============================
+       FOOTER
+    ============================== */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+      line-height: 1.8;
+    }
+
+    footer a { color: var(--text-dim); }
+
+    /* ==============================
+       RESPONSIVE
+    ============================== */
+    @media (max-width: 600px) {
+      .article-container {
+        padding: 0 1rem;
+      }
+
+      .page-hero {
+        padding: 2.5rem 0 1.5rem;
+      }
+
+      .article-content h2 {
+        font-size: 1.3rem;
+      }
+
+      table {
+        font-size: 0.82rem;
+      }
+
+      th, td {
+        padding: 0.45rem 0.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ==============================
+     NAVIGATION
+============================== -->
+<nav class="top-nav">
+  <div class="article-container">
+    <a href="index.html">&larr; Ana Sayfa</a>
+  </div>
+</nav>
+
+<!-- ==============================
+     HERO
+============================== -->
+<header class="page-hero">
+  <div class="article-container">
+    <div class="eyebrow">Metodoloji</div>
+    <h1><span class="highlight">Turkiye AI Maruz Kalma</span> Analizi 2026</h1>
+    <p class="subtitle">1.123 meslek icin AI ve robotik risk skorlarinin nasil hesaplandigi, veri kaynaklari ve sinirliliklar</p>
+  </div>
+</header>
+
+<!-- ==============================
+     ARTICLE CONTENT
+============================== -->
+<main class="article-container">
+  <article class="article-content">
+
+    <!-- Table of Contents -->
+    <nav class="toc">
+      <div class="toc-title">Icindekiler</div>
+      <ol>
+        <li><a href="#proje-hakkinda">Proje Hakkinda</a></li>
+        <li><a href="#veri-kaynaklari">Veri Kaynaklari</a></li>
+        <li><a href="#ai-skor">AI Maruz Kalma Skoru (0-10)</a></li>
+        <li><a href="#robotik-skor">Robotik Risk Skoru (0-10)</a></li>
+        <li><a href="#turkiye-faktorler">Turkiye'ye Ozgu Faktorler</a></li>
+        <li><a href="#sinirliliklar">Sinirliliklar</a></li>
+        <li><a href="#acik-kaynak">Acik Kaynak</a></li>
+      </ol>
+    </nav>
+
+    <!-- 1. Proje Hakkinda -->
+    <h2 id="proje-hakkinda">1. Proje Hakkinda</h2>
+
+    <div class="callout">
+      Bu proje, Andrej Karpathy'nin ABD is piyasasi icin yaptigi AI maruz kalma analizinden esinlenilerek, Turkiye is piyasasina adapte edilmistir.
+    </div>
+
+    <p>
+      Andrej Karpathy (eski Tesla AI direktoru, OpenAI kurucu uyesi), 2025 yilinda ABD'deki mesleklerin yapay zekaya maruz kalma oranlarini analiz etti. Bu calisma
+      <a href="https://github.com/karpathy/jobs" target="_blank" rel="noopener">github.com/karpathy/jobs</a> ve
+      <a href="https://karpathy.ai/jobs" target="_blank" rel="noopener">karpathy.ai/jobs</a> adreslerinde yayinlandi.
+    </p>
+
+    <p>
+      Biz bu yaklasimi Turkiye is piyasasina uyarladik ve genislettik:
+    </p>
+
+    <ul>
+      <li><strong>1.123 meslek</strong> analiz edildi (Karpathy'nin 342 ABD meslegi yerine)</li>
+      <li><strong>Cift metrik sistemi:</strong> AI maruz kalma skorunun yanina <strong>robotik risk skoru</strong> eklendi</li>
+      <li>Turkiye'ye ozgu veriler entegre edildi: ISKUR meslekleri, TUIK maas/istihdam verileri, kayit disi ekonomi oranlari</li>
+      <li>Her meslek icin <strong>5 yillik tahmin</strong> ve <strong>kariyer onerileri</strong> uretildi</li>
+    </ul>
+
+    <!-- 2. Veri Kaynaklari -->
+    <h2 id="veri-kaynaklari">2. Veri Kaynaklari</h2>
+
+    <h3>ISKUR Turk Meslekler Sozlugu</h3>
+    <p>
+      <a href="https://esube.iskur.gov.tr" target="_blank" rel="noopener">esube.iskur.gov.tr</a> uzerinden elde edilen Turkiye resmi meslek siniflandirmasi. ISCO-08 uluslararasi standart meslek kodlarina uyumlu <strong>1.123 meslek</strong> icermektedir.
+    </p>
+
+    <h3>TUIK Kazanc Yapisi Istatistikleri 2023</h3>
+    <p>
+      Turkiye Istatistik Kurumu'nun sektorel ve meslek grubu bazinda yayinladigi maas verileri. ISCO ana gruplari (1 haneli kodlar) bazinda ortalama brut ucretleri icermektedir.
+    </p>
+
+    <h3>TUIK Ucretli Calisan Istatistikleri 2024</h3>
+    <p>
+      Sektorel istihdam sayilari ve yillik buyume trendleri. Hangi sektorlerde istihdam artip azaldigi bilgisini saglar.
+    </p>
+
+    <h3>Enflasyon Duzeltmesi</h3>
+    <p>
+      TUIK 2023 Kasim donemi maas verileri, <strong>~%65 kumulatif enflasyon tahmini</strong> ile 2026 yilina guncellenistir. Bu duzeltme, Turkiye'nin yuksek enflasyon ortaminda daha gercekci maas karsilastirmasi yapilmasini saglar.
+    </p>
+
+    <!-- 3. AI Maruz Kalma Skoru -->
+    <h2 id="ai-skor">3. AI Maruz Kalma Skoru (0-10)</h2>
+
+    <h3>Skorlama Yontemi</h3>
+    <p>
+      Her meslek, <strong>Claude Opus 4.6</strong> (Anthropic) kullanilarak tek tek degerlendirildi. 12 paralel agent, meslekleri es zamanli olarak analiz etti. Her meslek icin su sorular cevaplandi:
+    </p>
+    <ul>
+      <li>Meslekteki gorevlerin yuzde kaci AI tarafindan yapilabilir?</li>
+      <li>Mevcut AI araclari bu iste ne kadar yetkin?</li>
+      <li>Insan-AI is birligi mi, yoksa tam otomasyon mu daha olasidir?</li>
+    </ul>
+
+    <h3>Kalibrasyon Skalasi</h3>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Skor</th>
+            <th>Anlami</th>
+            <th>Ornek Meslekler</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell">0-1</td>
+            <td>Tamamen fiziksel is, dijital bilesen yok</td>
+            <td>Insaat iscisi, balikci, oduncu</td>
+          </tr>
+          <tr>
+            <td class="score-cell">2-3</td>
+            <td>Agirlikli fiziksel, sinirli dijital gorevler</td>
+            <td>Asci, elektrikci, tesisatci</td>
+          </tr>
+          <tr>
+            <td class="score-cell">4-5</td>
+            <td>Karma is: hem fiziksel hem dijital</td>
+            <td>Hemsire, ogretmen, polis memuru</td>
+          </tr>
+          <tr>
+            <td class="score-cell">6-7</td>
+            <td>Agirlikli dijital, bazi gorevler otomatik</td>
+            <td>Muhasebeci, pazarlamaci, gazeteci</td>
+          </tr>
+          <tr>
+            <td class="score-cell">8-9</td>
+            <td>Neredeyse tamamen dijital, yuksek otomasyon riski</td>
+            <td>Veri girisi, cagri merkezi, cevirmen</td>
+          </tr>
+          <tr>
+            <td class="score-cell">10</td>
+            <td>Rutin dijital is, AI halihazirda yapabiliyor</td>
+            <td>Basit kodlama, metin ozetleme, form isleme</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Temel Kural</h3>
+    <div class="callout">
+      "Is tamamen evden bilgisayarla yapilabiliyorsa &rarr; en az 7"
+    </div>
+    <p>
+      Bu basit sezgisel kural, dijital islerin AI'ya maruz kalma oraninin fiziksel islerden sistematik olarak daha yuksek oldugu gercegini yansitir.
+    </p>
+
+    <h3>AI Yetkinlik Baglami (Mart 2026)</h3>
+    <p>Skorlar, Mart 2026 itibariyle AI ekosisteminin mevcut yetenekleri goz onunde bulundurularak verilmistir:</p>
+    <ul>
+      <li><strong>Claude Opus 4.6</strong> (Anthropic) &mdash; Gelismis akil yurutme, kodlama, analiz</li>
+      <li><strong>GPT 5.4</strong> (OpenAI) &mdash; Cok modlu dil modeli</li>
+      <li><strong>Codex</strong> (OpenAI) &mdash; Otonom yazilim gelistirme agenti</li>
+      <li><strong>Nano Banana 2</strong> &mdash; Gorsel uretim</li>
+      <li><strong>Seedance 2</strong> &mdash; Video uretim</li>
+    </ul>
+
+    <h3>Benchmark Referanslari</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Benchmark</th>
+            <th>AI Performansi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SWE-bench (yazilim muhendisligi)</td>
+            <td><strong>%70+</strong> cozum orani</td>
+          </tr>
+          <tr>
+            <td>Bar Sinavi (ABD hukuk)</td>
+            <td>Ust <strong>%10</strong> dilim</td>
+          </tr>
+          <tr>
+            <td>USMLE (ABD tip sinavi)</td>
+            <td><strong>3/3</strong> asamayi gecti</td>
+          </tr>
+          <tr>
+            <td>CPA (muhasebe sinavi)</td>
+            <td><strong>Gecti</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      Anthropic'in arastirmasina gore "Observed Exposure" metriginde, bilgisayar bilimleri meslekleri <strong>%94 teorik maruz kalma</strong> oranina sahiptir &mdash; yani AI bu mesleklerdeki gorevlerin neredeyse tamamini teorik olarak yapabilir durumda.
+    </p>
+
+    <!-- 4. Robotik Risk Skoru -->
+    <h2 id="robotik-skor">4. Robotik Risk Skoru (0-10)</h2>
+
+    <h3>Neden Ayri Bir Robotik Skoru?</h3>
+    <p>
+      Karpathy'nin orijinal analizi yalnizca yazilim-temelli AI'yi kapsiyordu. Ancak fiziksel mesleklerde asil tehdit <strong>robotik otomasyon</strong>dur. Bu nedenle ayri bir robotik risk skoru ekledik.
+    </p>
+
+    <h3>Kuresel Robotik Gelismeler</h3>
+    <ul>
+      <li><strong>ABD robotik yatirimlari:</strong> 2025'te <strong>$10.3 milyar</strong></li>
+      <li><strong>Tesla Optimus:</strong> 1.000'den fazla humanoid robot fabrikada aktif, birim maliyet hedefi <strong>$20.000</strong></li>
+      <li><strong>Amazon / Agility Digit:</strong> Depolarda kutu tasima ve lojistik</li>
+      <li><strong>Figure AI + BMW:</strong> Fabrika montaj hattinda humanoid robotlar</li>
+    </ul>
+
+    <h3>Robotik Kalibrasyon Skalasi</h3>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Skor</th>
+            <th>Anlami</th>
+            <th>Ornek</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell">0-1</td>
+            <td>Fiziksel otomasyon imkansiz veya anlamsiz</td>
+            <td>Psikolog, yonetici, yazilimci</td>
+          </tr>
+          <tr>
+            <td class="score-cell">2-3</td>
+            <td>Cok sinirli otomasyon potansiyeli</td>
+            <td>Ogretmen, avukat, doktor</td>
+          </tr>
+          <tr>
+            <td class="score-cell">4-5</td>
+            <td>Bazi gorevler otomatiklestirilebilir</td>
+            <td>Asci, kuafor, garson</td>
+          </tr>
+          <tr>
+            <td class="score-cell">6-7</td>
+            <td>Onemli otomasyon potansiyeli mevcut</td>
+            <td>Montaj iscisi, ambalajci, kuryeci</td>
+          </tr>
+          <tr>
+            <td class="score-cell">8-9</td>
+            <td>Zaten otomatiklesiyor veya cok yakin</td>
+            <td>Depo iscisi, kaynak operatoru, forklift</td>
+          </tr>
+          <tr>
+            <td class="score-cell">10</td>
+            <td>Tam otomasyon mevcut veya uygulamada</td>
+            <td>Otomatik uretim hatti, otonom arac</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 5. Turkiye'ye Ozgu Faktorler -->
+    <h2 id="turkiye-faktorler">5. Turkiye'ye Ozgu Faktorler</h2>
+
+    <h3>Kayit Disi Ekonomi (~%30)</h3>
+    <p>
+      Turkiye'de ekonominin yaklasik %30'u kayit disi. Bu oran mesleklere gore onemli olcude degisir:
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ISCO Grubu</th>
+            <th>Tahmini Kayit Disi Orani</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yoneticiler</td>
+            <td>%5-10</td>
+          </tr>
+          <tr>
+            <td>Profesyonel meslek mensuplari</td>
+            <td>%10-15</td>
+          </tr>
+          <tr>
+            <td>Teknisyenler ve yardimci profesyoneller</td>
+            <td>%15-25</td>
+          </tr>
+          <tr>
+            <td>Buro hizmetleri calisanlari</td>
+            <td>%10-20</td>
+          </tr>
+          <tr>
+            <td>Hizmet ve satis calisanlari</td>
+            <td>%30-50</td>
+          </tr>
+          <tr>
+            <td>Nitelikli tarim calisanlari</td>
+            <td>%60-80</td>
+          </tr>
+          <tr>
+            <td>Sanatkcarlar ve ilgili islerde calisanlar</td>
+            <td>%30-50</td>
+          </tr>
+          <tr>
+            <td>Tesis ve makine operatorleri</td>
+            <td>%20-35</td>
+          </tr>
+          <tr>
+            <td>Nitelik gerektirmeyen isler</td>
+            <td>%50-70</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Dusuk Maas Bildirimi</h3>
+    <p>
+      TUIK verileri yalnizca <strong>kayitli istihdami</strong> kapsamaktadir. Kayit disi calisanlar dahil edildiginde gercek ortalama maaslar istatistiklerden dusuk olabilir.
+    </p>
+
+    <h3>Bolgesel Esitsizlik</h3>
+    <p>
+      Istanbul ile Guneydogu Anadolu arasinda buyuk bir <strong>dijital ucurum</strong> vardir. AI maruz kalma riskleri buyuksehirlerde cok daha erken hissedilecekken, kirsal bolgeler fiziksel mesleklerin yogunlugu nedeniyle robotik riskle daha gec karsilasacaktir.
+    </p>
+
+    <h3>Genc Issizlik</h3>
+    <p>
+      Turkiye'de genc issizlik orani <strong>%16.3</strong> (2024). AI otomasyonunun is piyasasina giris pozisyonlarini daraltmasi, bu orani daha da artirabilir.
+    </p>
+
+    <h3>Dusuk Isgucu Maliyeti ve Robot ROI</h3>
+    <p>
+      Turkiye'nin nispeten dusuk isgucu maliyeti, robot yatirimlarinin geri donus suresini uzatir. Bu nedenle ABD'de ekonomik olan robotik otomasyon, Turkiye'de henuz mali acidan karsilanamayabilir &mdash; robot ROI esigi daha yuksektir.
+    </p>
+
+    <!-- 6. Sinirliliklar -->
+    <h2 id="sinirliliklar">6. Sinirliliklar</h2>
+
+    <div class="callout callout-warn">
+      Bu analizin sonuclari bilgilendirme amacidir. Kesin gelecek tahminleri olarak yorumlanmamalidir.
+    </div>
+
+    <ul>
+      <li><strong>Istihdam verileri sektoreldir, meslek bazinda degildir.</strong> TUIK sektorel istihdam rakamlari meslekler arasinda bolunmustur &mdash; bireysel meslek bazinda istihdam sayisi tahmine dayalidir.</li>
+      <li><strong>Maas verileri ISCO ana grup ortalamasi.</strong> Ayni grup icindeki farkli mesleklerin gercel maaslari onemli olcude farklilik gosterebilir.</li>
+      <li><strong>Kayit disi oranlar tahmine dayali.</strong> Resmi kayit disi istihdam istatistikleri meslek bazinda yayinlanmamaktadir.</li>
+      <li><strong>AI ve robotik skorlar model degerlendirmesidir.</strong> Skorlar Claude Opus 4.6 tarafindan uretilmistir ve kesin tahmin degil, uzman degerlendirmesi olarak deger tasidir.</li>
+      <li><strong>Robotik risk Turkiye'de daha yavas gerceklesebilir.</strong> Turkiye'nin dusuk isgucu maliyeti nedeniyle robotik otomasyon ABD'ye kiyasla daha gec ekonomik hale gelebilir.</li>
+    </ul>
+
+    <!-- 7. Acik Kaynak -->
+    <h2 id="acik-kaynak">7. Acik Kaynak</h2>
+
+    <p>
+      Bu projenin tum kaynak kodu ve verileri acik kaynaktir.
+    </p>
+
+    <ul>
+      <li><strong>GitHub:</strong> <a href="https://github.com/flalingo" target="_blank" rel="noopener">github.com/flalingo</a></li>
+      <li><strong>Lisans:</strong> MIT &mdash; ticari ve akademik kullanim serbesttir</li>
+    </ul>
+
+    <h3>Katkida Bulunmak</h3>
+    <p>
+      Katkida bulunmak isteyenler GitHub uzerinden issue acabilir veya pull request gonderebilir. Ozellikle su alanlarda katkiya acigiz:
+    </p>
+    <ul>
+      <li>Meslek bazinda daha detayli istihdam verileri</li>
+      <li>Bolgesel analiz (il bazinda AI/robotik risk farkliliklari)</li>
+      <li>Skor kalibrasyonu icin uzman geri bildirimi</li>
+      <li>Ceviri ve uluslararasi karsilastirma</li>
+    </ul>
+
+  </article>
+</main>
+
+<!-- ==============================
+     FOOTER
+============================== -->
+<footer>
+  <div class="article-container">
+    <p>Veriler TUIK, ISKUR ve Opus 4.6 analizi ile olusturulmustur.</p>
+    <p style="margin-top:0.5rem">
+      <a href="index.html">Ana Sayfa</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://github.com/flalingo" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
