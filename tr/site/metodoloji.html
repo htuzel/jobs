@@ -83,6 +83,21 @@
     }
     .sponsor-line a:hover { text-decoration: underline; }
 
+    .sponsor-logo {
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+      filter: brightness(1.2);
+    }
+
+    .footer-brand {
+      margin-bottom: 1rem;
+    }
+    .footer-brand img {
+      display: block;
+      margin: 0 auto 8px;
+    }
+
     /* ==============================
        LAYOUT
     ============================== */
@@ -341,7 +356,9 @@
 <!-- ==============================
      HOME BUTTON (fixed top-left)
 ============================== -->
-<a id="home-btn" href="index.html">&#x1F3E0; Ana Sayfa</a>
+<a id="home-btn" href="index.html">
+  <img src="flalingo-logo.png" alt="Flalingo" style="height: 28px; vertical-align: middle;">
+</a>
 
 <!-- ==============================
      NAVIGATION
@@ -360,7 +377,7 @@
     <div class="eyebrow">Metodoloji</div>
     <h1><span class="highlight">Turkiye AI Maruz Kalma</span> Analizi 2026</h1>
     <p class="subtitle">1.123 meslek icin AI ve robotik risk skorlarinin nasil hesaplandigi, veri kaynaklari ve sinirliliklar</p>
-    <p class="sponsor-line"><a href="https://flalingo.com" target="_blank" rel="noopener">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır</p>
+    <p class="sponsor-line"><img src="flalingo-logo.png" alt="Flalingo" class="sponsor-logo"> AI Araştırma Merkezi tarafından hazırlanmıştır</p>
   </div>
 </header>
 
@@ -708,7 +725,7 @@
     </p>
 
     <ul>
-      <li><strong>GitHub:</strong> <a href="https://github.com/flalingo" target="_blank" rel="noopener">github.com/flalingo</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/htuzel/jobs" target="_blank" rel="noopener">github.com/htuzel/jobs</a></li>
       <li><strong>Lisans:</strong> MIT &mdash; ticari ve akademik kullanim serbesttir</li>
     </ul>
 
@@ -731,15 +748,17 @@
 ============================== -->
 <footer>
   <div class="article-container">
-    <p>Bu araştırma <a href="https://flalingo.com" target="_blank" rel="noopener" style="color:var(--accent)">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır.</p>
-    <p>Türkiye'nin ilk kapsamlı AI iş piyasası analizi.</p>
+    <div class="footer-brand">
+      <img src="flalingo-logo.png" alt="Flalingo" style="height: 32px; margin-bottom: 8px;">
+      <p>Türkiye'nin ilk kapsamlı AI iş piyasası analizi</p>
+      <p>&copy; 2026 Flalingo</p>
+    </div>
     <p style="margin-top:0.25rem">Veriler TUIK, ISKUR ve Opus 4.6 analizi ile olusturulmustur.</p>
     <p style="margin-top:0.5rem">
       <a href="index.html">Ana Sayfa</a>
       &nbsp;&middot;&nbsp;
-      <a href="https://github.com/flalingo" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/htuzel/jobs" target="_blank" rel="noopener">GitHub</a>
     </p>
-    <p style="margin-top:0.5rem">&copy; 2026 Flalingo &mdash; <a href="https://flalingo.com" target="_blank" rel="noopener">flalingo.com</a></p>
   </div>
 </footer>
 

@@ -13,14 +13,14 @@
   <meta property="og:site_name" content="Flalingo AI Araştırma">
   <meta property="og:title" content="Türkiye AI İş Piyasası Analizi 2026 — Flalingo">
   <meta property="og:description" content="1,123 Türk mesleği için AI ve robotik risk analizi. Türkiye'nin ilk kapsamlı AI iş piyasası araştırması.">
-  <meta property="og:image" content="https://meslekler.hayredd.in/og-image.png">
+  <meta property="og:image" content="https://meslekler.hayredd.in/flalingo-logo.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://meslekler.hayredd.in/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mesleğinin AI ve Robotik Riski — Türkiye 2026">
   <meta name="twitter:description" content="1100+ meslek analiz edildi. Senin mesleğin ne kadar risk altında? Hemen öğren.">
-  <meta name="twitter:image" content="https://meslekler.hayredd.in/og-image.png">
+  <meta name="twitter:image" content="https://meslekler.hayredd.in/flalingo-logo.png">
 
   <!-- Additional SEO -->
   <meta name="robots" content="index, follow">
@@ -141,6 +141,21 @@
       font-weight: 600;
     }
     #hero .sponsor-line a:hover { text-decoration: underline; }
+
+    .sponsor-logo {
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+      filter: brightness(1.2);
+    }
+
+    .footer-brand {
+      margin-bottom: 1rem;
+    }
+    .footer-brand img {
+      display: block;
+      margin: 0 auto 8px;
+    }
 
     @keyframes fadeInDown {
       from { opacity: 0; transform: translateY(-12px); }
@@ -1276,7 +1291,9 @@
 <!-- ==============================
      HOME BUTTON (fixed top-left)
 ============================== -->
-<a id="home-btn" href="#hero" onclick="event.preventDefault(); window.scrollTo({top:0,behavior:'smooth'});">&#x1F3E0; Ana Sayfa</a>
+<a id="home-btn" href="index.html">
+  <img src="flalingo-logo.png" alt="Flalingo" style="height: 28px; vertical-align: middle;">
+</a>
 
 <!-- ==============================
      MODE TOGGLE (fixed top-right)
@@ -1296,7 +1313,7 @@
   <div class="eyebrow">Türkiye AI Maruz Kalma Analizi — 2026</div>
   <h1>Mesleğini yaz,<br><span class="highlight">AI ve Robotik riskini</span> öğren</h1>
   <p class="subtitle">1100+ Türk mesleği analiz edildi. Yapay zeka ve robotik otomasyon senin işini nasıl etkileyecek? 5 yıl içinde ne olacak?</p>
-  <p class="sponsor-line"><a href="https://flalingo.com" target="_blank" rel="noopener">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır</p>
+  <p class="sponsor-line"><img src="flalingo-logo.png" alt="Flalingo" class="sponsor-logo"> AI Araştırma Merkezi tarafından hazırlanmıştır</p>
 
   <div id="search-wrap">
     <input
@@ -1468,18 +1485,20 @@
 ============================== -->
 <footer>
   <div class="container">
-    <p>Bu araştırma <a href="https://flalingo.com" target="_blank" rel="noopener" style="color:var(--accent)">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır.</p>
-    <p>Türkiye'nin ilk kapsamlı AI iş piyasası analizi.</p>
+    <div class="footer-brand">
+      <img src="flalingo-logo.png" alt="Flalingo" style="height: 32px; margin-bottom: 8px;">
+      <p>Türkiye'nin ilk kapsamlı AI iş piyasası analizi</p>
+      <p>&copy; 2026 Flalingo</p>
+    </div>
     <p style="margin-top:0.25rem">Veriler TÜİK, İŞKUR ve Opus 4.6 analizi ile oluşturulmuştur. Robotik risk skorları ayrıca değerlendirilmiştir.</p>
     <p>Tahminler bilgilendirme amaçlıdır — "AI ve robotik trendleri devam ederse" ön koşuluyla sunulmaktadır.</p>
     <p style="margin-top:0.5rem">
       <a href="metodoloji.html">Metodoloji</a>
       &nbsp;·&nbsp;
-      <a href="https://github.com/flalingo" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/htuzel/jobs" target="_blank" rel="noopener">GitHub</a>
       &nbsp;·&nbsp;
       ABD versiyonu: <a href="../site/index.html" target="_blank" rel="noopener">AI Job Exposure (US)</a>
     </p>
-    <p style="margin-top:0.5rem">&copy; 2026 Flalingo &mdash; <a href="https://flalingo.com" target="_blank" rel="noopener">flalingo.com</a></p>
   </div>
 </footer>
 
@@ -1708,7 +1727,7 @@ function updatePageMeta(occ) {
     canonical.rel = 'canonical';
     document.head.appendChild(canonical);
   }
-  canonical.href = `https://ai-maruz-kalma-tr.tiiny.site/?m=${occ.meslek_kodu}`;
+  canonical.href = `https://meslekler.hayredd.in/?m=${occ.meslek_kodu}`;
 
   // Update URL in address bar
   const url = buildURL({ m: occ.meslek_kodu });
@@ -1987,7 +2006,7 @@ function setupShareButtons(meslek) {
 
   // Twitter/X
   const twitterBtn = document.getElementById("share-twitter");
-  const tweetText = `${meslek.meslek_adi}: AI Riski ${meslek.ai_skor || 0}/10 | Robotik Riski ${meslek.robotik_risk || 0}/10\n\nSenin mesle\u011fin ne kadar risk alt\u0131nda?`;
+  const tweetText = `${meslek.meslek_adi}: AI Riski ${meslek.ai_skor || 0}/10 | Robotik Riski ${meslek.robotik_risk || 0}/10\n\nFlalingo AI Araştırma Merkezi — Türkiye AI İş Piyasası Analizi 2026`;
   twitterBtn.href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweetText) + "&url=" + encodeURIComponent(sharePageUrl);
 
   // PNG download
@@ -2020,7 +2039,7 @@ function shareComparison() {
 function renderCompShareButtons() {
   if (!compMeslek1 || !compMeslek2) return;
   const url = buildURL({ k: [compMeslek1.meslek_kodu, compMeslek2.meslek_kodu] });
-  const tweetText = `${compMeslek1.meslek_adi} vs ${compMeslek2.meslek_adi} \u2014 AI ve Robotik risk kar\u015f\u0131la\u015ft\u0131rmas\u0131`;
+  const tweetText = `${compMeslek1.meslek_adi} vs ${compMeslek2.meslek_adi} — Flalingo AI Araştırma Merkezi | Türkiye AI İş Piyasası Analizi 2026`;
 
   const container = document.getElementById("comp-share-buttons");
   if (!container) return;
@@ -2118,10 +2137,10 @@ function downloadCardAsPNG(meslek) {
   // Branding
   ctx.fillStyle = "#555566";
   ctx.font = "bold 13px -apple-system, BlinkMacSystemFont, sans-serif";
-  ctx.fillText("Turkiye AI Maruz Kalma Analizi 2026", 40, 470);
+  ctx.fillText("Flalingo AI Araştırma Merkezi — flalingo.com", 40, 470);
   ctx.fillStyle = "#444455";
   ctx.font = "12px -apple-system, BlinkMacSystemFont, sans-serif";
-  ctx.fillText("Senin meslegin ne kadar risk altinda?", 40, 490);
+  ctx.fillText("Türkiye AI İş Piyasası Analizi 2026", 40, 490);
 
   // Download
   const link = document.createElement("a");
