@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 TÜİK Data Downloader & Parser
 
@@ -81,15 +83,18 @@ TUIK_TABLES = {
 def _find_column(df: pd.DataFrame, keywords: list[str]) -> str | None:
     """Return the first column name that contains any of the given keywords.
 
+    Prioritises keyword order (first keyword checked against ALL columns before
+    moving to the next keyword), so callers can express preference by listing
+    the most specific keyword first.
+
     Comparison is case-insensitive and ignores leading/trailing whitespace.
     Returns None if no match is found.
     """
-    for col in df.columns:
-        if not isinstance(col, str):
-            continue
-        col_lower = col.strip().lower()
-        for kw in keywords:
-            if kw in col_lower:
+    for kw in keywords:
+        for col in df.columns:
+            if not isinstance(col, str):
+                continue
+            if kw in col.strip().lower():
                 return col
     return None
 

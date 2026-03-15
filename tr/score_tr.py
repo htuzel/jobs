@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 AI Exposure Scoring Engine for Turkish Occupations
 

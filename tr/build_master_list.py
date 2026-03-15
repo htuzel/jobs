@@ -15,7 +15,8 @@ Usage:
 import argparse
 import json
 import os
-import re
+
+from utils import slugify_tr
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -44,30 +45,6 @@ ISCO_SECTOR_MAP = {
 # ---------------------------------------------------------------------------
 # Pure helpers (no I/O — testable)
 # ---------------------------------------------------------------------------
-
-def slugify_tr(text: str) -> str:
-    """Generate a URL-safe ASCII slug from Turkish text.
-
-    Turkish character mapping:
-        ç→c, ğ→g, ı→i, ö→o, ş→s, ü→u  (and their uppercase equivalents)
-    Non-alphanumeric runs become single hyphens; leading/trailing hyphens
-    are stripped.
-
-    Implementation note: İ (U+0130) and ı (U+0131) are pre-replaced because
-    Python's unicode lower() turns İ into the two-codepoint 'i\u0307' rather
-    than plain 'i', which str.maketrans cannot handle.
-    """
-    # Pre-replace multi-codepoint / dotless-I characters before lowercasing
-    text = text.replace("İ", "i").replace("ı", "i")
-
-    tr_map = str.maketrans(
-        "çğöşüÇĞÖŞÜâîûÂÎÛ",
-        "cgosuCGOSUaiuAIU",
-    )
-    slug = text.lower().translate(tr_map)
-    slug = re.sub(r"[^a-z0-9]+", "-", slug)
-    return slug.strip("-")
-
 
 def get_sector_for_isco(meslek_kodu: str) -> dict:
     """Return sector label and NACE letter for an ISCO-08 code.

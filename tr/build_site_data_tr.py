@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 Site Data Builder - merges meslekler.csv and skorlar.json into site/data.json
 

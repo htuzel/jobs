@@ -20,7 +20,6 @@ NOTE: CSS selectors in parse_iskur_index() are placeholders.  Run
 import argparse
 import json
 import os
-import re
 import time
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -38,31 +37,7 @@ INDEX_FILE = "data/iskur_meslekler_raw.json"
 # Pure parsing helpers (no I/O — testable without Playwright)
 # ---------------------------------------------------------------------------
 
-def slugify(text: str) -> str:
-    """Generate a URL-safe slug from Turkish text.
-
-    Maps Turkish-specific characters (ç,ğ,ı,ö,ş,ü and their uppercase
-    equivalents) to ASCII, then collapses non-alphanumeric runs to hyphens.
-
-    Implementation note: str.maketrans cannot handle multi-codepoint characters
-    such as İ (U+0130, dotted capital I) because Python's unicode lower() turns
-    it into the two-codepoint sequence 'i\u0307' rather than plain 'i'.  We
-    therefore pre-replace multi-codepoint problem chars before calling lower().
-    """
-    # Pre-replace characters whose unicode lower() produces multi-codepoint
-    # sequences that confuse str.maketrans:
-    #   İ (U+0130, dotted capital I) → lower() gives 'i\u0307' (two chars)
-    #   ı (U+0131, dotless small I)  → keep as ASCII 'i' directly
-    text = text.replace("İ", "i").replace("ı", "i")
-
-    # Single-codepoint Turkish characters safe for str.maketrans
-    tr_map = str.maketrans(
-        "çğöşüÇĞÖŞÜâîûÂÎÛ",
-        "cgosuCGOSUaiuAIU",
-    )
-    slug = text.lower().translate(tr_map)
-    slug = re.sub(r"[^a-z0-9]+", "-", slug)
-    return slug.strip("-")
+from utils import slugify_tr as slugify
 
 
 def parse_iskur_index(html: str) -> list:
