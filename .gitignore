@@ -19,5 +19,8 @@ pages/
 embed.py
 embeddings.json
 
+# Internal development artifacts
+.dev/
+
 # macOS
 .DS_Store

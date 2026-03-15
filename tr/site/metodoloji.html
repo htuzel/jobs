@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metodoloji — Turkiye AI Maruz Kalma Analizi 2026</title>
   <meta name="description" content="Turkiye AI Maruz Kalma Analizi metodolojisi: veri kaynaklari, skorlama yontemi, sinirliliklar ve acik kaynak bilgileri.">
-  <link rel="canonical" href="https://jobs.hayredd.in/metodoloji.html">
+  <link rel="canonical" href="https://meslekler.hayredd.in/metodoloji.html">
   <meta name="robots" content="index, follow">
-  <meta name="author" content="hayredd.in">
+  <meta name="author" content="Flalingo AI Araştırma Merkezi">
   <meta name="theme-color" content="#0a0a0f">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F916;</text></svg>">
 
@@ -45,6 +45,43 @@
 
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
+
+    /* ==============================
+       HOME BUTTON (fixed top-left)
+    ============================== */
+    #home-btn {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      z-index: 1000;
+      background: rgba(18,18,26,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 16px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+    #home-btn:hover { background: var(--bg3); text-decoration: none; }
+
+    /* ==============================
+       SPONSOR LINE
+    ============================== */
+    .sponsor-line {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      opacity: 0.75;
+      margin-top: 0.5rem;
+    }
+    .sponsor-line a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .sponsor-line a:hover { text-decoration: underline; }
 
     /* ==============================
        LAYOUT
@@ -302,6 +339,11 @@
 <body>
 
 <!-- ==============================
+     HOME BUTTON (fixed top-left)
+============================== -->
+<a id="home-btn" href="index.html">&#x1F3E0; Ana Sayfa</a>
+
+<!-- ==============================
      NAVIGATION
 ============================== -->
 <nav class="top-nav">
@@ -318,6 +360,7 @@
     <div class="eyebrow">Metodoloji</div>
     <h1><span class="highlight">Turkiye AI Maruz Kalma</span> Analizi 2026</h1>
     <p class="subtitle">1.123 meslek icin AI ve robotik risk skorlarinin nasil hesaplandigi, veri kaynaklari ve sinirliliklar</p>
+    <p class="sponsor-line"><a href="https://flalingo.com" target="_blank" rel="noopener">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır</p>
   </div>
 </header>
 
@@ -347,6 +390,10 @@
     <div class="callout">
       Bu proje, Andrej Karpathy'nin ABD is piyasasi icin yaptigi AI maruz kalma analizinden esinlenilerek, Turkiye is piyasasina adapte edilmistir.
     </div>
+
+    <p>
+      <strong>Bu araştırma <a href="https://flalingo.com" target="_blank" rel="noopener">Flalingo</a> AI Araştırma Merkezi tarafından bağımsız olarak yürütülmüştür.</strong>
+    </p>
 
     <p>
       Andrej Karpathy (eski Tesla AI direktoru, OpenAI kurucu uyesi), 2025 yilinda ABD'deki mesleklerin yapay zekaya maruz kalma oranlarini analiz etti. Bu calisma
@@ -684,12 +731,15 @@
 ============================== -->
 <footer>
   <div class="article-container">
-    <p>Veriler TUIK, ISKUR ve Opus 4.6 analizi ile olusturulmustur.</p>
+    <p>Bu araştırma <a href="https://flalingo.com" target="_blank" rel="noopener" style="color:var(--accent)">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır.</p>
+    <p>Türkiye'nin ilk kapsamlı AI iş piyasası analizi.</p>
+    <p style="margin-top:0.25rem">Veriler TUIK, ISKUR ve Opus 4.6 analizi ile olusturulmustur.</p>
     <p style="margin-top:0.5rem">
       <a href="index.html">Ana Sayfa</a>
       &nbsp;&middot;&nbsp;
       <a href="https://github.com/flalingo" target="_blank" rel="noopener">GitHub</a>
     </p>
+    <p style="margin-top:0.5rem">&copy; 2026 Flalingo &mdash; <a href="https://flalingo.com" target="_blank" rel="noopener">flalingo.com</a></p>
   </div>
 </footer>
 

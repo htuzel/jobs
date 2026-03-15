@@ -1,97 +1,208 @@
-# AI Exposure of the US Job Market
+# Turkiye AI Maruz Kalma Analizi 2026
 
-Analyzing how susceptible every occupation in the US economy is to AI and automation, using data from the Bureau of Labor Statistics [Occupational Outlook Handbook](https://www.bls.gov/ooh/) (OOH).
+**1,123 Turk meslegi icin yapay zeka ve robotik risk analizi**
 
-**Live demo: [karpathy.ai/jobs](https://karpathy.ai/jobs/)**
+[Canli Demo](https://tiiny.site) | [ABD Orijinal Versiyonu (Karpathy)](https://github.com/karpathy/jobs)
 
-![AI Exposure Treemap](jobs.png)
+---
 
-## What's here
+## Proje Hakkinda
 
-The BLS OOH covers **342 occupations** spanning every sector of the US economy, with detailed data on job duties, work environment, education requirements, pay, and employment projections. We scraped all of it, scored each occupation's AI exposure using an LLM, and built an interactive treemap visualization.
+Bu proje, [Andrej Karpathy'nin ABD is piyasasi AI maruz kalma analizinin](https://github.com/karpathy/jobs) Turkiye versiyonudur. ABD versiyonu 342 Amerikan meslegi icin tek bir AI maruz kalma skoru hesaplarken, bu proje 1,123 Turk meslegi icin hem **AI maruz kalma** hem de **robotik risk** olmak uzere cift metrik kullanir.
 
-## Data pipeline
+### Istatistikler
 
-1. **Scrape** (`scrape.py`) — Playwright (non-headless, BLS blocks bots) downloads raw HTML for all 342 occupation pages into `html/`.
-2. **Parse** (`parse_detail.py`, `process.py`) — BeautifulSoup converts raw HTML into clean Markdown files in `pages/`.
-3. **Tabulate** (`make_csv.py`) — Extracts structured fields (pay, education, job count, growth outlook, SOC code) into `occupations.csv`.
-4. **Score** (`score.py`) — Sends each occupation's Markdown description to an LLM (Gemini Flash via OpenRouter) with a scoring rubric. Each occupation gets an AI Exposure score from 0-10 with a rationale. Results saved to `scores.json`.
-5. **Build site data** (`build_site_data.py`) — Merges CSV stats and AI exposure scores into a compact `site/data.json` for the frontend.
-6. **Website** (`site/index.html`) — Interactive treemap visualization where area = employment and color = AI exposure (green to red).
+| Metrik | Deger |
+|--------|-------|
+| Toplam meslek | 1,123 |
+| AI maruz kalma ortalamasi | 4.2 / 10 |
+| Robotik risk ortalamasi | 2.6 / 10 |
+| Veri kaynaklari | ISKUR, TUIK (2023-2024) |
+| Skorlama modeli | Claude Opus 4.6 |
 
-## Key files
+---
 
-| File | Description |
-|------|-------------|
-| `occupations.json` | Master list of 342 occupations with title, URL, category, slug |
-| `occupations.csv` | Summary stats: pay, education, job count, growth projections |
-| `scores.json` | AI exposure scores (0-10) with rationales for all 342 occupations |
-| `prompt.md` | All data in a single file, designed to be pasted into an LLM for analysis |
-| `html/` | Raw HTML pages from BLS (source of truth, ~40MB) |
-| `pages/` | Clean Markdown versions of each occupation page |
-| `site/` | Static website (treemap visualization) |
+## Metodoloji
 
-## AI exposure scoring
+### Veri Kaynaklari
 
-Each occupation is scored on a single **AI Exposure** axis from 0 to 10, measuring how much AI will reshape that occupation. The score considers both direct automation (AI doing the work) and indirect effects (AI making workers so productive that fewer are needed).
+1. **ISKUR Meslek Sozlugu** - 1,123 meslek tanimi, ISCO-08 kodlari, egitim gereksinimleri
+2. **TUIK Kazanc Yapisi Istatistikleri 2023** - Sektor ve meslek grubuna gore maas verileri
+3. **TUIK Ucretli Calisan Istatistikleri 2024** - Istihdam sayilari, sektorel dagilim
+4. **TUIK Kayit Disi Istihdam Verileri** - ISCO ve NACE bazli kayit disi oranlar
 
-A key signal is whether the job's work product is fundamentally digital — if the job can be done entirely from a home office on a computer, AI exposure is inherently high. Conversely, jobs requiring physical presence, manual skill, or real-time human interaction have a natural barrier.
+### Cift Metrik Yaklasimi
 
-**Calibration examples from the dataset:**
+**AI Maruz Kalma Skoru (0-10):** Meslegin yapay zeka tarafindan ne olcude donusturulecegini olcer. Hem dogrudan otomasyon (AI'in isi yapmasi) hem de dolayli etkiler (AI'in iscileri o kadar verimli kilmasi ki daha az isci gerekmesi) dikkate alinir.
 
-| Score | Meaning | Examples |
-|-------|---------|---------|
-| 0-1 | Minimal | Roofers, janitors, construction laborers |
-| 2-3 | Low | Electricians, plumbers, nurses aides, firefighters |
-| 4-5 | Moderate | Registered nurses, retail workers, physicians |
-| 6-7 | High | Teachers, managers, accountants, engineers |
-| 8-9 | Very high | Software developers, paralegals, data analysts, editors |
-| 10 | Maximum | Medical transcriptionists |
+| Skor | Kademe | Ornek |
+|------|--------|-------|
+| 0-1 | Minimal | Insaat iscisi, Cilingir |
+| 2-3 | Dusuk | Kuafor, Asci, Sofor |
+| 4-5 | Orta | Hemsire, Polis, Ogretmen |
+| 6-7 | Yuksek | Muhasebeci, Gazeteci, Avukat |
+| 8-9 | Cok Yuksek | Yazilimci, Grafiker, Cevirmen |
+| 10 | Maksimum | Veri girisci, Call center |
 
-Average exposure across all 342 occupations: **5.3/10**.
+**Robotik Risk Skoru (0-10):** Meslegin fiziksel otomasyon ve robotik tarafindan ne olcude etkilenecegini olcer. AI'dan ayri bir eksen olarak degerlendirilir.
 
-## Visualization
+### Skorlama Sureci
 
-The main visualization is an interactive **treemap** where:
-- **Area** of each rectangle is proportional to employment (number of jobs)
-- **Color** indicates AI exposure on a green (safe) to red (exposed) scale
-- **Layout** groups occupations by BLS category
-- **Hover** shows detailed tooltip with pay, jobs, outlook, education, exposure score, and LLM rationale
+- **Model:** Claude Opus 4.6 (1M context)
+- **Yontem:** 12 paralel agent ile her meslek tek tek degerlendirildi
+- **Prompt baglami:** Mart 2026 AI benchmark sonuclari, Anthropic is piyasasi arastirmasi, Turkiye-spesifik faktorler
+- Her meslek icin AI skoru, gerekce, 5 yillik tahmin ve kayit disi ekonomi notu uretildi
+- Robotik risk ayri bir pass olarak degerlendirildi
 
-## LLM prompt
+### Turkiye'ye Ozgu Faktorler
 
-[`prompt.md`](prompt.md) packages all the data — aggregate statistics, tier breakdowns, exposure by pay/education, BLS growth projections, and all 342 occupations with their scores and rationales — into a single file (~45K tokens) designed to be pasted into an LLM. This lets you have a data-grounded conversation about AI's impact on the job market without needing to run any code. Regenerate it with `uv run python make_prompt.py`.
+Skorlama prompt'una gomulu 3 ek katman:
 
-## Setup
+1. **Kayit disi ekonomi (~%30):** Kayit disi calisanlar AI'dan farkli etkilenir. Dogrudan is kaybi degil, musteri ve is bulma kanallarinin dijitallesmesi ile dolayli etki.
+2. **Genc issizlik (%25+):** Giris seviyesi isler en cok etkilenen kategori. Anthropic arastirmasiyla uyumlu: genc iscilerin ise alinmasi AI-maruz mesleklerde yavaslamis.
+3. **Bolgesel esitsizlik:** Istanbul'daki yazilimci ile Sanliurfa'daki ciftci arasindaki dijital olgunluk farki.
+
+### AI Yetkinlik Baglami (Mart 2026)
+
+Skorlar su benchmark gercekligine gore kalibre edildi:
+- SWE-bench Verified: %70+ | HumanEval: %95+
+- ABD Baro Sinavi: Ust %10 | USMLE: 3/3 gecti
+- WMT ceviri: Profesyonel cevirmen seviyesi
+- Claude Code: Full-stack otonom muhendislik
+- Goruntu/video uretimi: Profesyonel kalite
+
+### Enflasyon Duzeltmesi
+
+TUIK 2023 maas verileri, %65 enflasyon tahmini ile 2026 yilina guncellenmiistir. Maas verileri aylk brut TL cinsindendir.
+
+---
+
+## Veri Pipeline'i
 
 ```
-uv sync
-uv run playwright install chromium
+1. scrape_iskur.py       -> data/raw/iskur/          (ISKUR meslek sozlugu)
+2. scrape_tuik.py        -> data/raw/tuik/           (TUIK Excel dosyalari)
+3. parse_tr.py           -> data/raw/tuik/*_parsed.json (yapisal veri)
+4. build_master_list.py  -> data/meslekler_master.json (1,123 meslek)
+5. score_tr.py           -> data/skorlar.json         (AI skorlari)
+                         -> data/robotik_skorlar.json  (robotik skorlari)
+6. build_site_data_tr.py -> site/data.json            (frontend verisi)
 ```
 
-Requires an OpenRouter API key in `.env`:
-```
-OPENROUTER_API_KEY=your_key_here
-```
+Her adim bagimsiz calisir, onceki adimlarin ciktisini cache olarak kullanir.
 
-## Usage
+## Kurulum
 
 ```bash
-# Scrape BLS pages (only needed once, results are cached in html/)
-uv run python scrape.py
+# Bagimliliklari kur
+pip install -r requirements.txt
 
-# Generate Markdown from HTML
-uv run python process.py
+# Playwright browser'i kur (sadece ISKUR scraping icin)
+playwright install chromium
 
-# Generate CSV summary
-uv run python make_csv.py
+# API anahtari ayarla
+cp .env.example .env
+# .env dosyasina ANTHROPIC_API_KEY veya GEMINI_API_KEY ekle
+```
 
-# Score AI exposure (uses OpenRouter API)
-uv run python score.py
+## Calistirma
 
-# Build website data
-uv run python build_site_data.py
+```bash
+# 1. ISKUR mesleklerini cek (Playwright gerektirir)
+python scrape_iskur.py
 
-# Serve the site locally
+# 2. TUIK verilerini indir ve parse et
+python scrape_tuik.py
+
+# 3. Ham veriyi yapisal JSON'a cevir
+python parse_tr.py
+
+# 4. Master meslek listesi olustur
+python build_master_list.py
+
+# 5. AI ve robotik skorlama (API anahtari gerektirir)
+python score_tr.py
+
+# 6. Site verisini olustur
+python build_site_data_tr.py
+
+# 7. Yerel sunucu
 cd site && python -m http.server 8000
 ```
+
+## Dizin Yapisi
+
+```
+tr/
+  scrape_iskur.py          # ISKUR meslek sozlugu scraper (Playwright)
+  scrape_tuik.py           # TUIK Excel indirme + parse (pandas)
+  build_master_list.py     # Master meslek listesi
+  parse_tr.py              # Veri parser
+  make_csv_tr.py           # CSV export
+  score_tr.py              # AI + robotik skorlama
+  build_site_data_tr.py    # Site verisi hazirlama
+  utils.py                 # Yardimci fonksiyonlar
+  data/
+    meslekler_master.json  # 1,123 meslek (birlestirilmis veri)
+    skorlar.json           # AI skorlari + 5 yil tahminleri
+    robotik_skorlar.json   # Robotik risk skorlari
+    iskur_meslekler_raw.json  # ISKUR ham veri
+    raw/
+      iskur/               # ISKUR Excel export
+      tuik/                # TUIK Excel + parsed JSON
+  site/
+    index.html             # Tek sayfa web app (Turkce)
+    data.json              # Frontend verisi
+  tests/                   # Test dosyalari
+```
+
+---
+
+# English
+
+## Turkey AI Exposure Analysis 2026
+
+**AI and robotics risk analysis for 1,123 Turkish occupations**
+
+This is the Turkish adaptation of [Andrej Karpathy's US job market AI exposure analysis](https://github.com/karpathy/jobs). While the US version scores 342 American occupations on a single AI exposure axis, this project evaluates 1,123 Turkish occupations using dual metrics: **AI exposure** and **robotics risk**.
+
+### Key Differences from the US Version
+
+- **Data sources:** ISKUR (Turkish Employment Agency) occupation dictionary + TUIK (Turkish Statistical Institute) employment and salary statistics, instead of BLS OOH
+- **Dual metrics:** AI exposure score (0-10) + Robotics risk score (0-10)
+- **Scoring model:** Claude Opus 4.6 with 12 parallel agents, each occupation evaluated individually
+- **Turkey-specific context:** Informal economy (~30%), youth unemployment (25%+), regional digital divide
+- **Scale:** 1,123 occupations (vs 342 in the US version)
+
+### Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total occupations | 1,123 |
+| Average AI exposure | 4.2 / 10 |
+| Average robotics risk | 2.6 / 10 |
+
+### How to Run
+
+```bash
+pip install -r requirements.txt
+playwright install chromium
+cp .env.example .env
+# Add your API key to .env
+
+python scrape_iskur.py        # Scrape ISKUR occupations
+python scrape_tuik.py         # Download TUIK data
+python parse_tr.py            # Parse raw data
+python build_master_list.py   # Build master list
+python score_tr.py            # Score occupations (requires API key)
+python build_site_data_tr.py  # Build site data
+cd site && python -m http.server 8000
+```
+
+### Attribution
+
+This project is a fork and adaptation of [karpathy/jobs](https://github.com/karpathy/jobs). The original analysis covers the US labor market using BLS data. This version adapts the methodology for the Turkish labor market using ISKUR and TUIK data, with significant additions including dual-metric scoring, informal economy analysis, and Turkey-specific socioeconomic context.
+
+## License
+
+Same as the original [karpathy/jobs](https://github.com/karpathy/jobs) project.

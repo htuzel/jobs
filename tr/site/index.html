@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Türkiye'de Mesleğinin AI ve Robotik Riski — 1100+ Meslek Analizi</title>
   <meta name="description" content="Türkiye'deki 1100+ meslek için yapay zeka ve robotik otomasyon risk analizi. Mesleğini yaz, 5 yıl içinde ne olacağını öğren. TÜİK ve İŞKUR verilerine dayalı.">
-  <link rel="canonical" href="https://jobs.hayredd.in/">
+  <link rel="canonical" href="https://meslekler.hayredd.in/">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="tr_TR">
-  <meta property="og:site_name" content="Türkiye AI Maruz Kalma Analizi">
-  <meta property="og:title" content="Mesleğinin AI ve Robotik Riski — Türkiye 2026">
-  <meta property="og:description" content="1100+ Türk mesleği analiz edildi. Yapay zeka ve robotik otomasyon senin işini nasıl etkileyecek? Mesleğini yaz, hemen öğren.">
-  <meta property="og:image" content="https://jobs.hayredd.in/og-image.png">
+  <meta property="og:site_name" content="Flalingo AI Araştırma">
+  <meta property="og:title" content="Türkiye AI İş Piyasası Analizi 2026 — Flalingo">
+  <meta property="og:description" content="1,123 Türk mesleği için AI ve robotik risk analizi. Türkiye'nin ilk kapsamlı AI iş piyasası araştırması.">
+  <meta property="og:image" content="https://meslekler.hayredd.in/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://jobs.hayredd.in/">
+  <meta property="og:url" content="https://meslekler.hayredd.in/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mesleğinin AI ve Robotik Riski — Türkiye 2026">
   <meta name="twitter:description" content="1100+ meslek analiz edildi. Senin mesleğin ne kadar risk altında? Hemen öğren.">
-  <meta name="twitter:image" content="https://jobs.hayredd.in/og-image.png">
+  <meta name="twitter:image" content="https://meslekler.hayredd.in/og-image.png">
 
   <!-- Additional SEO -->
   <meta name="robots" content="index, follow">
@@ -127,6 +127,20 @@
       margin: 0 auto 2rem;
       animation: fadeInDown 0.5s ease-out 0.2s both;
     }
+
+    #hero .sponsor-line {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      opacity: 0.75;
+      margin-top: -1rem;
+      margin-bottom: 1.5rem;
+      animation: fadeInDown 0.5s ease-out 0.25s both;
+    }
+    #hero .sponsor-line a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    #hero .sponsor-line a:hover { text-decoration: underline; }
 
     @keyframes fadeInDown {
       from { opacity: 0; transform: translateY(-12px); }
@@ -956,6 +970,28 @@
     .empty-state p { font-size: 1rem; }
 
     /* ==============================
+       HOME BUTTON (fixed top-left)
+    ============================== */
+    #home-btn {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      z-index: 1000;
+      background: rgba(18,18,26,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 16px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+    #home-btn:hover { background: var(--bg3); text-decoration: none; }
+
+    /* ==============================
        MODE TOGGLE (fixed top-right)
     ============================== */
     #mode-toggle-wrap {
@@ -1215,15 +1251,15 @@
     "@type": "WebApplication",
     "name": "Türkiye AI Maruz Kalma Analizi",
     "description": "Türkiye'deki 1100+ meslek için yapay zeka ve robotik otomasyon risk analizi. Mesleğini yaz, 5 yıl içinde ne olacağını öğren.",
-    "url": "https://jobs.hayredd.in/",
+    "url": "https://meslekler.hayredd.in/",
     "applicationCategory": "AnalyticsTool",
     "operatingSystem": "Web",
     "inLanguage": "tr",
     "isAccessibleForFree": true,
     "creator": {
-      "@type": "Person",
-      "name": "hayredd.in",
-      "url": "https://hayredd.in"
+      "@type": "Organization",
+      "name": "Flalingo AI Araştırma Merkezi",
+      "url": "https://flalingo.com"
     },
     "about": {
       "@type": "Thing",
@@ -1236,6 +1272,11 @@
   </script>
 </head>
 <body>
+
+<!-- ==============================
+     HOME BUTTON (fixed top-left)
+============================== -->
+<a id="home-btn" href="#hero" onclick="event.preventDefault(); window.scrollTo({top:0,behavior:'smooth'});">&#x1F3E0; Ana Sayfa</a>
 
 <!-- ==============================
      MODE TOGGLE (fixed top-right)
@@ -1255,6 +1296,7 @@
   <div class="eyebrow">Türkiye AI Maruz Kalma Analizi — 2026</div>
   <h1>Mesleğini yaz,<br><span class="highlight">AI ve Robotik riskini</span> öğren</h1>
   <p class="subtitle">1100+ Türk mesleği analiz edildi. Yapay zeka ve robotik otomasyon senin işini nasıl etkileyecek? 5 yıl içinde ne olacak?</p>
+  <p class="sponsor-line"><a href="https://flalingo.com" target="_blank" rel="noopener">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır</p>
 
   <div id="search-wrap">
     <input
@@ -1426,7 +1468,9 @@
 ============================== -->
 <footer>
   <div class="container">
-    <p>Veriler TÜİK, İŞKUR ve Opus 4.6 analizi ile oluşturulmuştur. Robotik risk skorları ayrıca değerlendirilmiştir.</p>
+    <p>Bu araştırma <a href="https://flalingo.com" target="_blank" rel="noopener" style="color:var(--accent)">Flalingo</a> AI Araştırma Merkezi tarafından hazırlanmıştır.</p>
+    <p>Türkiye'nin ilk kapsamlı AI iş piyasası analizi.</p>
+    <p style="margin-top:0.25rem">Veriler TÜİK, İŞKUR ve Opus 4.6 analizi ile oluşturulmuştur. Robotik risk skorları ayrıca değerlendirilmiştir.</p>
     <p>Tahminler bilgilendirme amaçlıdır — "AI ve robotik trendleri devam ederse" ön koşuluyla sunulmaktadır.</p>
     <p style="margin-top:0.5rem">
       <a href="metodoloji.html">Metodoloji</a>
@@ -1435,6 +1479,7 @@
       &nbsp;·&nbsp;
       ABD versiyonu: <a href="../site/index.html" target="_blank" rel="noopener">AI Job Exposure (US)</a>
     </p>
+    <p style="margin-top:0.5rem">&copy; 2026 Flalingo &mdash; <a href="https://flalingo.com" target="_blank" rel="noopener">flalingo.com</a></p>
   </div>
 </footer>
 
@@ -1642,6 +1687,35 @@ function renderSuggestions(listEl, suggestions, onSelect) {
 }
 
 // ============================================================
+// SEO: DYNAMIC META TAGS FOR OCCUPATION PAGES
+// ============================================================
+function updatePageMeta(occ) {
+  document.title = `${occ.meslek_adi} — AI ve Robotik Riski | Flalingo Araştırma`;
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.content = `${occ.meslek_adi}: AI riski ${occ.ai_skor}/10, Robotik risk ${occ.robotik_risk}/10. ${occ.bes_yil_tahmini}`;
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.content = `${occ.meslek_adi} — AI Riski ${occ.ai_skor}/10 | Flalingo`;
+
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.content = occ.bes_yil_tahmini;
+
+  // Update canonical URL
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.rel = 'canonical';
+    document.head.appendChild(canonical);
+  }
+  canonical.href = `https://ai-maruz-kalma-tr.tiiny.site/?m=${occ.meslek_kodu}`;
+
+  // Update URL in address bar
+  const url = buildURL({ m: occ.meslek_kodu });
+  history.replaceState(null, "", url);
+}
+
+// ============================================================
 // RESULT CARD RENDERER -- shows BOTH scores always
 // ============================================================
 function renderResultCard(meslek) {
@@ -1748,6 +1822,9 @@ function renderResultCard(meslek) {
 
   document.getElementById("result-section").style.display = "block";
   document.getElementById("result-section").scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+  // Update page meta for SEO
+  updatePageMeta(meslek);
 
   // Share buttons
   setupShareButtons(meslek);
