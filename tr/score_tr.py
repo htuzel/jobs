@@ -231,7 +231,7 @@ def build_user_prompt(occ: dict, md_content: str | None) -> str:
 
     maas = occ.get("ortalama_maas")
     if maas:
-        parts.append(f"Ortalama Maas: {maas:,} TL/ay")
+        parts.append(f"Ortalama Maas (tahmini): ~{maas:,} TL/ay (TÜİK 2023 ISCO grup ortalamasi + %65 enflasyon tahmini)")
 
     egitim = occ.get("egitim_seviyesi")
     if egitim:
@@ -258,12 +258,11 @@ def build_user_prompt(occ: dict, md_content: str | None) -> str:
 def score_occupation(model, occ: dict, md_content: str | None) -> dict:
     """Score a single occupation using Gemini and return the parsed result dict.
 
-    Uses a multi-turn conversation format so the system prompt is treated as
-    prior context rather than relying on a system-role parameter (which varies
-    across SDK versions).
+    The SYSTEM_PROMPT is set via system_instruction at model creation time,
+    so each call only sends the user prompt — saving tokens across 1000+ calls.
 
     Args:
-        model: A configured genai.GenerativeModel instance.
+        model: A configured genai.GenerativeModel instance (with system_instruction).
         occ: Occupation dict (fields: meslek_adi, meslek_kodu, sektor, ...).
         md_content: Optional parsed İŞKUR Markdown text.
 
@@ -278,16 +277,7 @@ def score_occupation(model, occ: dict, md_content: str | None) -> dict:
     user_prompt = build_user_prompt(occ, md_content)
 
     response = model.generate_content(
-        [
-            # Inject system prompt as a priming user/model exchange so it works
-            # across SDK versions that may not support a dedicated system role.
-            {"role": "user", "parts": [{"text": SYSTEM_PROMPT}]},
-            {
-                "role": "model",
-                "parts": [{"text": "Anlasildi. Meslek bilgilerini gonder, JSON formatinda skorlayacagim."}],
-            },
-            {"role": "user", "parts": [{"text": user_prompt}]},
-        ],
+        user_prompt,
         generation_config=genai.types.GenerationConfig(
             temperature=0.2,
         ),
@@ -333,7 +323,7 @@ Examples:
         return
 
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(args.model)
+    model = genai.GenerativeModel(args.model, system_instruction=SYSTEM_PROMPT)
 
     # Load master occupation list
     if not os.path.exists(MASTER_FILE):
